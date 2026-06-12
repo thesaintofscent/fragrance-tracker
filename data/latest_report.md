@@ -7,70 +7,98 @@
 
 ## Market Overview
 
-This week's signal set is unusually sparse — every tracked brand is appearing for the first time, with no returning momentum plays and no CUSP or RISING activity to report. That absence of sustained velocity is itself a data point: the market may be in a between-cycles lull, or we're seeing fragmented discovery behavior rather than any coordinated conversation around specific names.
+This week's data is entirely first-appearance signals, which makes directional reads preliminary — but the composition of what's surfacing is telling. The mix skews toward Middle Eastern houses, heritage rediscoveries, and luxury-tier European niche, suggesting the community is actively ranging across price points and geographies rather than consolidating around any single aesthetic.
 
 ---
 
 ## CUSP Brands
-*No CUSP-status brands this week.*
+
+*No brands reached CUSP status this week. Strongest signals are concentrated in the NEW tier.*
 
 ---
 
 ## RISING Brands
-*No RISING-status brands this week.*
+
+*No brands reached RISING status this week.*
 
 ---
 
 ## NEW Brands
 
-*First appearances only. No historical baseline exists for any of these — treat as early detection, not confirmed momentum.*
+*All brands below are appearing for the first time with 3+ mentions. No historical baseline exists, so momentum scores reflect raw mention volume only. Treat these as early radar signals, not confirmed trends.*
 
 ---
 
-**Divine**
-Multiple titles — including *L'Homme de Coeur* and *L'Ame Soeur* — surfaced together in a listing context on Fragrantica, generating the week's highest raw mention count (5). The cluster suggests either a catalog-level discovery moment or algorithmic surfacing rather than organic word-of-mouth. Worth monitoring to see if individual titles develop independent traction.
+### Divine
+French house Divine generated mentions across multiple SKUs — L'Homme de Coeur, L'Ame Soeur, and others — in a listing context on Fragrantica. The breadth of titles surfacing simultaneously suggests either a catalog sweep by an engaged reviewer or renewed platform indexing of the brand's range. Divine has long occupied a quiet corner of classical French perfumery; if community attention is genuinely widening beyond a single title, that's worth watching for a house that rarely commands algorithmic real estate.
 
 ---
 
-**Maison Shan**
-Debut mention centers on *Lynx*, described as earthy with an unusual "pool-like" quality — likely a chlorine or mineral accord — which the reviewer finds intriguing rather than off-putting. Niche enough framing to suggest a hobbyist audience finding it, not mass spillover.
+### French Avenue
+Liquid Brun by French Avenue appeared in Fragrantica's most popular perfumes section, which is a meaningful placement — it reflects aggregated community engagement, not just a single review. No prior history in our tracking means we can't assess velocity yet, but landing in a popularity ranking on first appearance suggests the title has been accumulating quiet traction for some time before breaking the surface.
 
 ---
 
-**Afnan**
-*Lynked Forever* gets a measured first review: Middle Eastern floral structure, coconut base, reviewer cautiously optimistic. Afnan is a well-distributed Gulf house, so this reads more like routine review activity than a breakout signal.
+### Serge Lutens
+Serge Lutens is not a new brand by any measure, but its first appearance in our tracking — anchored by a thoughtful, atmospheric review of L'Orpheline and explicit praise for the house's naming conventions — points to something specific: the reviewer cohort engaging with Lutens right now is the literary, concept-driven segment, not deal-hunters or longevity chasers. That's the audience most likely to produce sustained, influential word-of-mouth in niche circles.
 
 ---
 
-**Olfactive O**
-Described as "beautiful and underrated" with a skin-blooming, soapy character. That specific language — underrated, blooms on skin — tends to appear when a fragrance is being rediscovered by a secondary wave of enthusiasts. One mention isn't a trend, but the framing is worth noting.
+### Xerjoff
+The mentions here center on the Xerjoff x Automobili Lamborghini collaboration, with a reviewer expressing clear approval of the lineup. Luxury fragrance-automotive crossovers have a mixed reputation for substance, so positive reception from a Fragrantica-native reviewer — rather than lifestyle press — carries some weight. First data point only; worth monitoring whether the collaboration pulls general Xerjoff interest upward or remains siloed to the collab titles.
 
 ---
 
-**Xerjoff**
-The mention here ties to a brand-level story: a reported collaboration with Automobili Lamborghini on three new fragrances. Luxury brand crossovers generate press noise but don't always convert to sustained fragrance-community interest. Reader response was positive but singular.
+### BORNTOSTANDOUT
+A nuanced first signal: the reviewer was drawn in by orris butter but found Golden Milk synthetic on skin, while responding positively to other brand offerings. Mixed reviews of individual SKUs paired with general brand goodwill is actually a healthy signal for an indie house — it suggests a real, engaged audience rather than blanket enthusiasm. The orris butter callout is notable given broader ingredient interest trends (see Patterns).
 
 ---
 
-**L'Artisan Parfumeur**
-Activity around a limited-edition *Mûre et Musc Extrême*, with the reviewer specifically calling out the bottle design as the purchase motivation. Packaging-driven desire is a real commercial signal, but it doesn't tell us much about the juice gaining genuine fragrance community traction.
+### Lattafa Perfumes
+Khamrah and Khamrah Qahwa both surfaced in Fragrantica's popularity rankings — two entries from the same brand in the same week. Lattafa has been one of the more consistent over-performers in the accessible Middle Eastern segment, and the Khamrah line in particular has built a durable following. This is less a surprise appearance and more a confirmation that the brand's mainstream niche traction is holding.
 
 ---
 
-**Parfums de Marly**
-*Althaïr* appears in a "most popular" listing context rather than in an original review or discussion. Likely a platform ranking surface rather than organic community activity. No interpretive signal yet.
+### Parfums de Marly
+Althaïr appeared as a featured fragrance while the brand simultaneously surfaced in the most popular brands section — dual placement in a single week. Parfums de Marly operates in a crowded equestrian-luxury lane, but consistent popularity-section appearances indicate a stable, broad consumer base rather than a spike driven by novelty. Althaïr specifically is a newer addition to the catalog and its featured status is worth tracking.
+
+---
+
+### Maison Shan
+One review describing Lynx as earthy with a "pool-like quality" is an intriguing first signal. Aquatic-adjacent descriptors paired with earthiness suggests a mineral or ozonic dry-down rather than the clean musk aquatics that dominated the prior decade. Small sample, but the language is specific enough to flag for ingredient-trend tracking.
+
+---
+
+### Afnan
+Afnan Rare Reef surfaced as a recommended alternative — praised specifically for longevity relative to a comparable scent. Value-positioning and performance claims are the primary drivers of Afnan's community engagement, and this mention fits that pattern cleanly. The brand punches above its price tier on Fragrantica; first appearance here likely reflects ongoing rather than sudden momentum.
+
+---
+
+### Olfactive O
+Called "beautiful and underrated" with specific note of a soapy, skin-blooming quality. The "underrated" framing is significant — it's the language of community discovery, the kind of positioning that drives the recommendation chains Fragrantica runs on. A house getting that label from even one visible reviewer can trigger meaningful traffic. No history to confirm follow-through yet.
+
+---
+
+### Novaya Zarya
+A vintage Muguet cologne from this Soviet-era Russian house described as a "rare gem" — subtle, delicate, and sought-out. Novaya Zarya surfaces periodically in vintage and heritage fragrance discussions; this mention fits the growing enthusiasm for pre-contemporary Eastern European perfumery among collectors who've exhausted more accessible discovery paths.
+
+---
+
+### Montale
+The reviewer's read on Arabians Tonka — good execution, diminished impact due to widespread duplication — is a precise articulation of Montale's current brand problem. The house built a dominant position in oud and oriental categories, but clone culture has eroded the distinctiveness that justified the price point. The mention is real, but the sentiment is a caution signal as much as a traction signal.
 
 ---
 
 ## Patterns
 
-A few threads worth flagging as context, even without strong momentum data to anchor them:
+**Middle Eastern houses holding ground.** Lattafa, Afnan, and Montale all surfaced this week, spanning mass-accessible to mid-luxury. The segment isn't trending up dramatically, but its floor appears stable and its Fragrantica penetration is broad. Montale's saturation problem aside, the appetite for oud-forward and oriental constructions isn't retreating.
 
-- **Aquatic/mineral character** is showing up in early descriptions (Maison Shan's *Lynx* with its pool-like quality). This aligns with broader market movement toward non-sweet, textural water accords — a post-gourmand correction that's been building for several months.
-- **Soapy florals** appear twice in framing this week (Olfactive O, L'Artisan Parfumeur's *Mûre et Musc* lineage). Clean, skin-close aesthetics continue to circulate in enthusiast vocabulary.
-- **Luxury adjacency plays** (Xerjoff x Lamborghini) reflect an ongoing strategy among premium niche houses to attach to aspirational non-fragrance brands. It generates coverage but the fragrance community tends to be skeptical of these moves — watch whether the products develop their own identity in reviews.
-- **Gulf/Middle Eastern houses** (Afnan) continue appearing in Fragrantica review streams, reflecting the ongoing internationalization of the enthusiast audience and review base.
+**Ingredient specificity as engagement driver.** The BORNTOSTANDOUT review flagging orris butter by name, the Maison Shan reviewer reaching for "pool-like" to describe minerality, the Olfactive O note on soapy skin-bloom — reviewers are writing with more ingredient literacy than the average "smells good" entry. This reflects a maturing community and increasingly favors houses whose formulation stories are legible to an informed audience.
+
+**Vintage and heritage discovery is active.** Novaya Zarya's Soviet-era Muguet and the literary framing around Serge Lutens both point to a segment of the community actively digging backward rather than tracking releases. This is consistent with broader vintage fragrance enthusiasm but notable when it surfaces alongside new-release activity in the same week's data.
+
+**Collaboration fatigue has limits — but craft still wins.** The Xerjoff x Lamborghini reception suggests that luxury collabs can land if the juice is credible. The implicit standard being applied is: does this smell like it belongs in the Xerjoff catalog, or does it smell like a licensing exercise? First signals suggest the former, at least among early reviewers.
 
 ---
 
-*Next report: June 19, 2026. Signals to watch: whether Divine's individual titles begin separating out, and whether the Xerjoff x Lamborghini releases attract substantive review content.*
+*Next report: June 19, 2026. Watch for whether French Avenue and Olfactive O generate follow-on mentions — first-week discovery framing can either compound or fade quickly.*
