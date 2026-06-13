@@ -7,99 +7,134 @@
 
 ## Market Overview
 
-Esxence 2026 continues to generate downstream conversation, with French accessible-niche houses earning disproportionate attention in the days following the Milan fair. The broader signal this week is heavily skewed toward NEW entries with no prior tracking history, suggesting an unusually wide discovery surface rather than sustained momentum building behind any single brand.
+Esxence 2026 continues to reverberate through community discourse, with comparative analysis of note pyramids and culinary-forward compositions driving the week's most substantive conversations. This is an unusually NEW-heavy week — no brands with prior tracking history surfaced — suggesting we're in a post-trade-show discovery cycle rather than a sustained trend consolidation moment.
 
 ---
 
-## 🔺 CUSP — 3x+ Above Baseline
+## 🔴 CUSP — 3x+ Above Baseline
 
-*No brands reached CUSP threshold this week.*
-
----
-
-## 📈 RISING — 2x–3x Above Baseline
-
-*No brands reached RISING threshold this week.*
+*No CUSP brands this week.*
 
 ---
 
-## 🆕 NEW — First Appearance
+## 🟠 RISING — 2x–3x Above Baseline
 
-*All brands below are appearing in tracked data for the first time. No baseline exists; signals reflect initial surface area only and should be interpreted with caution until trend lines develop.*
+*No RISING brands this week.*
 
 ---
 
-**Nicolai Parfumeur Créateur** — France | Accessible Niche | Est. 1989
-Picked up its first tracked mentions via Esxence 2026 coverage, specifically around **Patchouli Spirit** and the comparative discussion with Patchouli Intense. The fact that reviewers are drilling into nuance between two similarly-structured patchouli compositions — rather than simply cataloguing new releases — suggests an engaged, technically literate audience rediscovering a house that has long flown under the radar. Worth watching if Esxence press coverage continues to circulate.
+## 🟢 NEW — First Appearance
 
-**Arabiyat Prestige** — UAE | Indie | Est. 2015
-Surfaced through reviews of the **Fahad Collection** and **La Di Da For Him**, with commenters flagging rising price points alongside genuine appreciation for versatility. The tension between value positioning and upward price drift is a common inflection point for Gulf-market indie houses attempting to cross into broader niche credibility.
+*All brands this week are first-time appearances with no prior baseline. Signals are directional, not confirmatory.*
 
-**Amouage** — Oman | Luxury Niche | Est. 1983
-Two distinct signals this week: nostalgia-driven demand around the discontinued **Beloved Woman**, and fresh praise for **Rose Aqor** as an "extremely wearable, elegant amber rose." The coexistence of archival longing and current-release approval is a healthy brand signal — it means both the heritage and the active lineup are generating conversation simultaneously.
+---
 
-**Versatile** — France | Accessible Niche | Est. 2018
-**Very Bad Rice** drew Esxence coverage for its mango sticky rice interpretation, positioned as sweeter and more overtly fruity than a comparable Journal de Bord release. Gourmand-adjacent culinary concepts remain a viable creative lane, and Versatile appears to be executing with enough specificity to earn comparative analysis rather than dismissal.
+**Nicolai Parfumeur Créateur** *(France, est. 1989 — Accessible Niche)*
+Surfaced via Esxence 2026 coverage, specifically around **Patchouli Spirit** and **Petit Ange**. The conversation is notably analytical — community members are comparing how similar note pyramids produce divergent olfactory outcomes, which suggests an engaged, technically literate audience rather than casual discovery. For a house this established to generate first-time tracking momentum, the trade show floor appears to have genuinely renewed interest.
 
-**Etat Libre d'Orange** — France | Accessible Niche | Est. 2006
-Appeared in connection with a retrospective piece marking **twenty years of the brand**. Milestone anniversary coverage is a legitimate traffic driver and can resurface catalog titles with new audiences — notable, though the signal here is editorial rather than organic product discovery.
+---
 
-**Maria Candida Gentile** — Italy | Accessible Niche | Est. 2006
-**Aqua Forte** earned specific praise within a review that also took a wry swipe at the current fragrance market broadly. The fact that the reviewer named MCG as a *favorite* brand — not merely a purchase — suggests the kind of committed, vocal enthusiast following that drives durable word-of-mouth.
+**Versatile** *(France, est. 2018 — Accessible Niche)*
+**Mango Sticky Rice** was pulled into direct comparison at Esxence 2026, called out for sweeter, more pronounced mango character versus a named competitor. Culinary-literal fragrance naming continues to generate its own conversation ecosystem; Versatile is benefiting from that framing.
 
-**Serge Lutens** — France | Accessible Niche
-**L'Orpheline** reviewed with what's described as "thoughtful, atmospheric language," consistent with how Lutens' catalog typically gets discussed. No new release catalyst apparent — this reads as evergreen engagement with an established classic.
+---
 
-**French Avenue** — Country/Price Tier Unknown
-**Liquid Brun** appeared in the most popular fragrances section. No additional context available; origin, positioning, and price tier unconfirmed. Flag for follow-up.
+**Maison Francis Kurkdjian** *(France, est. 2009 — Luxury Niche)*
+**724** is being positioned by reviewers as the benchmark "clean luxury" scent — five-star hotel atmosphere, collection anchor. MFK earns consistent re-entry into community conversation without needing new launches; this appears to be organic affirmation of an existing pillar fragrance.
 
-**Providence Perfume Co** — USA | Indie | Est. 2010
-Flagged specifically as a recommendation for US customers, praised for all-natural formulation and blend quality. The geographic specificity of the recommendation is notable — suggests community members are actively routing buyers toward domestic artisan alternatives.
+---
 
-**Lake & Skye** — USA | Indie | Est. 2015
-**11 11 perfume oil** praised for exceptional longevity; the spray version received a cooler reception. The oil-vs-spray performance gap is worth noting as a product-format signal in a market increasingly comfortable with oil-based application.
+**Maria Candida Gentile** *(Italy, est. 2006 — Accessible Niche)*
+**Aqua Forte** is drawing "must-try" language following a strong individual review. An Italian house with a loyal but quiet following — this kind of word-of-mouth surfacing can be a slow-burn precursor to broader discovery.
 
-**Xerjoff** — Luxury Niche
-Mentioned in the context of the **Automobili Lamborghini collaboration**. Luxury brand fragrance partnerships remain a reliable attention mechanism; sentiment here is positive, though the signal is collaboration-driven rather than core-lineup-driven.
+---
 
-**Parfums de Marly**
-**Althaïr** listed as a featured fragrance; brand appearing in most popular brands section. Broad platform visibility rather than a specific content driver this week.
+**Amouage** *(Oman, est. 1983 — Luxury Niche)*
+Two distinct signals this week: a call to revive **Beloved Woman** (discontinuation nostalgia) and an unsolicited comparison of a haircare product to **Existence**. The latter is a notable cultural marker — when a fragrance becomes a reference point for non-fragrance products, it has achieved genuine saturation in its audience.
 
-**Maison Francis Kurkdjian** — France | Luxury Niche | Est. 2009
-**Cologne pour le Matin** and **Cologne pour le Soir** mentioned in passing without evaluative comment. Low-signal appearance; likely incidental reference rather than meaningful momentum.
+---
 
-**BORNTOSTANDOUT** — Netherlands | Accessible Niche | Est. 2019
-**Golden Milk** surfaced via a dismissive comment citing ingredient misrepresentation (turmeric absent from the actual notes pyramid). Negative engagement still generates visibility, but the specific criticism — that the concept isn't backed by the composition — is the kind of community callout that can stick.
+**Providence Perfume Co.** *(United States, est. 2010 — Indie)*
+Recommended as a high-quality all-natural US house with **Heart of Darkness** specifically named. All-natural positioning with strong word-of-mouth is a durable niche signal; this brand surfaces infrequently but with conviction when it does.
 
-**Maison Shan**
-**Lynx** described as earthy with an unusual "pool-like" quality. Intriguing descriptor; brand origin and pricing unknown.
+---
 
-**Stora Skuggan** — Sweden | Accessible Niche | Est. 2014
-**Monkeyflower** noted briefly as "lovely." Minimal signal, but consistent with the brand's quiet critical reputation.
+**Lake & Skye** *(USA, est. 2015 — Indie)*
+**11 11** perfume oil format is earning "nuclear longevity" praise, with the oil version clearly preferred over the spray. Format differentiation is doing real work here — worth watching whether the oil-vs-spray gap becomes part of the brand's community identity.
 
-**Afnan**
-**Rare Reef** praised as a longer-lasting alternative to an unnamed comparable scent. Performance-per-price framing is a consistent driver for Gulf-market accessible brands. Country/tier unconfirmed in current data.
+---
+
+**Etat Libre d'Orange** *(France, est. 2006 — Accessible Niche)*
+A peach and osmanthus composition described as "airy and kind" — language that clusters around the current soft-floral-fruity aesthetic gaining traction across several houses this month.
+
+---
+
+**Stora Skuggan** *(Sweden, est. 2014 — Accessible Niche)*
+**Monkeyflower** receives a brief but warm mention. The Swedish house maintains a small, devoted following; appearances are infrequent and tend to reflect genuine organic enthusiasm rather than algorithmic spillover.
+
+---
+
+**Xerjoff** *(Accessible Niche)*
+The **Automobili Lamborghini collaboration** earns approval in passing. Luxury brand crossovers continue to generate conversation; sentiment here is positive but not deep.
+
+---
+
+**Serge Lutens**
+**L'Orpheline** reviewed with careful, atmospheric prose. The brand's naming conventions are themselves called out as evocative — a meta-appreciation that signals an audience engaging with the house as an aesthetic universe, not just a product line.
+
+---
 
 **Olfactive O**
-Described as "beautiful and underrated," praised for skin-bloom behavior and a soapy nuance. The "underrated" tag from a community reviewer can carry genuine discovery weight. Origin and pricing unknown.
-
-**Montale**
-**Arabians Tonka** acknowledged as well-made but criticized for lacking originality due to saturation of the tonka-oriental template. A backhanded compliment that speaks more to category fatigue than brand failure.
-
-**Novaya Zarya**
-Vintage **Muguet** cologne praised as a "rare gem" for its subtlety. Purely archival/vintage interest; no current commercial relevance implied.
-
-**L'Artisan Parfumeur** — France | Accessible Niche | Est. 1976
-**Mûre et Musc Extrême** limited edition bottle admired on aesthetic grounds. Packaging-forward engagement; limited signal on the juice itself.
-
-**Afnan, Maison Shan, Olfactive O, French Avenue, Serge Lutens, Parfums de Marly, Xerjoff, Montale, Novaya Zarya, Maison Francis Kurkdjian** — Country and/or price tier data not confirmed in current tracking. All flagged for metadata enrichment.
+Called "beautiful and underrated," praised for skin-bloom behavior and soapy nuance. Underrated framing often precedes a small but meaningful discovery wave.
 
 ---
 
-## 🔍 Patterns
+**Afnan**
+**Rare Reef** flagged as a longevity-superior alternative to a comparable scent. Afnan's value-niche positioning continues to earn it functional recommendations rather than aesthetic ones.
 
-**Ingredients & Accords**
-Patchouli is generating unusually specific comparative discourse — not trend-chasing mentions, but technical side-by-side analysis (Nicolai's Spirit vs. Intense). Amber rose constructions are holding (Amouage Rose Aqor), and tonka continues to appear but increasingly with a fatigue caveat (Montale). The mango-sticky-rice gourmand angle from Versatile is an outlier worth tracking — culinary specificity as a creative differentiator, rather than generic "sweet/gourmand," is an emerging sub-pattern.
+---
+
+**BORNTOSTANDOUT** *(Netherlands, est. 2020 — Accessible Niche)*
+**Golden Milk** criticized for failing to deliver turmeric character despite the name. A notable signal in the opposite direction — culinary-literal naming creates specific expectation contracts that this release appears not to have honored.
+
+---
+
+**Novaya Zarya**
+Vintage **Muguet** cologne described as a rare gem — subtle, delicate. Classic muguet and vintage Soviet-era fragrance houses occupy a particular collector niche; this mention likely reflects that community rather than broad discovery.
+
+---
+
+**Montale**
+**Arabians Tonka** called competent but unoriginal due to widespread duplication in the market. A recurring friction point for the house — quality acknowledged, distinctiveness questioned.
+
+---
+
+**Fahad Collection Arabiyat Prestige** *(UAE, est. 2010 — Indie)*
+Single comment noting rising prices. Insufficient signal for directional read.
+
+---
+
+**Maison Shan**
+**Lynx** described as earthy with an aquatic, pool-like quality. Country of origin and price tier unknown; monitoring for follow-up context.
+
+---
+
+**French Avenue**
+**Liquid Brun** appeared in a most-popular-perfumes section placement. No origin, pricing, or review context available — pure discovery flag.
+
+---
+
+## 📐 Patterns
+
+**Ingredients & Materials**
+Patchouli is back in analytical focus — not as a trend ingredient per se, but as a compositional case study (Nicolai). Mango and culinary-fruity accords remain active conversation drivers, with Versatile's Mango Sticky Rice and BORNTOSTANDOUT's Golden Milk both generating engagement from opposite ends of the satisfaction spectrum. Osmanthus-peach pairings continue to appear in "airy" and "soft" register framing. Aquatic and mineralic qualities surface in two unrelated mentions (Maison Shan's Lynx, Afnan's Rare Reef), suggesting the clean-water aesthetic hasn't fully cleared the market yet.
 
 **Geography**
-France dominates new entries this week (Nicolai, Versatile, ELdO, Serge Lutens, L'Artisan, MFK), consistent with Esxence fallout driving French-house visibility. Gulf-region brands (Amouage, Arabiyat,
+France dominates new entries this week (Nicolai, Versatile, MFK, ELdO), reinforced by Esxence spillover. Italian and Scandinavian houses appear as quieter discovery signals. A small but notable cluster of value-tier Middle Eastern and Gulf-adjacent brands (Afnan, Fahad Collection, Montale's oud-adjacent positioning) reflects ongoing interest in that sourcing tradition at accessible price points.
+
+**Aesthetics & Framing**
+Two distinct aesthetic languages are running in parallel this week: **analytical-comparative** (note pyramid breakdowns, format comparisons, duplication critiques) and **atmospheric-evocative** (five-star hotel, rare gem, blooms on skin). The former is Esxence-driven; the latter is the community's default register for beloved, often under-discussed houses. The tension between "does it smell like what it's named?" and "does it create a world?" is this week's most consistent undercurrent.
+
+---
+
+*Next report: June 20, 2026. First repeat-appearance data will begin establishing baselines for this week's NEW entries.*

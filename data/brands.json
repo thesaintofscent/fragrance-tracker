@@ -73,17 +73,17 @@
     "weeks": {
       "2026-W23": 4
     },
-    "context": "Their Golden Milk fragrance was dismissed by a commenter who noted turmeric is not in the notes and called it too cheesy.",
+    "context": "Golden Milk was dismissed as cheesy and lacking turmeric despite the name.",
     "source": "fragrantica",
     "country": "Netherlands",
-    "founded": 2019,
+    "founded": 2020,
     "price_tier": "accessible niche"
   },
   "L'Artisan Parfumeur": {
     "weeks": {
-      "2026-W23": 3
+      "2026-W23": 2
     },
-    "context": "Their M\u00fbre et Musc Extr\u00eame Limited Edition bottle was admired by a commenter.",
+    "context": "A limited edition of M\u00fbre et Musc Extr\u00eame was praised for its bottle design.",
     "source": "fragrantica",
     "country": "France",
     "founded": 1976,
@@ -160,10 +160,13 @@
   },
   "Parfums de Marly": {
     "weeks": {
-      "2026-W23": 4
+      "2026-W23": 1
     },
-    "context": "Altha\u00efr by Parfums de Marly is listed as a featured fragrance and the brand also appears in the most popular brands section.",
-    "source": "fragrantica"
+    "context": "A user was disappointed with Parfums de Marly's Valaya, finding it musty and reminiscent of an old ladies' fragrance.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2009,
+    "price_tier": "luxury niche"
   },
   "Essential Parfums": {
     "weeks": {
@@ -209,9 +212,9 @@
   },
   "Maison Francis Kurkdjian": {
     "weeks": {
-      "2026-W23": 4
+      "2026-W23": 5
     },
-    "context": "Cologne pour le Matin and Cologne pour le Soir were mentioned in passing with no evaluative comment.",
+    "context": "724 was described as the most luxurious clean scent in the reviewer's collection, evoking a five-star hotel atmosphere.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2009,
@@ -235,8 +238,11 @@
     "weeks": {
       "2026-W23": 2
     },
-    "context": "Khadlaj Perfumes appears in the most popular brands section of the page.",
-    "source": "fragrantica"
+    "context": "Panache Angel Dust was disliked by a white floral fan, described as smelling like toothpaste.",
+    "source": "fragrantica",
+    "country": "United Arab Emirates",
+    "founded": 1974,
+    "price_tier": "indie"
   },
   "Fragrance World": {
     "weeks": {
@@ -261,9 +267,9 @@
   },
   "Etat Libre d'Orange": {
     "weeks": {
-      "2026-W23": 5
+      "2026-W23": 3
     },
-    "context": "Referenced in the title of an article about the brand's first twenty years.",
+    "context": "Reviewer praises a peach- and osmanthus-forward fragrance as a beauty, describing it as airy and kind.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2006,
@@ -371,7 +377,7 @@
     "weeks": {
       "2026-W23": 2
     },
-    "context": "Recommended as an all-natural perfume company in the USA with outstanding quality and unique blends.",
+    "context": "Recommended as an all-natural brand with outstanding quality and uniqueness of blends, with Heart of Darkness noted as a specific wear.",
     "source": "fragrantica",
     "country": "USA",
     "founded": 2010,
@@ -379,9 +385,9 @@
   },
   "Nicolai Parfumeur Createur": {
     "weeks": {
-      "2026-W23": 9
+      "2026-W23": 10
     },
-    "context": "Featured at Esxence 2026 with Patchouli Spirit, noted for interesting differences between their Patchouli Spirit and Patchouli Intense despite similar note pyramids.",
+    "context": "Discussed at Esxence 2026 for Patchouli Spirit and Petit Ange, with interest in how similar note pyramids yield different scents.",
     "source": "fragrantica",
     "country": "France",
     "founded": 1989,
@@ -389,11 +395,11 @@
   },
   "Arabiyat Prestige": {
     "weeks": {
-      "2026-W23": 7
+      "2026-W23": 1
     },
-    "context": "Featured in a review of the Fahad Collection and La Di Da For Him, noted as getting expensive but praised for versatility.",
+    "context": "A commenter briefly notes that the Fahad Collection by Arabiyat Prestige is getting expensive.",
     "source": "fragrantica",
-    "country": "UAE",
+    "country": "United Arab Emirates",
     "founded": 2015,
     "price_tier": "indie"
   },
@@ -401,7 +407,7 @@
     "weeks": {
       "2026-W23": 5
     },
-    "context": "Described as a favorite brand with Aqua Forte earning praise and a review including a humorous description of the scent business today.",
+    "context": "Described as a favorite brand, with Aqua Forte noted as a must-try after a positive review.",
     "source": "fragrantica",
     "country": "Italy",
     "founded": 2006,
@@ -411,7 +417,7 @@
     "weeks": {
       "2026-W23": 6
     },
-    "context": "Their mango sticky rice fragrance Very Bad Rice was reviewed at Esxence 2026, noted as sweeter with more pronounced mango and fruity aspects than a Journal counterpart.",
+    "context": "Their Mango Sticky Rice fragrance was compared at Esxence 2026 as sweeter with more pronounced mango and fruity aspects than a competitor.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2018,
@@ -441,17 +447,17 @@
     "weeks": {
       "2026-W23": 2
     },
-    "context": "A commenter mentioned having a full bottle of Aura they are looking to trade.",
+    "context": "Latte + Nectar was described as disappointing, basic, and not memorable, resulting in a return.",
     "source": "fragrantica",
     "country": "USA",
-    "founded": 2016,
+    "founded": 2015,
     "price_tier": "accessible niche"
   },
   "Amouage": {
     "weeks": {
-      "2026-W23": 7
+      "2026-W23": 5
     },
-    "context": "Amouage Beloved Woman was wished to be brought back, and Rose Aqor was praised as an extremely wearable, elegant amber rose fragrance.",
+    "context": "A commenter wished Amouage would bring back Beloved Woman, and a hair mask was noted as smelling like Amouage Existence.",
     "source": "fragrantica",
     "country": "Oman",
     "founded": 1983,
@@ -461,9 +467,9 @@
     "weeks": {
       "2026-W23": 4
     },
-    "context": "Described as all natural with outstanding quality and uniqueness of blends, recommended for USA customers.",
+    "context": "Recommended as an all-natural US brand with outstanding quality and unique blends, with specific mention of Heart of Darkness.",
     "source": "fragrantica",
-    "country": "USA",
+    "country": "United States",
     "founded": 2010,
     "price_tier": "indie"
   },
@@ -482,6 +488,66 @@
       "2026-W23": 2
     },
     "context": "Akro's Night is described as leaning too pissy and nasty in an unsexy way, with the reviewer saying 'immediately no.'",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2019,
+    "price_tier": "accessible niche"
+  },
+  "Fahad Collection Arabiyat Prestige": {
+    "weeks": {
+      "2026-W23": 3
+    },
+    "context": "Briefly commented on as getting expensive.",
+    "source": "fragrantica",
+    "country": "UAE",
+    "founded": 2010,
+    "price_tier": "indie"
+  },
+  "Mancera": {
+    "weeks": {
+      "2026-W23": 2
+    },
+    "context": "Jardin Exclusif received a brief but positive 'Love it' comment.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2008,
+    "price_tier": "accessible niche"
+  },
+  "Swiss Arabian": {
+    "weeks": {
+      "2026-W23": 2
+    },
+    "context": "Shaghaf Oud Abyad noted as discontinued but still found in stock at a pharmacy in Mecca.",
+    "source": "fragrantica",
+    "country": "UAE",
+    "founded": 1974,
+    "price_tier": "indie"
+  },
+  "Giardini Di Toscana": {
+    "weeks": {
+      "2026-W23": 2
+    },
+    "context": "Oro e Miele was described as smelling like honey almond hand cream and feeling very outdated.",
+    "source": "fragrantica",
+    "country": "Italy",
+    "founded": 2005,
+    "price_tier": "accessible niche"
+  },
+  "Kerosene": {
+    "weeks": {
+      "2026-W23": 2
+    },
+    "context": "R'oud Elements was described as sticky with a resinous oud and citrus-oil impression rather than bright citrus.",
+    "source": "fragrantica",
+    "country": "United States",
+    "founded": 2012,
+    "price_tier": "accessible niche"
+  },
+  "Maison Crivelli": {
+    "weeks": {
+      "2026-W23": 1
+    },
+    "context": "A user sarcastically suggested wearing Maison Crivelli's Ambre Chromatique if you want people talking negatively about you.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2019,
