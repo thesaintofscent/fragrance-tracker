@@ -44,11 +44,11 @@ FRAGRANTICA_URLS = [
  
 # Fragrance newsletters & blogs (publicly accessible)
 NEWSLETTER_URLS = [
-    "https://www.thescentedletter.com/",
     "https://cafleurebon.com/",
-    "https://www.basenotes.net/",
-    "https://scenthurdle.substack.com/",
     "https://www.fragrantica.com/news/interviews/",
+    "https://perfumeshrine.blogspot.com/",
+    "https://www.nowsmellthis.com/",
+    "https://luckyscent.com/blog",
 ]
  
 # TikTok hashtag pages (public, no login required)
@@ -198,47 +198,63 @@ def scrape_tiktok() -> str:
     return combined
  
  
-# ── Step 1d: Scrape Etsy ─────────────────────────────────────────────────────
+# ── Step 1d: Scrape Etsy via open listing pages ───────────────────────────────
+ 
+# Individual Etsy shop pages for known indie perfumers
+# plus category browse pages that don't require login
+ETSY_SHOP_PAGES = [
+    "https://www.etsy.com/c/bath-and-beauty/fragrance?ref=catnav-10923&explicit=1&order=date_desc",
+    "https://www.etsy.com/c/bath-and-beauty/fragrance/perfume?order=date_desc",
+]
  
 def scrape_etsy() -> str:
     """
-    Scrape Etsy for new indie perfume listings.
-    Focuses on shop names (brand discovery) and listing descriptions
-    that suggest serious perfumery rather than hobbyist bath products.
+    Access Etsy category pages for fragrance/perfume sorted by newest.
+    These category browse pages are publicly accessible unlike search results.
+    Extracts shop names from listing cards.
     """
     all_text = []
  
     etsy_headers = {
-        **HEADERS,
         "User-Agent": (
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
             "AppleWebKit/537.36 (KHTML, like Gecko) "
             "Chrome/124.0.0.0 Safari/537.36"
         ),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Cache-Control": "no-cache",
     }
  
-    for url in ETSY_URLS:
-        print(f"  Fetching Etsy {url}...")
+    for url in ETSY_SHOP_PAGES:
+        print(f"  Fetching Etsy category {url[:60]}...")
         try:
-            resp = requests.get(url, headers=etsy_headers, timeout=15)
+            session = requests.Session()
+            # First visit homepage to get cookies
+            session.get("https://www.etsy.com", headers=etsy_headers, timeout=15)
+            time.sleep(random.uniform(2, 4))
+ 
+            resp = session.get(url, headers=etsy_headers, timeout=15)
             resp.raise_for_status()
             soup = BeautifulSoup(resp.text, "html.parser")
  
-            # Extract shop names — these are the brand names we want
+            # Extract shop names from listing cards
             for element in soup.find_all(attrs={"data-shop-name": True}):
                 shop = element.get("data-shop-name", "").strip()
                 if shop:
                     all_text.append(f"ETSY SHOP: {shop}")
  
-            # Also look for shop links in listing cards
+            # Shop links embedded in listing hrefs
             for link in soup.find_all("a", href=True):
                 href = link.get("href", "")
-                if "/shop/" in href:
+                if "/shop/" in href and "etsy.com" in href:
                     shop_name = href.split("/shop/")[-1].split("?")[0].split("/")[0]
                     if shop_name and len(shop_name) > 2:
                         all_text.append(f"ETSY SHOP: {shop_name}")
  
-            # Grab listing titles for ingredient/quality signals
+            # Listing titles with fragrance keywords
             for element in soup.find_all(["h2", "h3", "p", "span"]):
                 text = element.get_text(strip=True)
                 if (len(text) > 15 and any(kw in text.lower() for kw in [
@@ -247,13 +263,14 @@ def scrape_etsy() -> str:
                 ])):
                     all_text.append(text)
  
-            time.sleep(random.uniform(3, 6))
+            time.sleep(random.uniform(4, 7))
  
         except requests.RequestException as e:
-            print(f"  Warning: could not fetch Etsy {url}: {e}")
+            print(f"  Warning: Etsy fetch failed: {e}")
  
     combined = "\n".join(all_text)
-    print(f"  Collected {len(combined):,} chars from Etsy ({combined.count('ETSY SHOP:')} shop mentions).")
+    shop_count = combined.count("ETSY SHOP:")
+    print(f"  Collected {len(combined):,} chars from Etsy ({shop_count} shop mentions).")
     return combined
  
  
@@ -265,26 +282,33 @@ def get_trending_brands() -> list[dict]:
  
     for term in TREND_SEED_TERMS:
         print(f"  Google Trends: '{term}'...")
-        try:
-            pytrends.build_payload([term], timeframe="now 7-d", geo="")
-            related = pytrends.related_queries()
-            if related and term in related:
-                rising_df = related[term].get("rising")
-                if rising_df is not None and not rising_df.empty:
-                    for _, row in rising_df.iterrows():
-                        query = str(row["query"]).strip()
-                        value = int(row["value"])
-                        if (len(query) > 3
-                                and "perfume" not in query.lower()
-                                and "fragrance" not in query.lower()
-                                and "how" not in query.lower()
-                                and "what" not in query.lower()):
-                            if query not in trending or trending[query] < value:
-                                trending[query] = value
-            time.sleep(random.uniform(3, 6))
-        except Exception as e:
-            print(f"  Warning: Google Trends error for '{term}': {e}")
-            time.sleep(10)
+        success = False
+        for attempt in range(3):  # retry up to 3 times
+            try:
+                time.sleep(random.uniform(15, 25))  # longer delay to avoid 429
+                pytrends.build_payload([term], timeframe="now 7-d", geo="")
+                related = pytrends.related_queries()
+                if related and term in related:
+                    rising_df = related[term].get("rising")
+                    if rising_df is not None and not rising_df.empty:
+                        for _, row in rising_df.iterrows():
+                            query = str(row["query"]).strip()
+                            value = int(row["value"])
+                            if (len(query) > 3
+                                    and "perfume" not in query.lower()
+                                    and "fragrance" not in query.lower()
+                                    and "how" not in query.lower()
+                                    and "what" not in query.lower()):
+                                if query not in trending or trending[query] < value:
+                                    trending[query] = value
+                success = True
+                break
+            except Exception as e:
+                wait = 30 * (attempt + 1)
+                print(f"  Warning: Google Trends error (attempt {attempt+1}): {e} — waiting {wait}s")
+                time.sleep(wait)
+        if not success:
+            print(f"  Skipping '{term}' after 3 failed attempts.")
  
     result = [{"name": k, "trend_score": v} for k, v in trending.items()]
     result.sort(key=lambda x: x["trend_score"], reverse=True)
@@ -491,8 +515,23 @@ def save_history(history: dict):
         json.dump(history, f, indent=2)
  
  
-def update_history(history: dict, brands: list[dict]) -> dict:
+def update_history(history: dict, brands: list[dict], verified_names: set) -> dict:
+    """
+    Update history with this week's verified brands.
+    Also removes any previously stored brands that have since been
+    identified as non-brands (i.e. not in verified_names and have
+    been flagged as fake in a prior run).
+    """
     week = datetime.date.today().strftime("%Y-W%W")
+ 
+    # Remove brands from history that were previously stored but are
+    # now confirmed non-brands (appeared this week and got filtered out)
+    this_week_seen = {b["name"] for b in brands}  # all raw candidates this week
+    for name in list(history.keys()):
+        if name in this_week_seen and name not in verified_names:
+            print(f"  Removing '{name}' from history — confirmed non-brand.")
+            del history[name]
+ 
     for brand in brands:
         name = brand["name"]
         if name not in history:
@@ -505,7 +544,6 @@ def update_history(history: dict, brands: list[dict]) -> dict:
                 "price_tier": brand.get("price_tier", "unknown"),
             }
         history[name]["weeks"][week] = brand.get("mentions", 1)
-        # Keep metadata fresh
         for field in ["context", "source", "country", "founded", "price_tier"]:
             if brand.get(field) and brand[field] != "unknown":
                 history[name][field] = brand[field]
@@ -733,11 +771,12 @@ def main():
     print(f"  Found {len(brands)} raw brand candidates.")
  
     print("── Step 3: Verifying brands + adding metadata...")
-    brands = verify_and_enrich_brands(brands)
+    verified_brands = verify_and_enrich_brands(brands)
+    verified_names = {b["name"] for b in verified_brands}
  
     print("── Step 4: Updating historical data...")
     history = load_history()
-    history = update_history(history, brands)
+    history = update_history(history, verified_brands, verified_names)
     save_history(history)
     print(f"  History now tracks {len(history)} verified brands.")
  
