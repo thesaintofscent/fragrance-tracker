@@ -31,10 +31,12 @@ jobs:
 
       - name: Run tracker
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          EMAIL_SENDER:      ${{ secrets.EMAIL_SENDER }}
-          EMAIL_PASSWORD:    ${{ secrets.EMAIL_PASSWORD }}
-          EMAIL_RECIPIENT:   ${{ secrets.EMAIL_RECIPIENT }}
+          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          EMAIL_SENDER:       ${{ secrets.EMAIL_SENDER }}
+          EMAIL_PASSWORD:     ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_RECIPIENT:    ${{ secrets.EMAIL_RECIPIENT }}
+          NOTION_TOKEN:       ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
         run: python tracker.py
 
       - name: Commit updated brand history
