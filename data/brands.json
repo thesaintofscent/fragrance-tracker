@@ -73,15 +73,21 @@
     "weeks": {
       "2026-W23": 4
     },
-    "context": "Reviewer finds Golden Milk very synthetic on skin despite being intrigued by orris butter, while enjoying other offerings from the brand.",
-    "source": "fragrantica"
+    "context": "Their Golden Milk fragrance was dismissed by a commenter who noted turmeric is not in the notes and called it too cheesy.",
+    "source": "fragrantica",
+    "country": "Netherlands",
+    "founded": 2019,
+    "price_tier": "accessible niche"
   },
   "L'Artisan Parfumeur": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 3
     },
-    "context": "Reviewer expresses love for the bottle of M\u00fbre et Musc Extr\u00eame Limited Edition.",
-    "source": "fragrantica"
+    "context": "Their M\u00fbre et Musc Extr\u00eame Limited Edition bottle was admired by a commenter.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 1976,
+    "price_tier": "accessible niche"
   },
   "Lataffa": {
     "weeks": {
@@ -113,10 +119,13 @@
   },
   "Divine": {
     "weeks": {
-      "2026-W23": 5
+      "2026-W23": 1
     },
-    "context": "Multiple Divine fragrances appeared in a perfume listing context including L'Homme de Coeur, L'Ame Soeur, and others.",
-    "source": "fragrantica"
+    "context": "Multiple Divine fragrances including L'Homme de Coeur, L'Ame Soeur, and others were listed without comment.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 1997,
+    "price_tier": "accessible niche"
   },
   "Royall Lyme Bermuda": {
     "weeks": {
@@ -134,10 +143,13 @@
   },
   "Lattafa Perfumes": {
     "weeks": {
-      "2026-W23": 4
+      "2026-W23": 2
     },
-    "context": "Listed among most popular perfumes with Khamrah and Khamrah Qahwa appearing in the popularity rankings.",
-    "source": "fragrantica"
+    "context": "Lattafa Perfumes' Yara Tous is described as smelling like a mango creamy milkshake.",
+    "source": "fragrantica",
+    "country": "United Arab Emirates",
+    "founded": 2002,
+    "price_tier": "indie"
   },
   "By Kilian": {
     "weeks": {
@@ -197,10 +209,13 @@
   },
   "Maison Francis Kurkdjian": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 4
     },
-    "context": "Maison Francis Kurkdjian appears in the most popular brands section of the page.",
-    "source": "fragrantica"
+    "context": "Cologne pour le Matin and Cologne pour le Soir were mentioned in passing with no evaluative comment.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2009,
+    "price_tier": "luxury niche"
   },
   "Kayali Fragrances": {
     "weeks": {
@@ -246,10 +261,13 @@
   },
   "Etat Libre d'Orange": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 5
     },
-    "context": "Etat Libre d'Orange appears in the most popular brands section of the page.",
-    "source": "fragrantica"
+    "context": "Referenced in the title of an article about the brand's first twenty years.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2006,
+    "price_tier": "accessible niche"
   },
   "Juliette Has A Gun": {
     "weeks": {
@@ -348,5 +366,125 @@
     },
     "context": "Rising Google search query (score: 40)",
     "source": "google_trends"
+  },
+  "Providence Perfume Company": {
+    "weeks": {
+      "2026-W23": 2
+    },
+    "context": "Recommended as an all-natural perfume company in the USA with outstanding quality and unique blends.",
+    "source": "fragrantica",
+    "country": "USA",
+    "founded": 2010,
+    "price_tier": "indie"
+  },
+  "Nicolai Parfumeur Createur": {
+    "weeks": {
+      "2026-W23": 9
+    },
+    "context": "Featured at Esxence 2026 with Patchouli Spirit, noted for interesting differences between their Patchouli Spirit and Patchouli Intense despite similar note pyramids.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 1989,
+    "price_tier": "accessible niche"
+  },
+  "Arabiyat Prestige": {
+    "weeks": {
+      "2026-W23": 7
+    },
+    "context": "Featured in a review of the Fahad Collection and La Di Da For Him, noted as getting expensive but praised for versatility.",
+    "source": "fragrantica",
+    "country": "UAE",
+    "founded": 2015,
+    "price_tier": "indie"
+  },
+  "Maria Candida Gentile": {
+    "weeks": {
+      "2026-W23": 5
+    },
+    "context": "Described as a favorite brand with Aqua Forte earning praise and a review including a humorous description of the scent business today.",
+    "source": "fragrantica",
+    "country": "Italy",
+    "founded": 2006,
+    "price_tier": "accessible niche"
+  },
+  "Versatile": {
+    "weeks": {
+      "2026-W23": 6
+    },
+    "context": "Their mango sticky rice fragrance Very Bad Rice was reviewed at Esxence 2026, noted as sweeter with more pronounced mango and fruity aspects than a Journal counterpart.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2018,
+    "price_tier": "accessible niche"
+  },
+  "Stora Skuggan": {
+    "weeks": {
+      "2026-W23": 3
+    },
+    "context": "Monkeyflower was briefly described as lovely.",
+    "source": "fragrantica",
+    "country": "Sweden",
+    "founded": 2014,
+    "price_tier": "accessible niche"
+  },
+  "Lake & Skye": {
+    "weeks": {
+      "2026-W23": 3
+    },
+    "context": "Their 11 11 perfume oil was praised as magical, nuclear in longevity, and beautiful, though the spray version was less favored.",
+    "source": "fragrantica",
+    "country": "USA",
+    "founded": 2015,
+    "price_tier": "indie"
+  },
+  "Michael Malul London": {
+    "weeks": {
+      "2026-W23": 2
+    },
+    "context": "A commenter mentioned having a full bottle of Aura they are looking to trade.",
+    "source": "fragrantica",
+    "country": "USA",
+    "founded": 2016,
+    "price_tier": "accessible niche"
+  },
+  "Amouage": {
+    "weeks": {
+      "2026-W23": 7
+    },
+    "context": "Amouage Beloved Woman was wished to be brought back, and Rose Aqor was praised as an extremely wearable, elegant amber rose fragrance.",
+    "source": "fragrantica",
+    "country": "Oman",
+    "founded": 1983,
+    "price_tier": "luxury niche"
+  },
+  "Providence Perfume Co": {
+    "weeks": {
+      "2026-W23": 4
+    },
+    "context": "Described as all natural with outstanding quality and uniqueness of blends, recommended for USA customers.",
+    "source": "fragrantica",
+    "country": "USA",
+    "founded": 2010,
+    "price_tier": "indie"
+  },
+  "Annayake": {
+    "weeks": {
+      "2026-W23": 1
+    },
+    "context": "Multiple Annayake fragrances including Hanami, Natsumi, and others were listed without evaluative comment.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 1998,
+    "price_tier": "accessible niche"
+  },
+  "Akro": {
+    "weeks": {
+      "2026-W23": 2
+    },
+    "context": "Akro's Night is described as leaning too pissy and nasty in an unsexy way, with the reviewer saying 'immediately no.'",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2019,
+    "price_tier": "accessible niche"
   }
 }
