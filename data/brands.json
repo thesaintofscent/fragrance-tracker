@@ -22,10 +22,13 @@
   },
   "Tocca": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 1
     },
-    "context": "Reviewer notes Tocca scents have a delicate sheerness but finds Cleopatra not exciting, turning slightly metallic.",
-    "source": "fragrantica"
+    "context": "Stella by Tocca is described as a nice but nondescript citrus floral that is pleasant but doesn't wow the reviewer.",
+    "source": "fragrantica",
+    "country": "USA",
+    "founded": 1994,
+    "price_tier": "indie"
   },
   "James Heeley": {
     "weeks": {
@@ -43,10 +46,13 @@
   },
   "Frassai": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 1
     },
-    "context": "Commenter expresses interest in smelling the new limited editions A Sigh of Dawn and Fraise de Nuit by Frassai.",
-    "source": "fragrantica"
+    "context": "New limited editions by Frassai are mentioned in a partially cut-off article title.",
+    "source": "fragrantica",
+    "country": "Argentina",
+    "founded": 2014,
+    "price_tier": "accessible niche"
   },
   "Jeroboam": {
     "weeks": {
@@ -71,9 +77,9 @@
   },
   "BORNTOSTANDOUT": {
     "weeks": {
-      "2026-W23": 4
+      "2026-W23": 2
     },
-    "context": "Golden Milk was dismissed as cheesy and lacking turmeric despite the name.",
+    "context": "Golden Milk receives a dismissive review noting turmeric is absent from the notes and the concept is seen as too cheesy.",
     "source": "fragrantica",
     "country": "Netherlands",
     "founded": 2020,
@@ -81,9 +87,9 @@
   },
   "L'Artisan Parfumeur": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 3
     },
-    "context": "A limited edition of M\u00fbre et Musc Extr\u00eame was praised for its bottle design.",
+    "context": "M\u00fbre et Musc Extr\u00eame Limited Edition bottle is enthusiastically admired.",
     "source": "fragrantica",
     "country": "France",
     "founded": 1976,
@@ -145,7 +151,7 @@
     "weeks": {
       "2026-W23": 2
     },
-    "context": "Lattafa Perfumes' Yara Tous is described as smelling like a mango creamy milkshake.",
+    "context": "Lattafa's Angham Second Song is called quite lovely and versatile, while Atlas is praised as the best summer fragrance for being clean and fresh.",
     "source": "fragrantica",
     "country": "United Arab Emirates",
     "founded": 2002,
@@ -212,9 +218,9 @@
   },
   "Maison Francis Kurkdjian": {
     "weeks": {
-      "2026-W23": 5
+      "2026-W23": 2
     },
-    "context": "724 was described as the most luxurious clean scent in the reviewer's collection, evoking a five-star hotel atmosphere.",
+    "context": "Cologne pour le Matin and Cologne pour le Soir are mentioned in a comment thread that devolves into discussion about commenter behavior.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2009,
@@ -267,9 +273,9 @@
   },
   "Etat Libre d'Orange": {
     "weeks": {
-      "2026-W23": 3
+      "2026-W23": 2
     },
-    "context": "Reviewer praises a peach- and osmanthus-forward fragrance as a beauty, describing it as airy and kind.",
+    "context": "A retrospective release is described as a peach- and osmanthus-forward beauty, linear yet airy and kind.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2006,
@@ -375,9 +381,9 @@
   },
   "Providence Perfume Company": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 1
     },
-    "context": "Recommended as an all-natural brand with outstanding quality and uniqueness of blends, with Heart of Darkness noted as a specific wear.",
+    "context": "Recommended as an all-natural US perfume company with outstanding quality and unique blends, with Heart of Darkness cited as an example.",
     "source": "fragrantica",
     "country": "USA",
     "founded": 2010,
@@ -385,9 +391,9 @@
   },
   "Nicolai Parfumeur Createur": {
     "weeks": {
-      "2026-W23": 10
+      "2026-W23": 3
     },
-    "context": "Discussed at Esxence 2026 for Patchouli Spirit and Petit Ange, with interest in how similar note pyramids yield different scents.",
+    "context": "Petit Ange Eau de Senteur and Patchouli Spirit are both featured at Esxence 2026, with Patchouli Spirit noted for smelling different from Patchouli Intense despite near-identical note pyramids.",
     "source": "fragrantica",
     "country": "France",
     "founded": 1989,
@@ -397,7 +403,7 @@
     "weeks": {
       "2026-W23": 1
     },
-    "context": "A commenter briefly notes that the Fahad Collection by Arabiyat Prestige is getting expensive.",
+    "context": "Mentioned briefly with a comment that these fragrances are getting expensive.",
     "source": "fragrantica",
     "country": "United Arab Emirates",
     "founded": 2015,
@@ -405,9 +411,9 @@
   },
   "Maria Candida Gentile": {
     "weeks": {
-      "2026-W23": 5
+      "2026-W23": 2
     },
-    "context": "Described as a favorite brand, with Aqua Forte noted as a must-try after a positive review.",
+    "context": "Aqua Forte is praised, with the reviewer calling Maria Candida Gentile a favorite house.",
     "source": "fragrantica",
     "country": "Italy",
     "founded": 2006,
@@ -415,12 +421,12 @@
   },
   "Versatile": {
     "weeks": {
-      "2026-W23": 6
+      "2026-W23": 2
     },
-    "context": "Their Mango Sticky Rice fragrance was compared at Esxence 2026 as sweeter with more pronounced mango and fruity aspects than a competitor.",
+    "context": "Their Mango Sticky Rice fragrance is described as sweeter and more pronounced in mango and fruity aspects compared to a Journal counterpart.",
     "source": "fragrantica",
     "country": "France",
-    "founded": 2018,
+    "founded": 2019,
     "price_tier": "accessible niche"
   },
   "Stora Skuggan": {
@@ -445,19 +451,19 @@
   },
   "Michael Malul London": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 1
     },
-    "context": "Latte + Nectar was described as disappointing, basic, and not memorable, resulting in a return.",
+    "context": "Latte + Nectar was disappointing as a Private Show dupe, described as a very basic and unmemorable scent that was returned.",
     "source": "fragrantica",
     "country": "USA",
-    "founded": 2015,
+    "founded": 2016,
     "price_tier": "accessible niche"
   },
   "Amouage": {
     "weeks": {
-      "2026-W23": 5
+      "2026-W23": 1
     },
-    "context": "A commenter wished Amouage would bring back Beloved Woman, and a hair mask was noted as smelling like Amouage Existence.",
+    "context": "A commenter wishes Amouage would bring back Amouage Beloved Woman.",
     "source": "fragrantica",
     "country": "Oman",
     "founded": 1983,
@@ -465,11 +471,11 @@
   },
   "Providence Perfume Co": {
     "weeks": {
-      "2026-W23": 4
+      "2026-W23": 1
     },
-    "context": "Recommended as an all-natural US brand with outstanding quality and unique blends, with specific mention of Heart of Darkness.",
+    "context": "Recommended as an all-natural US brand with outstanding quality and uniqueness of blends.",
     "source": "fragrantica",
-    "country": "United States",
+    "country": "USA",
     "founded": 2010,
     "price_tier": "indie"
   },
@@ -505,9 +511,9 @@
   },
   "Mancera": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 1
     },
-    "context": "Jardin Exclusif received a brief but positive 'Love it' comment.",
+    "context": "Jardin Exclusif receives a brief but enthusiastic 'Love it' review.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2008,
@@ -551,6 +557,76 @@
     "source": "fragrantica",
     "country": "France",
     "founded": 2019,
+    "price_tier": "accessible niche"
+  },
+  "Phlur": {
+    "weeks": {
+      "2026-W23": 3
+    },
+    "context": "Father Figure is described as gorgeous, sweet, fresh, creamy and complex, keeping the reviewer sniffing back for more.",
+    "source": "fragrantica",
+    "country": "USA",
+    "founded": 2016,
+    "price_tier": "accessible niche"
+  },
+  "Merit": {
+    "weeks": {
+      "2026-W23": 3
+    },
+    "context": "Retrospect is praised for incredible longevity without being aggressive, discovered after an unexpected Sephora test.",
+    "source": "fragrantica",
+    "country": "USA",
+    "founded": 2021,
+    "price_tier": "accessible niche"
+  },
+  "Oriza L. Legrand": {
+    "weeks": {
+      "2026-W23": 3
+    },
+    "context": "Muguet Fleuri is liked for its perfumey, watery, dewy flowers but a slight paint thinner edge keeps it from being loved.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 1720,
+    "price_tier": "accessible niche"
+  },
+  "Ormonde Jayne": {
+    "weeks": {
+      "2026-W23": 2
+    },
+    "context": "Bijou Zafran is described as attractive but with a sharp, piercing opening note that overwhelms, possibly the saffron accord.",
+    "source": "fragrantica",
+    "country": "UK",
+    "founded": 2000,
+    "price_tier": "accessible niche"
+  },
+  "Boadicea the Victorious": {
+    "weeks": {
+      "2026-W23": 2
+    },
+    "context": "Dasman starts with powerful sweet rose and dark oud, calming into a dry, slightly powdery dark scent compared to TF Noir de Noir.",
+    "source": "fragrantica",
+    "country": "UK",
+    "founded": 2009,
+    "price_tier": "luxury niche"
+  },
+  "Roja Dove": {
+    "weeks": {
+      "2026-W23": 2
+    },
+    "context": "Elysium Noir is called a level above any other blue fragrance, with the most presence and longevity in the Elysium line.",
+    "source": "fragrantica",
+    "country": "UK",
+    "founded": 2011,
+    "price_tier": "luxury niche"
+  },
+  "Cal\u00e9": {
+    "weeks": {
+      "2026-W23": 1
+    },
+    "context": "New Thesaurus is described as a sandy, sanguine saddle scent featured at Esxence 2026.",
+    "source": "fragrantica",
+    "country": "Argentina",
+    "founded": 2013,
     "price_tier": "accessible niche"
   }
 }
