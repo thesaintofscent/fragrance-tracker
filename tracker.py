@@ -59,12 +59,14 @@ TIKTOK_URLS = [
     "https://www.tiktok.com/tag/perfumetok",
 ]
  
-# Etsy search URLs — new perfume listings sorted by most recent
-ETSY_URLS = [
-    "https://www.etsy.com/search?q=indie+perfume&order=date_desc",
-    "https://www.etsy.com/search?q=artisan+perfume&order=date_desc",
-    "https://www.etsy.com/search?q=natural+perfume+house&order=date_desc",
-    "https://www.etsy.com/search?q=niche+fragrance+indie&order=date_desc",
+ETSY_API_KEY = os.environ.get("ETSY_API_KEY", "")
+ 
+# Etsy API search terms for finding indie perfume shops
+ETSY_SEARCH_TERMS = [
+    "indie perfume",
+    "artisan perfume",
+    "natural perfume house",
+    "niche fragrance",
 ]
  
 # Google Trends seed terms
@@ -198,79 +200,91 @@ def scrape_tiktok() -> str:
     return combined
  
  
-# ── Step 1d: Scrape Etsy via open listing pages ───────────────────────────────
- 
-# Individual Etsy shop pages for known indie perfumers
-# plus category browse pages that don't require login
-ETSY_SHOP_PAGES = [
-    "https://www.etsy.com/c/bath-and-beauty/fragrance?ref=catnav-10923&explicit=1&order=date_desc",
-    "https://www.etsy.com/c/bath-and-beauty/fragrance/perfume?order=date_desc",
-]
+# ── Step 1d: Etsy API ────────────────────────────────────────────────────────
  
 def scrape_etsy() -> str:
     """
-    Access Etsy category pages for fragrance/perfume sorted by newest.
-    These category browse pages are publicly accessible unlike search results.
-    Extracts shop names from listing cards.
+    Use Etsy Open API v3 to find new indie perfume listings and shop names.
+    Sorted by creation date to surface the newest shops first.
+    Falls back gracefully if the API key is not yet active.
     """
-    all_text = []
+    if not ETSY_API_KEY:
+        print("  Etsy API key not configured — skipping.")
+        return ""
  
-    etsy_headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/124.0.0.0 Safari/537.36"
-        ),
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Accept-Encoding": "gzip, deflate, br",
-        "Connection": "keep-alive",
-        "Cache-Control": "no-cache",
+    all_text = []
+    shop_names = set()
+ 
+    api_headers = {
+        "x-api-key": ETSY_API_KEY,
+        "Accept": "application/json",
     }
  
-    for url in ETSY_SHOP_PAGES:
-        print(f"  Fetching Etsy category {url[:60]}...")
+    base_url = "https://openapi.etsy.com/v3/application"
+ 
+    for term in ETSY_SEARCH_TERMS:
+        print(f"  Etsy API search: '{term}'...")
         try:
-            session = requests.Session()
-            # First visit homepage to get cookies
-            session.get("https://www.etsy.com", headers=etsy_headers, timeout=15)
+            # Search active listings, sorted by creation date (newest first)
+            params = {
+                "keywords": term,
+                "limit": 50,
+                "sort_on": "created",
+                "sort_order": "desc",
+                "taxonomy_id": 1223,  # Etsy taxonomy ID for Fragrance
+            }
+            resp = requests.get(
+                f"{base_url}/listings/active",
+                headers=api_headers,
+                params=params,
+                timeout=15,
+            )
+ 
+            if resp.status_code == 401:
+                print("  Etsy API key pending approval — skipping Etsy this run.")
+                return ""
+ 
+            resp.raise_for_status()
+            data = resp.json()
+            listings = data.get("results", [])
+ 
+            for listing in listings:
+                # Collect shop IDs to fetch shop names
+                shop_id = listing.get("shop_id")
+                title = listing.get("title", "")
+                description = (listing.get("description") or "")[:300]
+ 
+                if title:
+                    all_text.append(f"ETSY LISTING: {title}")
+                if description:
+                    all_text.append(description)
+ 
+                # Fetch shop name for each unique shop
+                if shop_id and shop_id not in shop_names:
+                    try:
+                        shop_resp = requests.get(
+                            f"{base_url}/shops/{shop_id}",
+                            headers=api_headers,
+                            timeout=10,
+                        )
+                        if shop_resp.status_code == 200:
+                            shop_data = shop_resp.json()
+                            shop_name = shop_data.get("shop_name", "")
+                            if shop_name:
+                                shop_names.add(shop_id)
+                                all_text.append(f"ETSY SHOP: {shop_name}")
+                        time.sleep(0.3)  # gentle rate limiting
+                    except requests.RequestException:
+                        pass
+ 
+            print(f"  Found {len(listings)} listings, {len(shop_names)} unique shops so far.")
             time.sleep(random.uniform(2, 4))
  
-            resp = session.get(url, headers=etsy_headers, timeout=15)
-            resp.raise_for_status()
-            soup = BeautifulSoup(resp.text, "html.parser")
- 
-            # Extract shop names from listing cards
-            for element in soup.find_all(attrs={"data-shop-name": True}):
-                shop = element.get("data-shop-name", "").strip()
-                if shop:
-                    all_text.append(f"ETSY SHOP: {shop}")
- 
-            # Shop links embedded in listing hrefs
-            for link in soup.find_all("a", href=True):
-                href = link.get("href", "")
-                if "/shop/" in href and "etsy.com" in href:
-                    shop_name = href.split("/shop/")[-1].split("?")[0].split("/")[0]
-                    if shop_name and len(shop_name) > 2:
-                        all_text.append(f"ETSY SHOP: {shop_name}")
- 
-            # Listing titles with fragrance keywords
-            for element in soup.find_all(["h2", "h3", "p", "span"]):
-                text = element.get_text(strip=True)
-                if (len(text) > 15 and any(kw in text.lower() for kw in [
-                    "perfume", "fragrance", "parfum", "eau de", "scent",
-                    "natural", "botanical", "artisan", "accord", "notes"
-                ])):
-                    all_text.append(text)
- 
-            time.sleep(random.uniform(4, 7))
- 
         except requests.RequestException as e:
-            print(f"  Warning: Etsy fetch failed: {e}")
+            print(f"  Warning: Etsy API error for '{term}': {e}")
  
     combined = "\n".join(all_text)
-    shop_count = combined.count("ETSY SHOP:")
-    print(f"  Collected {len(combined):,} chars from Etsy ({shop_count} shop mentions).")
+    print(f"  Collected {len(combined):,} chars from Etsy ({combined.count('ETSY SHOP:')} shop mentions).")
     return combined
  
  
