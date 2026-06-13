@@ -1,8 +1,8 @@
 """
 Fragrance Brand Momentum Tracker
-Sources: Fragrantica (new brand discovery) + Google Trends (momentum signals)
-No API keys required for data collection — only Claude API + optional Gmail.
-Runs weekly via GitHub Actions and emails a curated momentum report.
+Sources: Fragrantica + TikTok hashtags + Fragrance newsletters + Google Trends
+Features: Brand verification with metadata, Notion database sync, email reports
+Runs weekly via GitHub Actions.
 """
  
 import os
@@ -25,22 +25,41 @@ import anthropic
 DATA_FILE   = "data/brands.json"
 REPORT_FILE = "data/latest_report.md"
  
-ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
-EMAIL_SENDER      = os.environ.get("EMAIL_SENDER", "")
-EMAIL_PASSWORD    = os.environ.get("EMAIL_PASSWORD", "")
-EMAIL_RECIPIENT   = os.environ.get("EMAIL_RECIPIENT", "")
+ANTHROPIC_API_KEY  = os.environ["ANTHROPIC_API_KEY"]
+EMAIL_SENDER       = os.environ.get("EMAIL_SENDER", "")
+EMAIL_PASSWORD     = os.environ.get("EMAIL_PASSWORD", "")
+EMAIL_RECIPIENT    = os.environ.get("EMAIL_RECIPIENT", "")
+NOTION_TOKEN       = os.environ.get("NOTION_TOKEN", "")
+NOTION_DATABASE_ID = os.environ.get("NOTION_DATABASE_ID", "")
  
-# Fragrantica pages to scrape for brand discovery
+# Fragrantica pages
 FRAGRANTICA_URLS = [
-    "https://www.fragrantica.com/news/",                        # latest news & brand coverage
-    "https://www.fragrantica.com/news/niche-perfumery/",        # dedicated niche brand news
-    "https://www.fragrantica.com/niche-perfume/",               # niche brand listings
-    "https://www.fragrantica.com/community/",                   # community discussions
-    "https://www.fragrantica.com/board/viewforum.php?id=2",     # General Perfume Talk forum
-    "https://www.fragrantica.com/board/viewforum.php?id=6",     # New Fragrance Releases forum
+    "https://www.fragrantica.com/news/",
+    "https://www.fragrantica.com/news/niche-perfumery/",
+    "https://www.fragrantica.com/niche-perfume/",
+    "https://www.fragrantica.com/community/",
+    "https://www.fragrantica.com/board/viewforum.php?id=2",
+    "https://www.fragrantica.com/board/viewforum.php?id=6",
 ]
  
-# Seed search terms to find trending fragrance brands on Google Trends
+# Fragrance newsletters & blogs (publicly accessible)
+NEWSLETTER_URLS = [
+    "https://www.thescentedletter.com/",
+    "https://cafleurebon.com/",
+    "https://www.basenotes.net/",
+    "https://scenthurdle.substack.com/",
+    "https://www.fragrantica.com/news/interviews/",
+]
+ 
+# TikTok hashtag pages (public, no login required)
+TIKTOK_URLS = [
+    "https://www.tiktok.com/tag/fragrancetok",
+    "https://www.tiktok.com/tag/nichefragrance",
+    "https://www.tiktok.com/tag/indieperfume",
+    "https://www.tiktok.com/tag/perfumetok",
+]
+ 
+# Google Trends seed terms
 TREND_SEED_TERMS = [
     "indie perfume house",
     "Asian perfume house",
@@ -61,36 +80,29 @@ HEADERS = {
 # ── Step 1a: Scrape Fragrantica ───────────────────────────────────────────────
  
 def scrape_fragrantica() -> str:
-    """Scrape Fragrantica pages for brand names and community discussion text."""
     all_text = []
- 
     for url in FRAGRANTICA_URLS:
         print(f"  Fetching {url}...")
         try:
             resp = requests.get(url, headers=HEADERS, timeout=15)
             resp.raise_for_status()
             soup = BeautifulSoup(resp.text, "html.parser")
- 
-            # Remove nav, footer, scripts, ads
             for tag in soup(["script", "style", "nav", "footer", "header", "aside"]):
                 tag.decompose()
- 
-            # Grab meaningful text blocks
             for element in soup.find_all(["h1", "h2", "h3", "p", "a", "li"]):
                 text = element.get_text(separator=" ", strip=True)
                 if len(text) > 20:
                     all_text.append(text)
- 
-            time.sleep(random.uniform(2, 4))  # polite delay between requests
- 
+            time.sleep(random.uniform(2, 4))
         except requests.RequestException as e:
             print(f"  Warning: could not fetch {url}: {e}")
  
-    # Also scrape the "new perfumes" section which lists recent brand releases
-    new_perfumes_url = "https://www.fragrantica.com/search/?word=&categories[]=new"
     try:
-        print(f"  Fetching new perfumes listing...")
-        resp = requests.get(new_perfumes_url, headers=HEADERS, timeout=15)
+        print("  Fetching new perfumes listing...")
+        resp = requests.get(
+            "https://www.fragrantica.com/search/?word=&categories[]=new",
+            headers=HEADERS, timeout=15
+        )
         soup = BeautifulSoup(resp.text, "html.parser")
         for element in soup.find_all(["h1", "h2", "h3", "p", "span", "a"]):
             text = element.get_text(strip=True)
@@ -101,33 +113,100 @@ def scrape_fragrantica() -> str:
         print(f"  Warning: could not fetch new perfumes: {e}")
  
     combined = "\n".join(all_text)
-    print(f"  Collected {len(combined):,} characters from Fragrantica.")
+    print(f"  Collected {len(combined):,} chars from Fragrantica.")
     return combined
  
  
-# ── Step 1b: Google Trends — rising queries ───────────────────────────────────
+# ── Step 1b: Scrape newsletters & blogs ──────────────────────────────────────
+ 
+def scrape_newsletters() -> str:
+    all_text = []
+    for url in NEWSLETTER_URLS:
+        print(f"  Fetching newsletter {url}...")
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=15)
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
+            for tag in soup(["script", "style", "nav", "footer", "header"]):
+                tag.decompose()
+            for element in soup.find_all(["h1", "h2", "h3", "p", "a"]):
+                text = element.get_text(separator=" ", strip=True)
+                if len(text) > 20:
+                    all_text.append(text)
+            time.sleep(random.uniform(2, 4))
+        except requests.RequestException as e:
+            print(f"  Warning: could not fetch {url}: {e}")
+ 
+    combined = "\n".join(all_text)
+    print(f"  Collected {len(combined):,} chars from newsletters.")
+    return combined
+ 
+ 
+# ── Step 1c: Scrape TikTok hashtag pages ─────────────────────────────────────
+ 
+def scrape_tiktok() -> str:
+    """
+    Scrape TikTok hashtag pages for brand mentions in video titles/descriptions.
+    TikTok's public tag pages render some content without login.
+    """
+    all_text = []
+    tiktok_headers = {
+        **HEADERS,
+        "User-Agent": (
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) "
+            "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"
+        ),
+    }
+ 
+    for url in TIKTOK_URLS:
+        print(f"  Fetching TikTok {url}...")
+        try:
+            resp = requests.get(url, headers=tiktok_headers, timeout=15)
+            soup = BeautifulSoup(resp.text, "html.parser")
+ 
+            # TikTok embeds data in script tags as JSON
+            for script in soup.find_all("script", type="application/json"):
+                try:
+                    data = json.loads(script.string or "")
+                    text = json.dumps(data)
+                    # Extract readable brand-mention fragments
+                    if any(kw in text.lower() for kw in ["fragrance", "perfume", "scent", "parfum"]):
+                        all_text.append(text[:3000])
+                except (json.JSONDecodeError, TypeError):
+                    pass
+ 
+            # Also grab any visible text
+            for element in soup.find_all(["h1", "h2", "p", "span"]):
+                text = element.get_text(strip=True)
+                if len(text) > 15:
+                    all_text.append(text)
+ 
+            time.sleep(random.uniform(3, 6))
+        except requests.RequestException as e:
+            print(f"  Warning: could not fetch TikTok {url}: {e}")
+ 
+    combined = "\n".join(all_text)
+    print(f"  Collected {len(combined):,} chars from TikTok.")
+    return combined
+ 
+ 
+# ── Step 1d: Google Trends ────────────────────────────────────────────────────
  
 def get_trending_brands() -> list[dict]:
-    """
-    Use pytrends to find rising search queries related to fragrance.
-    Returns list of {name, trend_score} dicts.
-    """
     pytrends = TrendReq(hl="en-US", tz=360, timeout=(10, 25))
     trending = {}
  
     for term in TREND_SEED_TERMS:
-        print(f"  Fetching Google Trends related queries for '{term}'...")
+        print(f"  Google Trends: '{term}'...")
         try:
             pytrends.build_payload([term], timeframe="now 7-d", geo="")
             related = pytrends.related_queries()
- 
             if related and term in related:
                 rising_df = related[term].get("rising")
                 if rising_df is not None and not rising_df.empty:
                     for _, row in rising_df.iterrows():
                         query = str(row["query"]).strip()
                         value = int(row["value"])
-                        # Filter out generic terms, keep brand-like queries
                         if (len(query) > 3
                                 and "perfume" not in query.lower()
                                 and "fragrance" not in query.lower()
@@ -135,9 +214,7 @@ def get_trending_brands() -> list[dict]:
                                 and "what" not in query.lower()):
                             if query not in trending or trending[query] < value:
                                 trending[query] = value
- 
-            time.sleep(random.uniform(3, 6))  # respect rate limits
- 
+            time.sleep(random.uniform(3, 6))
         except Exception as e:
             print(f"  Warning: Google Trends error for '{term}': {e}")
             time.sleep(10)
@@ -151,29 +228,22 @@ def get_trending_brands() -> list[dict]:
 # ── Step 2: Extract brand names via Claude ────────────────────────────────────
  
 def extract_brands_from_text(raw_text: str, trend_hints: list[dict]) -> list[dict]:
-    """
-    Send Fragrantica text + trend hints to Claude to extract niche brand names.
-    Returns list of {name, mentions, sentiment, context, source}.
-    """
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
- 
     chunk_size = 12000
     chunks = [raw_text[i:i+chunk_size] for i in range(0, len(raw_text), chunk_size)]
     all_brands = {}
  
-    # Include trend hints as extra context in first chunk prompt
     trend_hint_text = ""
     if trend_hints:
         top_hints = [t["name"] for t in trend_hints[:20]]
         trend_hint_text = (
-            f"\n\nADDITIONAL CONTEXT — these terms are currently rising on Google "
-            f"Trends and may be brand names worth identifying: {', '.join(top_hints)}"
+            f"\n\nADDITIONAL CONTEXT — rising Google Trends queries that may be brands: "
+            f"{', '.join(top_hints)}"
         )
  
     for i, chunk in enumerate(chunks):
         print(f"  Extracting brands from chunk {i+1}/{len(chunks)}...")
         extra = trend_hint_text if i == 0 else ""
- 
         try:
             message = client.messages.create(
                 model="claude-sonnet-4-6",
@@ -189,27 +259,25 @@ Maison Margiela, Guerlain, Hermès, Armani, Versace, Calvin Klein, Hugo Boss).
 INCLUDE: small indie houses, niche perfumers, cult/emerging brands, DTC brands,
 artisan perfumers, lesser-known niche houses.
  
-Return ONLY a JSON array (no markdown, no preamble, no explanation):
+Return ONLY a JSON array (no markdown, no preamble):
 [
   {{
     "name": "BrandName",
     "mentions": 2,
     "sentiment": "positive",
-    "context": "one sentence describing what was said or why it appeared"
+    "context": "one sentence about what was said"
   }}
 ]
  
 If no qualifying brands found, return exactly: []
 {extra}
-TEXT TO ANALYZE:
+TEXT:
 {chunk}"""
                 }]
             )
- 
             response_text = message.content[0].text.strip()
             response_text = response_text.replace("```json", "").replace("```", "").strip()
             brands = json.loads(response_text)
- 
             for brand in brands:
                 name = brand["name"].strip()
                 if not name:
@@ -224,20 +292,16 @@ TEXT TO ANALYZE:
                         "context": brand.get("context", ""),
                         "source": "fragrantica",
                     }
- 
         except (json.JSONDecodeError, KeyError, IndexError) as e:
             print(f"  Warning: parse error on chunk {i+1}: {e}")
         except Exception as e:
             print(f"  Warning: Claude API error on chunk {i+1}: {e}")
- 
         time.sleep(0.5)
  
-    # Merge in Google Trends brands (higher weight — active search intent)
     for trend in trend_hints:
         name = trend["name"]
         score = trend["trend_score"]
         if name in all_brands:
-            # Boost mention count proportionally to trend score
             all_brands[name]["mentions"] += max(1, score // 20)
             all_brands[name]["source"] = "fragrantica+trends"
         else:
@@ -252,7 +316,90 @@ TEXT TO ANALYZE:
     return list(all_brands.values())
  
  
-# ── Step 3: Load / save / update history ─────────────────────────────────────
+# ── Step 3: Brand verification + metadata ────────────────────────────────────
+ 
+def verify_and_enrich_brands(brands: list[dict]) -> list[dict]:
+    """
+    For each extracted brand, ask Claude to verify it's real and add metadata:
+    country, founding year, price tier, and a confidence score.
+    Processes in batches to keep API costs low.
+    """
+    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+    enriched = []
+    batch_size = 15
+ 
+    brand_names = [b["name"] for b in brands]
+    batches = [brand_names[i:i+batch_size] for i in range(0, len(brand_names), batch_size)]
+ 
+    brand_meta = {}
+ 
+    for i, batch in enumerate(batches):
+        print(f"  Verifying brands batch {i+1}/{len(batches)}...")
+        try:
+            message = client.messages.create(
+                model="claude-sonnet-4-6",
+                max_tokens=2000,
+                messages=[{
+                    "role": "user",
+                    "content": f"""You are an expert on niche and indie fragrance brands worldwide.
+ 
+For each brand name below, determine:
+1. Is it a real fragrance brand? (yes/no)
+2. If yes: country of origin, approximate founding year, price tier
+ 
+Price tiers:
+- "indie" = small batch, typically under $80/50ml
+- "accessible niche" = $80–200/50ml (e.g. Byredo, Le Labo level)
+- "luxury niche" = $200+/50ml (e.g. Roja Dove, Clive Christian level)
+- "unknown" = can't determine
+ 
+Return ONLY a JSON object (no markdown):
+{{
+  "BrandName": {{
+    "real": true,
+    "country": "France",
+    "founded": 2015,
+    "price_tier": "accessible niche",
+    "confidence": "high"
+  }},
+  "NotABrand": {{
+    "real": false
+  }}
+}}
+ 
+Confidence: "high" = you're sure, "medium" = fairly sure, "low" = guessing.
+If you don't recognize a brand, set real to false rather than guessing.
+ 
+BRANDS TO CHECK:
+{json.dumps(batch)}"""
+                }]
+            )
+            response_text = message.content[0].text.strip()
+            response_text = response_text.replace("```json", "").replace("```", "").strip()
+            meta = json.loads(response_text)
+            brand_meta.update(meta)
+        except Exception as e:
+            print(f"  Warning: verification error on batch {i+1}: {e}")
+        time.sleep(0.5)
+ 
+    # Merge metadata back into brands, filter out non-real ones
+    for brand in brands:
+        name = brand["name"]
+        meta = brand_meta.get(name, {})
+        if meta.get("real") is False:
+            print(f"  Filtered out '{name}' — not a real brand.")
+            continue
+        brand["country"]    = meta.get("country", "unknown")
+        brand["founded"]    = meta.get("founded", "unknown")
+        brand["price_tier"] = meta.get("price_tier", "unknown")
+        brand["confidence"] = meta.get("confidence", "low")
+        enriched.append(brand)
+ 
+    print(f"  {len(enriched)} verified brands (filtered {len(brands) - len(enriched)} non-brands).")
+    return enriched
+ 
+ 
+# ── Step 4: Load / save / update history ─────────────────────────────────────
  
 def load_history() -> dict:
     path = Path(DATA_FILE)
@@ -277,22 +424,21 @@ def update_history(history: dict, brands: list[dict]) -> dict:
                 "weeks": {},
                 "context": brand.get("context", ""),
                 "source": brand.get("source", "unknown"),
+                "country": brand.get("country", "unknown"),
+                "founded": brand.get("founded", "unknown"),
+                "price_tier": brand.get("price_tier", "unknown"),
             }
         history[name]["weeks"][week] = brand.get("mentions", 1)
-        if brand.get("context"):
-            history[name]["context"] = brand["context"]
-        if brand.get("source"):
-            history[name]["source"] = brand["source"]
+        # Keep metadata fresh
+        for field in ["context", "source", "country", "founded", "price_tier"]:
+            if brand.get(field) and brand[field] != "unknown":
+                history[name][field] = brand[field]
     return history
  
  
-# ── Step 4: Detect cusp engagement ───────────────────────────────────────────
+# ── Step 5: Detect cusp engagement ───────────────────────────────────────────
  
 def detect_momentum(history: dict) -> list[dict]:
-    """
-    Flag brands where this week's mentions are 2x+ above their historical average.
-    Brands seen only this week need 3+ mentions to qualify.
-    """
     week = datetime.date.today().strftime("%Y-W%W")
     flagged = []
  
@@ -314,6 +460,9 @@ def detect_momentum(history: dict) -> list[dict]:
                     "weeks_tracked": 1,
                     "context": data.get("context", ""),
                     "source": data.get("source", ""),
+                    "country": data.get("country", "unknown"),
+                    "founded": data.get("founded", "unknown"),
+                    "price_tier": data.get("price_tier", "unknown"),
                     "status": "NEW",
                 })
             continue
@@ -321,7 +470,6 @@ def detect_momentum(history: dict) -> list[dict]:
         avg = sum(past_weeks) / len(past_weeks)
         if avg == 0:
             avg = 0.5
- 
         momentum = this_week / avg
  
         if momentum >= 2.0 and this_week >= 3:
@@ -333,17 +481,19 @@ def detect_momentum(history: dict) -> list[dict]:
                 "weeks_tracked": len(weeks),
                 "context": data.get("context", ""),
                 "source": data.get("source", ""),
+                "country": data.get("country", "unknown"),
+                "founded": data.get("founded", "unknown"),
+                "price_tier": data.get("price_tier", "unknown"),
                 "status": "CUSP" if momentum >= 3.0 else "RISING",
             })
  
     return sorted(flagged, key=lambda x: x["momentum_score"], reverse=True)
  
  
-# ── Step 5: Generate report via Claude ───────────────────────────────────────
+# ── Step 6: Generate report via Claude ───────────────────────────────────────
  
 def generate_report(flagged: list[dict]) -> str:
     today = datetime.date.today().strftime("%B %d, %Y")
- 
     if not flagged:
         return (
             f"# Fragrance Brand Momentum Report — {today}\n\n"
@@ -352,7 +502,6 @@ def generate_report(flagged: list[dict]) -> str:
         )
  
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
- 
     message = client.messages.create(
         model="claude-sonnet-4-6",
         max_tokens=2000,
@@ -360,21 +509,19 @@ def generate_report(flagged: list[dict]) -> str:
             "role": "user",
             "content": f"""You are a sharp trend analyst covering the niche fragrance market.
  
-Write a weekly momentum report based on the data below. Date: {today}
+Write a weekly momentum report. Date: {today}
  
 Guidelines:
-- Lead with a 2-sentence summary of what this week's signals say about the market overall
-- For each CUSP brand: give a paragraph explaining the signal and what might be driving it
-- For each RISING brand: a shorter note (2-3 sentences)
-- For NEW brands: brief mention with a note that there's no history yet
-- End with a "Patterns" section if you notice common threads (ingredient trends, aesthetics, geography)
-- Tone: smart industry newsletter. Confident, specific, never hype-y. No fluff.
+- Lead with a 2-sentence market overview
+- For CUSP brands: a paragraph explaining the signal and what might be driving it
+- For RISING brands: 2-3 sentences each
+- For NEW brands: brief mention noting no history yet; include country/price tier if known
+- End with a Patterns section noting ingredient trends, geography, aesthetics
+- Tone: smart industry newsletter — confident, specific, never hype-y
 - Format in clean markdown
  
 STATUS KEY:
-CUSP = mention velocity 3x+ above baseline (strong signal)
-RISING = 2x–3x above baseline (worth watching)
-NEW = first appearance with 3+ mentions (no history yet)
+CUSP = 3x+ above baseline | RISING = 2x–3x | NEW = first appearance
  
 BRAND DATA:
 {json.dumps(flagged, indent=2)}"""
@@ -386,26 +533,101 @@ BRAND DATA:
     return report
  
  
-# ── Step 6: Send email ────────────────────────────────────────────────────────
+# ── Step 7: Send email ────────────────────────────────────────────────────────
  
 def send_email(report: str):
     if not all([EMAIL_SENDER, EMAIL_PASSWORD, EMAIL_RECIPIENT]):
-        print("  Email credentials not configured — report saved to file only.")
+        print("  Email not configured — skipping.")
         return
- 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = f"🌸 Fragrance Momentum Report — {datetime.date.today()}"
     msg["From"] = EMAIL_SENDER
     msg["To"] = EMAIL_RECIPIENT
     msg.attach(MIMEText(report, "plain"))
- 
     try:
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
             server.login(EMAIL_SENDER, EMAIL_PASSWORD)
             server.sendmail(EMAIL_SENDER, EMAIL_RECIPIENT, msg.as_string())
-        print("  Email sent successfully.")
+        print("  Email sent.")
     except Exception as e:
         print(f"  Email failed: {e}")
+ 
+ 
+# ── Step 8: Sync to Notion ────────────────────────────────────────────────────
+ 
+def sync_to_notion(flagged: list[dict], report: str):
+    """
+    Add a row to the Notion database for this week's run.
+    Columns: Date, Top Brand, Brands Flagged, CUSP Count, Report
+    """
+    if not all([NOTION_TOKEN, NOTION_DATABASE_ID]):
+        print("  Notion not configured — skipping.")
+        return
+ 
+    today = datetime.date.today().isoformat()
+    cusp_count   = sum(1 for b in flagged if b["status"] == "CUSP")
+    rising_count = sum(1 for b in flagged if b["status"] == "RISING")
+    new_count    = sum(1 for b in flagged if b["status"] == "NEW")
+    top_brand    = flagged[0]["name"] if flagged else "None"
+ 
+    # Build a summary of flagged brands for the Notion row
+    brand_summary = ", ".join(
+        f"{b['name']} ({b['status']}, {b.get('price_tier','?')}, {b.get('country','?')})"
+        for b in flagged[:10]
+    )
+ 
+    # Truncate report to fit Notion's 2000 char limit per rich text block
+    report_excerpt = report[:1900] + "..." if len(report) > 1900 else report
+ 
+    payload = {
+        "parent": {"database_id": NOTION_DATABASE_ID},
+        "properties": {
+            "Date": {
+                "title": [{"text": {"content": today}}]
+            },
+            "Top Brand": {
+                "rich_text": [{"text": {"content": top_brand}}]
+            },
+            "Brands Flagged": {
+                "number": len(flagged)
+            },
+            "CUSP": {
+                "number": cusp_count
+            },
+            "RISING": {
+                "number": rising_count
+            },
+            "NEW": {
+                "number": new_count
+            },
+            "Brand Summary": {
+                "rich_text": [{"text": {"content": brand_summary[:1900]}}]
+            },
+            "Report": {
+                "rich_text": [{"text": {"content": report_excerpt}}]
+            },
+        }
+    }
+ 
+    headers = {
+        "Authorization": f"Bearer {NOTION_TOKEN}",
+        "Content-Type": "application/json",
+        "Notion-Version": "2022-06-28",
+    }
+ 
+    try:
+        resp = requests.post(
+            "https://api.notion.com/v1/pages",
+            headers=headers,
+            json=payload,
+            timeout=15,
+        )
+        if resp.status_code == 200:
+            print("  Notion row created successfully.")
+        else:
+            print(f"  Notion error {resp.status_code}: {resp.text[:300]}")
+    except Exception as e:
+        print(f"  Notion sync failed: {e}")
  
  
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -414,34 +636,51 @@ def main():
     print("── Step 1a: Scraping Fragrantica...")
     fragrantica_text = scrape_fragrantica()
  
-    print("── Step 1b: Fetching Google Trends rising queries...")
+    print("── Step 1b: Scraping newsletters & blogs...")
+    newsletter_text = scrape_newsletters()
+ 
+    print("── Step 1c: Scraping TikTok hashtag pages...")
+    tiktok_text = scrape_tiktok()
+ 
+    print("── Step 1d: Fetching Google Trends...")
     trend_data = get_trending_brands()
  
-    print("── Step 2: Extracting brand names via Claude...")
-    brands = extract_brands_from_text(fragrantica_text, trend_data)
-    print(f"  Found {len(brands)} unique brand candidates.")
+    # Combine all text sources
+    all_text = "\n\n".join([fragrantica_text, newsletter_text, tiktok_text])
+    print(f"  Total text collected: {len(all_text):,} characters.")
  
-    print("── Step 3: Updating historical data...")
+    print("── Step 2: Extracting brand names via Claude...")
+    brands = extract_brands_from_text(all_text, trend_data)
+    print(f"  Found {len(brands)} raw brand candidates.")
+ 
+    print("── Step 3: Verifying brands + adding metadata...")
+    brands = verify_and_enrich_brands(brands)
+ 
+    print("── Step 4: Updating historical data...")
     history = load_history()
     history = update_history(history, brands)
     save_history(history)
-    print(f"  History now tracks {len(history)} brands total.")
+    print(f"  History now tracks {len(history)} verified brands.")
  
-    print("── Step 4: Detecting cusp engagement...")
+    print("── Step 5: Detecting cusp engagement...")
     flagged = detect_momentum(history)
     print(f"  {len(flagged)} brands flagged.")
     for b in flagged[:5]:
-        print(f"    [{b['status']}] {b['name']}: {b['momentum_score']}x  ({b['this_week']} mentions, src: {b['source']})")
+        print(f"    [{b['status']}] {b['name']} — {b.get('country','?')}, "
+              f"{b.get('price_tier','?')}, {b['momentum_score']}x")
  
-    print("── Step 5: Generating report...")
+    print("── Step 6: Generating report...")
     report = generate_report(flagged)
     Path(REPORT_FILE).parent.mkdir(exist_ok=True)
     with open(REPORT_FILE, "w") as f:
         f.write(report)
     print(f"  Report saved → {REPORT_FILE}")
  
-    print("── Step 6: Sending email...")
+    print("── Step 7: Sending email...")
     send_email(report)
+ 
+    print("── Step 8: Syncing to Notion...")
+    sync_to_notion(flagged, report)
  
     print("── Done ✓")
  
