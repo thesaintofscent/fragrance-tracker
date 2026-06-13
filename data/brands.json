@@ -77,19 +77,19 @@
   },
   "BORNTOSTANDOUT": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 4
     },
-    "context": "Golden Milk receives a dismissive review noting turmeric is absent from the notes and the concept is seen as too cheesy.",
+    "context": "Golden Milk received a dismissive review noting the absence of turmeric in the notes despite the name.",
     "source": "fragrantica",
     "country": "Netherlands",
-    "founded": 2020,
+    "founded": 2019,
     "price_tier": "accessible niche"
   },
   "L'Artisan Parfumeur": {
     "weeks": {
-      "2026-W23": 3
+      "2026-W23": 1
     },
-    "context": "M\u00fbre et Musc Extr\u00eame Limited Edition bottle is enthusiastically admired.",
+    "context": "M\u00fbre et Musc Extr\u00eame Limited Edition praised for its bottle design.",
     "source": "fragrantica",
     "country": "France",
     "founded": 1976,
@@ -183,10 +183,13 @@
   },
   "Rasasi": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 4
     },
-    "context": "Hawas Ice by Rasasi is listed twice as a featured or reviewed fragrance.",
-    "source": "fragrantica"
+    "context": "Hawas for Him described as bubble gum sweet spicy and slightly aquatic, long-lasting but potentially headache-inducing if over-sprayed.",
+    "source": "fragrantica",
+    "country": "United Arab Emirates",
+    "founded": 1979,
+    "price_tier": "indie"
   },
   "Armaf": {
     "weeks": {
@@ -211,16 +214,19 @@
   },
   "Paris Corner": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 4
     },
-    "context": "Paris Corner is listed as a brand reference on the page.",
-    "source": "fragrantica"
+    "context": "Moscow Mule described as a nice, unique summer scent with a damp, mossy, citrus and mint character.",
+    "source": "fragrantica",
+    "country": "United Arab Emirates",
+    "founded": 2000,
+    "price_tier": "indie"
   },
   "Maison Francis Kurkdjian": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 4
     },
-    "context": "Cologne pour le Matin and Cologne pour le Soir are mentioned in a comment thread that devolves into discussion about commenter behavior.",
+    "context": "Cologne pour le Matin and Cologne pour le Soir mentioned in a discussion thread without strong sentiment expressed about the fragrances themselves.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2009,
@@ -273,9 +279,9 @@
   },
   "Etat Libre d'Orange": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 3
     },
-    "context": "A retrospective release is described as a peach- and osmanthus-forward beauty, linear yet airy and kind.",
+    "context": "Referenced in context of a book about their first twenty years, described humorously as starting at the bottom of controversial, offensive scents.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2006,
@@ -353,10 +359,13 @@
   },
   "Molton Brown": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 1
     },
-    "context": "Commenter recalls attending a London launch event for Molton Brown's pink pepper line around 20-25 years ago.",
-    "source": "fragrantica"
+    "context": "Paradisiac Pink Pepperpod line recalled fondly from a London launch event roughly 20-25 years ago as seeming new and exotic at the time.",
+    "source": "fragrantica",
+    "country": "United Kingdom",
+    "founded": 1971,
+    "price_tier": "accessible niche"
   },
   "Ahmad Al Magribi": {
     "weeks": {
@@ -391,9 +400,9 @@
   },
   "Nicolai Parfumeur Createur": {
     "weeks": {
-      "2026-W23": 3
+      "2026-W23": 9
     },
-    "context": "Petit Ange Eau de Senteur and Patchouli Spirit are both featured at Esxence 2026, with Patchouli Spirit noted for smelling different from Patchouli Intense despite near-identical note pyramids.",
+    "context": "Featured at Esxence 2026 with both Petit Ange Eau de Senteur and Patchouli Spirit receiving coverage, the latter noted as now available beyond Harrods.",
     "source": "fragrantica",
     "country": "France",
     "founded": 1989,
@@ -401,32 +410,32 @@
   },
   "Arabiyat Prestige": {
     "weeks": {
-      "2026-W23": 1
+      "2026-W23": 7
     },
-    "context": "Mentioned briefly with a comment that these fragrances are getting expensive.",
+    "context": "Raees described as having ADG DNA and Profondo vibes, a solid blue-style marine fragrance with 7-8 hours longevity.",
     "source": "fragrantica",
     "country": "United Arab Emirates",
-    "founded": 2015,
+    "founded": 2010,
     "price_tier": "indie"
   },
   "Maria Candida Gentile": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 5
     },
-    "context": "Aqua Forte is praised, with the reviewer calling Maria Candida Gentile a favorite house.",
+    "context": "Aqua Forte reviewed positively and the brand described as a favorite by the commenter.",
     "source": "fragrantica",
     "country": "Italy",
-    "founded": 2006,
+    "founded": 2004,
     "price_tier": "accessible niche"
   },
   "Versatile": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 5
     },
-    "context": "Their Mango Sticky Rice fragrance is described as sweeter and more pronounced in mango and fruity aspects compared to a Journal counterpart.",
+    "context": "Featured at Esxence 2026 with a Mango Sticky Rice fragrance described as sweeter and more pronounced in mango and fruity aspects than a competitor.",
     "source": "fragrantica",
     "country": "France",
-    "founded": 2019,
+    "founded": 2016,
     "price_tier": "accessible niche"
   },
   "Stora Skuggan": {
@@ -501,12 +510,12 @@
   },
   "Fahad Collection Arabiyat Prestige": {
     "weeks": {
-      "2026-W23": 3
+      "2026-W23": 1
     },
-    "context": "Briefly commented on as getting expensive.",
+    "context": "Briefly noted as getting expensive in a short review.",
     "source": "fragrantica",
-    "country": "UAE",
-    "founded": 2010,
+    "country": "United Arab Emirates",
+    "founded": 2015,
     "price_tier": "indie"
   },
   "Mancera": {
@@ -627,6 +636,116 @@
     "source": "fragrantica",
     "country": "Argentina",
     "founded": 2013,
+    "price_tier": "accessible niche"
+  },
+  "By / Rosie Jane": {
+    "weeks": {
+      "2026-W23": 5
+    },
+    "context": "Rosie fragrance praised with the reviewer owning multiple formats including rollerball, full bottle, and body milk.",
+    "source": "fragrantica",
+    "country": "United States",
+    "founded": 2011,
+    "price_tier": "indie"
+  },
+  "Orebella": {
+    "weeks": {
+      "2026-W23": 1
+    },
+    "context": "Nightcap described as smelling divine with vanilla and ginger notes that complement the reviewer's skin well.",
+    "source": "fragrantica",
+    "country": "United States",
+    "founded": 2022,
+    "price_tier": "accessible niche"
+  },
+  "Diptyque": {
+    "weeks": {
+      "2026-W23": 1
+    },
+    "context": "Ilio ranked as a top 3 Diptyque fragrance, described as very long lasting and evoking iris flower petals on a warm summer day.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 1961,
+    "price_tier": "accessible niche"
+  },
+  "Osma Perfumes": {
+    "weeks": {
+      "2026-W23": 4
+    },
+    "context": "Aromatic M called a banger with 8 hours longevity on skin and lasting days on cloth.",
+    "source": "fragrantica",
+    "country": "United States",
+    "founded": 2020,
+    "price_tier": "accessible niche"
+  },
+  "Discotheque": {
+    "weeks": {
+      "2026-W23": 4
+    },
+    "context": "New release Next to Me or Nothing featured, with the brand's copywriter personally chiming in to discuss the creative process.",
+    "source": "fragrantica",
+    "country": "United States",
+    "founded": 2019,
+    "price_tier": "accessible niche"
+  },
+  "Fahad Collection": {
+    "weeks": {
+      "2026-W23": 2
+    },
+    "context": "Mentioned in a review post title alongside Arabiyat Prestige with a brief comment that they are getting expensive.",
+    "source": "fragrantica",
+    "country": "United Arab Emirates",
+    "founded": 2010,
+    "price_tier": "accessible niche"
+  },
+  "Santa Maria Novella": {
+    "weeks": {
+      "2026-W23": 2
+    },
+    "context": "Incenso described as a pleasant, unusual incense marrying centuries-old traditions with contemporaneity, launched in 2024.",
+    "source": "fragrantica",
+    "country": "Italy",
+    "founded": 1612,
+    "price_tier": "accessible niche"
+  },
+  "Perfumes de Autor": {
+    "weeks": {
+      "2026-W23": 1
+    },
+    "context": "Ricardo Ramos of the Perfumes de Autor brand invited the author to Granada, Spain for the GranadAroma 2026 indie artisanal perfume exhibition.",
+    "source": "fragrantica",
+    "country": "Spain",
+    "founded": 2005,
+    "price_tier": "accessible niche"
+  },
+  "Annette Neuffer": {
+    "weeks": {
+      "2026-W23": 1
+    },
+    "context": "A fragrance review of 'Avicenna by Annette Neuffer' is listed among the month's popular posts on the blog.",
+    "source": "fragrantica",
+    "country": "Germany",
+    "founded": 2012,
+    "price_tier": "accessible niche"
+  },
+  "Puredistance": {
+    "weeks": {
+      "2026-W23": 1
+    },
+    "context": "Puredistance Divanch\u00e9 is listed among recent fragrance reviews on the site.",
+    "source": "fragrantica",
+    "country": "Netherlands",
+    "founded": 2002,
+    "price_tier": "luxury niche"
+  },
+  "Andy Tauer": {
+    "weeks": {
+      "2026-W23": 1
+    },
+    "context": "An Andy Tauer Advent Giveaway offering a chance to win a full bottle is listed among popular posts.",
+    "source": "fragrantica",
+    "country": "Switzerland",
+    "founded": 2004,
     "price_tier": "accessible niche"
   }
 }
