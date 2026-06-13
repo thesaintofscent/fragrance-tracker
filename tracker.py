@@ -59,6 +59,14 @@ TIKTOK_URLS = [
     "https://www.tiktok.com/tag/perfumetok",
 ]
  
+# Etsy search URLs — new perfume listings sorted by most recent
+ETSY_URLS = [
+    "https://www.etsy.com/search?q=indie+perfume&order=date_desc",
+    "https://www.etsy.com/search?q=artisan+perfume&order=date_desc",
+    "https://www.etsy.com/search?q=natural+perfume+house&order=date_desc",
+    "https://www.etsy.com/search?q=niche+fragrance+indie&order=date_desc",
+]
+ 
 # Google Trends seed terms
 TREND_SEED_TERMS = [
     "indie perfume house",
@@ -190,7 +198,66 @@ def scrape_tiktok() -> str:
     return combined
  
  
-# ── Step 1d: Google Trends ────────────────────────────────────────────────────
+# ── Step 1d: Scrape Etsy ─────────────────────────────────────────────────────
+ 
+def scrape_etsy() -> str:
+    """
+    Scrape Etsy for new indie perfume listings.
+    Focuses on shop names (brand discovery) and listing descriptions
+    that suggest serious perfumery rather than hobbyist bath products.
+    """
+    all_text = []
+ 
+    etsy_headers = {
+        **HEADERS,
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/124.0.0.0 Safari/537.36"
+        ),
+    }
+ 
+    for url in ETSY_URLS:
+        print(f"  Fetching Etsy {url}...")
+        try:
+            resp = requests.get(url, headers=etsy_headers, timeout=15)
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
+ 
+            # Extract shop names — these are the brand names we want
+            for element in soup.find_all(attrs={"data-shop-name": True}):
+                shop = element.get("data-shop-name", "").strip()
+                if shop:
+                    all_text.append(f"ETSY SHOP: {shop}")
+ 
+            # Also look for shop links in listing cards
+            for link in soup.find_all("a", href=True):
+                href = link.get("href", "")
+                if "/shop/" in href:
+                    shop_name = href.split("/shop/")[-1].split("?")[0].split("/")[0]
+                    if shop_name and len(shop_name) > 2:
+                        all_text.append(f"ETSY SHOP: {shop_name}")
+ 
+            # Grab listing titles for ingredient/quality signals
+            for element in soup.find_all(["h2", "h3", "p", "span"]):
+                text = element.get_text(strip=True)
+                if (len(text) > 15 and any(kw in text.lower() for kw in [
+                    "perfume", "fragrance", "parfum", "eau de", "scent",
+                    "natural", "botanical", "artisan", "accord", "notes"
+                ])):
+                    all_text.append(text)
+ 
+            time.sleep(random.uniform(3, 6))
+ 
+        except requests.RequestException as e:
+            print(f"  Warning: could not fetch Etsy {url}: {e}")
+ 
+    combined = "\n".join(all_text)
+    print(f"  Collected {len(combined):,} chars from Etsy ({combined.count('ETSY SHOP:')} shop mentions).")
+    return combined
+ 
+ 
+# ── Step 1e: Google Trends ────────────────────────────────────────────────────
  
 def get_trending_brands() -> list[dict]:
     pytrends = TrendReq(hl="en-US", tz=360, timeout=(10, 25))
@@ -254,10 +321,15 @@ def extract_brands_from_text(raw_text: str, trend_hints: list[dict]) -> list[dic
  
 Extract every niche, indie, or artisan fragrance BRAND NAME mentioned in the text below.
  
+Lines starting with "ETSY SHOP:" are Etsy store names — treat these as potential
+indie brand names and include them if they appear to be serious perfumers
+(not candles, bath bombs, or hobbyist products).
+ 
 EXCLUDE: major mainstream brands (Chanel, Dior, YSL, Tom Ford, Creed, Jo Malone,
-Maison Margiela, Guerlain, Hermès, Armani, Versace, Calvin Klein, Hugo Boss).
+Maison Margiela, Guerlain, Hermès, Armani, Versace, Calvin Klein, Hugo Boss),
+and Etsy shops that are clearly not fragrance brands (candles only, wax melts, etc).
 INCLUDE: small indie houses, niche perfumers, cult/emerging brands, DTC brands,
-artisan perfumers, lesser-known niche houses.
+artisan perfumers, lesser-known niche houses, promising Etsy perfumers.
  
 Return ONLY a JSON array (no markdown, no preamble):
 [
@@ -368,7 +440,11 @@ Return ONLY a JSON object (no markdown):
 }}
  
 Confidence: "high" = you're sure, "medium" = fairly sure, "low" = guessing.
-If you don't recognize a brand, set real to false rather than guessing.
+If you don't recognize a brand but the name sounds like a plausible perfume house
+(not a generic word, not a person's full name, not obviously a candle/bath brand),
+set real to true with confidence "low" and price_tier "indie" — it may be a
+micro-brand too new to be in your training data.
+Only set real to false if it's clearly not a fragrance brand.
  
 BRANDS TO CHECK:
 {json.dumps(batch)}"""
@@ -642,11 +718,14 @@ def main():
     print("── Step 1c: Scraping TikTok hashtag pages...")
     tiktok_text = scrape_tiktok()
  
-    print("── Step 1d: Fetching Google Trends...")
+    print("── Step 1d: Scraping Etsy for new indie perfumers...")
+    etsy_text = scrape_etsy()
+ 
+    print("── Step 1e: Fetching Google Trends...")
     trend_data = get_trending_brands()
  
     # Combine all text sources
-    all_text = "\n\n".join([fragrantica_text, newsletter_text, tiktok_text])
+    all_text = "\n\n".join([fragrantica_text, newsletter_text, tiktok_text, etsy_text])
     print(f"  Total text collected: {len(all_text):,} characters.")
  
     print("── Step 2: Extracting brand names via Claude...")
