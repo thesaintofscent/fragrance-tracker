@@ -37,6 +37,7 @@ jobs:
           EMAIL_RECIPIENT:    ${{ secrets.EMAIL_RECIPIENT }}
           NOTION_TOKEN:       ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          ETSY_API_KEY: ${{ secrets.ETSY_API_KEY }}
         run: python tracker.py
 
       - name: Commit updated brand history
