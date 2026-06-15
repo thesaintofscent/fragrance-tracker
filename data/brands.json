@@ -63,10 +63,14 @@
   },
   "Xerjoff": {
     "weeks": {
-      "2026-W23": 4
+      "2026-W23": 4,
+      "2026-W24": 1
     },
-    "context": "Reviewer expresses approval of the Xerjoff and Automobili Lamborghini collaboration fragrances.",
-    "source": "fragrantica"
+    "context": "Appreciated for specifying fractionated patchouli oil in the Lamborghini collaboration fragrances, with a wish that more brands would do the same.",
+    "source": "fragrantica",
+    "country": "Italy",
+    "founded": 2003,
+    "price_tier": "luxury niche"
   },
   "Bortnikoff": {
     "weeks": {
@@ -77,9 +81,10 @@
   },
   "BORNTOSTANDOUT": {
     "weeks": {
-      "2026-W23": 4
+      "2026-W23": 4,
+      "2026-W24": 1
     },
-    "context": "Golden Milk received a dismissive review noting the absence of turmeric in the notes despite the name.",
+    "context": "Drunk Saffron described as nauseating with messy notes that smell like melted candy and leftover coffee on leather.",
     "source": "fragrantica",
     "country": "Netherlands",
     "founded": 2019,
@@ -214,19 +219,21 @@
   },
   "Paris Corner": {
     "weeks": {
-      "2026-W23": 4
+      "2026-W23": 4,
+      "2026-W24": 4
     },
-    "context": "Moscow Mule described as a nice, unique summer scent with a damp, mossy, citrus and mint character.",
+    "context": "Taskeen Wowie described as fitting an over-the-top Disney summer blockbuster vibe, ideal for pre-teens and teens.",
     "source": "fragrantica",
-    "country": "United Arab Emirates",
-    "founded": 2000,
+    "country": "UAE",
+    "founded": 2010,
     "price_tier": "indie"
   },
   "Maison Francis Kurkdjian": {
     "weeks": {
-      "2026-W23": 4
+      "2026-W23": 4,
+      "2026-W24": 2
     },
-    "context": "Cologne pour le Matin and Cologne pour le Soir mentioned in a discussion thread without strong sentiment expressed about the fragrances themselves.",
+    "context": "Mentioned in reference to Cologne pour le Matin and Cologne pour le Soir fragrances.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2009,
@@ -272,16 +279,21 @@
   },
   "Serge Lutens": {
     "weeks": {
-      "2026-W23": 5
+      "2026-W23": 5,
+      "2026-W24": 2
     },
-    "context": "Reviewer praises the evocative naming of Serge Lutens and reviews L'Orpheline with thoughtful, atmospheric language.",
-    "source": "fragrantica"
+    "context": "Ambre Sultan lovingly described as evoking spice bazaars and childhood kitchen memories.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 1992,
+    "price_tier": "accessible niche"
   },
   "Etat Libre d'Orange": {
     "weeks": {
-      "2026-W23": 3
+      "2026-W23": 3,
+      "2026-W24": 8
     },
-    "context": "Referenced in context of a book about their first twenty years, described humorously as starting at the bottom of controversial, offensive scents.",
+    "context": "The Ghost In The Shell described as mostly citrus and jasmine with a tame lactonic element, not particularly metallic or soapy; also featured in a twenty-year retrospective article.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2006,
@@ -400,9 +412,10 @@
   },
   "Nicolai Parfumeur Createur": {
     "weeks": {
-      "2026-W23": 9
+      "2026-W23": 9,
+      "2026-W24": 4
     },
-    "context": "Featured at Esxence 2026 with both Petit Ange Eau de Senteur and Patchouli Spirit receiving coverage, the latter noted as now available beyond Harrods.",
+    "context": "Patchouli Spirit noted as now expanding beyond exclusive Harrods distribution at Esxence 2026.",
     "source": "fragrantica",
     "country": "France",
     "founded": 1989,
@@ -420,12 +433,13 @@
   },
   "Maria Candida Gentile": {
     "weeks": {
-      "2026-W23": 5
+      "2026-W23": 5,
+      "2026-W24": 5
     },
-    "context": "Aqua Forte reviewed positively and the brand described as a favorite by the commenter.",
+    "context": "Aqua Forte noted with enthusiasm, reviewer expressing a general love for the house and discovering several good fragrances from her.",
     "source": "fragrantica",
     "country": "Italy",
-    "founded": 2004,
+    "founded": 2006,
     "price_tier": "accessible niche"
   },
   "Versatile": {
@@ -700,9 +714,10 @@
   },
   "Santa Maria Novella": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 2,
+      "2026-W24": 3
     },
-    "context": "Incenso described as a pleasant, unusual incense marrying centuries-old traditions with contemporaneity, launched in 2024.",
+    "context": "Incenso reviewed as an unusual, pleasant incense marrying myrrh, frankincense, and earthy notes with centuries of tradition.",
     "source": "fragrantica",
     "country": "Italy",
     "founded": 1612,
@@ -710,19 +725,21 @@
   },
   "Perfumes de Autor": {
     "weeks": {
-      "2026-W23": 1
+      "2026-W23": 1,
+      "2026-W24": 1
     },
-    "context": "Ricardo Ramos of the Perfumes de Autor brand invited the author to Granada, Spain for the GranadAroma 2026 indie artisanal perfume exhibition.",
+    "context": "Ricardo Ramos of Perfumes de Autor invited the author to the GranadAroma 2026 indie artisanal perfume exhibition in Granada, Spain.",
     "source": "fragrantica",
     "country": "Spain",
-    "founded": 2005,
-    "price_tier": "accessible niche"
+    "founded": 2010,
+    "price_tier": "indie"
   },
   "Annette Neuffer": {
     "weeks": {
-      "2026-W23": 1
+      "2026-W23": 1,
+      "2026-W24": 1
     },
-    "context": "A fragrance review of 'Avicenna by Annette Neuffer' is listed among the month's popular posts on the blog.",
+    "context": "Annette Neuffer is referenced as the subject of a fragrance review for her scent Avicenna, listed among the month's popular posts.",
     "source": "fragrantica",
     "country": "Germany",
     "founded": 2012,
@@ -730,9 +747,10 @@
   },
   "Puredistance": {
     "weeks": {
-      "2026-W23": 1
+      "2026-W23": 1,
+      "2026-W24": 1
     },
-    "context": "Puredistance Divanch\u00e9 is listed among recent fragrance reviews on the site.",
+    "context": "Puredistance Divanch\u00e9 is listed among recently reviewed fragrances on the site.",
     "source": "fragrantica",
     "country": "Netherlands",
     "founded": 2002,
@@ -740,12 +758,183 @@
   },
   "Andy Tauer": {
     "weeks": {
-      "2026-W23": 1
+      "2026-W23": 1,
+      "2026-W24": 1
     },
-    "context": "An Andy Tauer Advent Giveaway offering a chance to win a full bottle is listed among popular posts.",
+    "context": "Andy Tauer is mentioned in connection with an Advent giveaway for a full bottle, listed among popular posts.",
     "source": "fragrantica",
     "country": "Switzerland",
-    "founded": 2004,
+    "founded": 2005,
     "price_tier": "accessible niche"
+  },
+  "Les Liquides Imaginaires": {
+    "weeks": {
+      "2026-W24": 7
+    },
+    "context": "Blanche B\u00eate described evocatively as a vintage denim and Ferrero Raffaello experience.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2012,
+    "price_tier": "accessible niche"
+  },
+  "DS&Durga": {
+    "weeks": {
+      "2026-W24": 3
+    },
+    "context": "Steamed Rainbow described as nostalgic and interesting, like a summer day from childhood.",
+    "source": "fragrantica",
+    "country": "USA",
+    "founded": 2007,
+    "price_tier": "accessible niche"
+  },
+  "Hemel Paris": {
+    "weeks": {
+      "2026-W24": 4
+    },
+    "context": "Favourite Black described as complex, smoky, and addictive, punching well above its $46 price with the reviewer lamenting that nobody knows about this house.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2020,
+    "price_tier": "accessible niche"
+  },
+  "Mix:Bar": {
+    "weeks": {
+      "2026-W24": 2
+    },
+    "context": "Cloud Musk described as pretty, capturing the best parts of Glossier You without the saltiness.",
+    "source": "fragrantica",
+    "country": "USA",
+    "founded": 2021,
+    "price_tier": "indie"
+  },
+  "d'Annam": {
+    "weeks": {
+      "2026-W24": 4
+    },
+    "context": "White Rice described as comforting, slightly sweet and smoky rice with a nice musky dry down.",
+    "source": "fragrantica",
+    "country": "Vietnam",
+    "founded": 2018,
+    "price_tier": "indie"
+  },
+  "Zoologist Perfumes": {
+    "weeks": {
+      "2026-W24": 3
+    },
+    "context": "Civet mentioned as giving a cola vibe in reference to a Coca-Cola fragrance discussion.",
+    "source": "fragrantica",
+    "country": "Canada",
+    "founded": 2013,
+    "price_tier": "accessible niche"
+  },
+  "Hellenist": {
+    "weeks": {
+      "2026-W24": 3
+    },
+    "context": "Described as a French house inspired by Greek myths but criticized for having no Greece-based artisans or ingredients, called hypocritical and tokenistic.",
+    "source": "fragrantica",
+    "country": "USA",
+    "founded": 2020,
+    "price_tier": "indie"
+  },
+  "Tomoo Inaba": {
+    "weeks": {
+      "2026-W24": 1
+    },
+    "context": "New brand described as thoughtful and critically edited, worth watching closely in a cluttered perfume market.",
+    "source": "fragrantica",
+    "country": "Japan",
+    "founded": 2015,
+    "price_tier": "accessible niche"
+  },
+  "4160 Tuesdays": {
+    "weeks": {
+      "2026-W24": 4
+    },
+    "context": "New fragrances noted with the comment that the bottles are very Memo.",
+    "source": "fragrantica",
+    "country": "UK",
+    "founded": 2013,
+    "price_tier": "indie"
+  },
+  "Gulf Orchid": {
+    "weeks": {
+      "2026-W24": 4
+    },
+    "context": "Musk Tahara Collection described as beautiful, creamy, and soft musk with pistachio being the reviewer's favourite.",
+    "source": "fragrantica",
+    "country": "UAE",
+    "founded": 1990,
+    "price_tier": "indie"
+  },
+  "Roger & Gallet": {
+    "weeks": {
+      "2026-W24": 3
+    },
+    "context": "Vanille Soleil described as warming but triggering concerns about woody amber and chemical notes.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 1862,
+    "price_tier": "indie"
+  },
+  "Elli LDN": {
+    "weeks": {
+      "2026-W24": 2
+    },
+    "context": "Criticized for branding as a Mediterranean house inspired by Greece without any Greek artisans or ingredients involved; also covered for Tomoo Inaba's new brand launch.",
+    "source": "fragrantica",
+    "country": "United Kingdom",
+    "founded": 2018,
+    "price_tier": "indie"
+  },
+  "DS & Durga": {
+    "weeks": {
+      "2026-W24": 1
+    },
+    "context": "Steamed Rainbow described as nostalgic and interesting, evoking a childhood summer day.",
+    "source": "fragrantica",
+    "country": "United States",
+    "founded": 2007,
+    "price_tier": "accessible niche"
+  },
+  "Sym\u00e9tr\u0438\u0435": {
+    "weeks": {
+      "2026-W24": 2
+    },
+    "context": "Harmony received a brief but enthusiastic positive reaction.",
+    "source": "fragrantica",
+    "country": "unknown",
+    "founded": "unknown",
+    "price_tier": "unknown"
+  },
+  "Nishane": {
+    "weeks": {
+      "2026-W24": 1
+    },
+    "context": "Featured in an article exploring what defines the brand's identity.",
+    "source": "fragrantica",
+    "country": "Turkey",
+    "founded": 2012,
+    "price_tier": "accessible niche"
+  },
+  "Francesca Dell'Oro": {
+    "weeks": {
+      "2026-W24": 1
+    },
+    "context": "Mentioned as completing the All Day Vanille Collection.",
+    "source": "fragrantica",
+    "country": "Italy",
+    "founded": 2014,
+    "price_tier": "accessible niche"
+  },
+  "Oriflame": {
+    "weeks": {
+      "2026-W24": 1
+    },
+    "context": "Partnered with Cirque du Soleil on new Eau de Parfums.",
+    "source": "fragrantica",
+    "country": "Sweden",
+    "founded": 1967,
+    "price_tier": "indie"
   }
 }

@@ -1,107 +1,69 @@
-# Fragrance Brand Momentum Report — June 13, 2026
+# Fragrance Brand Momentum Report — June 15, 2026
 
 # Niche Fragrance Momentum Report
-**Week of June 13, 2026**
+**Week of June 15, 2026**
 
 ---
 
 ## Market Overview
 
-This week's data is a first-appearance snapshot across the board — every tracked brand registers as NEW with no prior baseline, making directional comparison impossible until next week. That said, the volume and variety of signals is notable: Esxence 2026 coverage is clearly driving discovery cycles, while Gulf-market brands continue to earn organic traction in Western fragrance communities through longevity-first positioning.
+Fragrance conversation this week skews heavily toward comfort-forward textures — creamy musks, smoky rice, nostalgic childhood associations — suggesting the market's appetite for conceptually aggressive releases is cooling in favor of wearability. First-appearance volume is unusually high, with nine NEW brands surfacing against a single RISING signal, pointing to a broad discovery cycle rather than concentration around established names.
 
 ---
 
-## CUSP Brands
-*3x+ above baseline — none this week (insufficient history)*
+## 📈 RISING
+
+### Etat Libre d'Orange
+*France · Founded 2006 · Accessible Niche · 2.67x baseline*
+
+ELO is benefiting from a dual signal this week: a fresh review of *The Ghost In The Shell* — described as citrus-jasmine with a restrained lactonic edge, notably less challenging than its name implies — running alongside a twenty-year retrospective feature on the house. The retrospective angle is doing real work here; anniversary editorial consistently drives catalog re-evaluation, and ELO's back catalog is deep enough to sustain that lift for several more weeks. Watch for secondary conversation around their older provocateur releases if the retrospective gains further traction.
 
 ---
 
-## RISING Brands
-*2x–3x above baseline — none this week (insufficient history)*
+## 🆕 NEW — First Appearances
+
+*No historical baseline exists for these brands. Signals noted for tracking purposes.*
+
+**Les Liquides Imaginaires** *(France · Accessible Niche)*
+First mention centers on *Blanche Bête*, described with the arresting combination of vintage denim and Ferrero Raffaello — a textile-meets-gourmand read that feels distinctly current. One of the stronger conceptual hooks in this week's new entries.
+
+**Hemel Paris** *(France · Accessible Niche)*
+*Favourite Black* is generating the kind of word-of-mouth that money can't buy: a reviewer calling it smoky, complex, and addictive at $46, then lamenting the house's obscurity. Under-the-radar discovery framing drives outsized community engagement and this one has that energy.
+
+**d'Annam** *(Vietnam · Indie)*
+*White Rice* surfaces in what looks like a broader conversation around culinary and grain-forward fragrances. A Vietnamese indie house with a rice soliflore is genuinely niche-within-niche positioning; worth watching as Southeast Asian perfumery earns more shelf space in Western enthusiast communities.
+
+**4160 Tuesdays** *(UK · Indie)*
+New releases noted, with bottle design drawing comparisons to Memo Paris. The aesthetic observation suggests visibility is coming from visual channels as much as scent discussion — a packaging conversation rather than a formula one, at least for now.
+
+**Gulf Orchid** *(UAE · Indie)*
+The *Musk Tahara Collection* appears in a soft musk context, with a pistachio variant getting specific praise for its creamy character. Gulf Orchid has been around since 1990 but remains largely undiscovered in Western enthusiast circles; this mention could be an early indicator of crossover interest.
+
+**DS&Durga** *(USA · Accessible Niche)*
+*Steamed Rainbow* described as nostalgic, evoking a summer childhood memory. Fits neatly into the week's broader comfort aesthetic. DS&Durga has the distribution to convert community buzz efficiently.
+
+**Zoologist Perfumes** *(Canada · Accessible Niche)*
+*Civet* surfaced in a Coca-Cola fragrance discussion for its cola-adjacent character — an unexpected contextual frame, but one that may introduce the house to gourmand and novelty-curious shoppers who don't typically orbit Zoologist.
+
+**Hellenist** *(USA · Indie)*
+Mention accompanied by pointed criticism: reviewers are calling out the house's Greek mythology branding as disconnected from any Greek creative or ingredient sourcing. Authenticity scrutiny is increasingly common in the niche space and this house is drawing exactly that kind of attention — not necessarily the momentum it would want.
+
+**Roger & Gallet** *(France · Indie)*
+*Vanille Soleil* appears in a discussion flagging woody amber and chemical note concerns. Legacy brand, mixed signal — monitor for sentiment direction before reading this as meaningful traction.
 
 ---
 
-## NEW Brands
-*First appearance — no momentum history yet*
+## 🔍 Patterns
 
-**Nicolai Parfumeur Créateur** — France | Accessible Niche
-The strongest signal this week by raw score. The Paris house picked up meaningful coverage off the back of Esxence 2026, with both *Petit Ange Eau de Senteur* and *Patchouli Spirit* receiving editorial attention — the latter now distributed beyond its former Harrods exclusivity. For a 1989 house that can sometimes read as quietly institutional, this kind of trade-show-to-retail-expansion narrative tends to re-engage both collectors and newer niche consumers simultaneously. Worth watching for a sustained lift.
+**Ingredients & Materials**
+Soft and creamy musks are dominating new entry context this week — Gulf Orchid's pistachio musk, d'Annam's musky rice drydown, ELO's lactonic restraint. Smoky accords appear as a secondary thread (Hemel Paris, d'Annam), but in approachable rather than austere registers. Woody amber continues to attract synthetic-note skepticism, as seen in the Roger & Gallet commentary.
 
-**Arabiyat Prestige** — United Arab Emirates | Indie
-*Raees* is drawing comparisons to Armani's Acqua di Gioia DNA and Profondo's aquatic character, with reviewers noting 7–8 hour longevity — the kind of performance positioning that reliably drives word-of-mouth in value-oriented fragrance communities. First appearance.
+**Geography**
+The most interesting geographic signal is d'Annam's appearance — Vietnamese perfumery entering the conversation organically, not through a Western brand applying regional aesthetics but through an actual Vietnamese house. Gulf Orchid's UAE origin in a soft musk context similarly reflects growing curiosity about Gulf fragrance traditions outside of oud-centric framing.
 
-**French Avenue** — Country/Tier Unknown
-*Liquid Brun* surfaced in Fragrantica's most popular section this week. No country of origin, founding date, or price tier confirmed yet — brand profile remains opaque. First appearance; flagged for verification.
-
-**Serge Lutens** — Accessible–Luxury Niche
-*L'Orpheline* drew a thoughtful, atmospheric review this week, with the commenter specifically calling out the house's evocative naming as part of the appeal. A heritage signal more than a growth one, but the literary framing of Lutens reviews tends to attract new buyers. First appearance in this dataset.
-
-**Maria Candida Gentile** — Italy | Accessible Niche
-*Aqua Forte* picked up a positive review with the brand described as a personal favorite — the kind of quiet loyalty signal that often precedes broader rediscovery. Founded 2004. First appearance.
-
-**Versatile** — France | Accessible Niche
-The brand showed at Esxence 2026 with *Mango Sticky Rice*, described as leaning sweeter and more expressly fruity than a comparable release. The food-fragrance aesthetic continues to find an audience at trade level, not just consumer. First appearance.
-
-**By / Rosie Jane** — United States | Indie
-The *Rosie* fragrance earned a multi-format loyalty review — rollerball, full bottle, and body milk — which speaks to strong brand stickiness rather than casual sampling behavior. First appearance.
-
-**Xerjoff** — Luxury Niche
-Brief positive mention tied to the Automobili Lamborghini collaboration line. Co-branding signal; no country or founding data confirmed in this dataset. First appearance.
-
-**BORNTOSTANDOUT** — Netherlands | Accessible Niche
-*Golden Milk* received a skeptical review centering on the absence of turmeric despite the name — a notes-versus-marketing credibility question that can cut both ways in community discourse. Founded 2019. First appearance.
-
-**Rasasi** — United Arab Emirates | Indie
-*Hawas for Him* described as a sweet-spicy aquatic with strong longevity, though reviewers flag over-application risk. A well-established Gulf house (founded 1979) continuing to register in Western community conversations. First appearance.
-
-**Paris Corner** — United Arab Emirates | Indie
-*Moscow Mule* described as a damp, mossy citrus-mint summer scent — unusual enough in character to generate discussion. Founded 2000. First appearance.
-
-**Maison Francis Kurkdjian** — France | Luxury Niche
-*Cologne pour le Matin* and *Cologne pour le Soir* appeared in a discussion thread with neutral sentiment. Ambient presence rather than active momentum. First appearance.
-
-**Osma Perfumes** — United States | Accessible Niche
-*Aromatic M* called a "banger" with 8-hour skin longevity and multi-day fabric retention — strong performance claims from a young house (founded 2020). First appearance.
-
-**Discotheque** — United States | Accessible Niche
-New release *Next to Me or Nothing* generated discussion, with the brand's own copywriter engaging in the thread to discuss creative process. Direct founder-level community participation tends to build durable goodwill in niche circles. First appearance.
-
-**Maison Shan** — Country/Tier Unknown
-*Lynx* described as earthy with a pool-like, aquatic quality — an unusual pairing worth noting. No country or tier confirmed. First appearance.
-
-**Afnan** — Country/Tier Unknown
-*Rare Reef* praised as a longer-lasting alternative to a comparable scent. Value-performance framing, consistent with the brand's typical positioning. First appearance.
-
-**Olfactive O** — Country/Tier Unknown
-Described as beautiful and underrated, with skin-bloom dynamics and a soapy nuance noted positively. Classic "hidden gem" framing. First appearance.
-
-**Novaya Zarya** — Country/Tier Unknown
-Vintage *Muguet* cologne called a "rare gem" for its subtle, delicate lily-of-the-valley character. Vintage-discovery energy rather than current release momentum. First appearance.
-
-**Etat Libre d'Orange** — France | Accessible Niche
-Mentioned in the context of a twenty-year retrospective book — brand-as-cultural-artifact framing more than fragrance review. Founded 2006. First appearance.
-
-**Montale** — Accessible Niche
-*Arabians Tonka* received qualified praise — "great but not original" given how widely it has been duplicated. A durability signal rather than a growth one. First appearance.
-
-**Stora Skuggan** — Sweden | Accessible Niche
-*Monkeyflower* received a brief positive note. Minimal signal volume, but the Swedish house retains a quietly devoted following. Founded 2014. First appearance.
-
-**Lake & Skye** — United States | Indie
-The oil format of *11 11* praised extensively for longevity and character, while the spray version drew less enthusiasm. Format bifurcation worth noting for a brand built around minimalism. Founded 2015. First appearance.
-
-**Phlur** — United States | Accessible Niche
-*Father Figure* described as sweet, fresh, creamy, and complex — the kind of layered gourmand profile that drives re-wear and repeat engagement. Founded 2016. First appearance.
-
-**Merit** — United States | Accessible Niche
-*Retrospect* praised for strong longevity without projection aggression, discovered via an in-store Sephora test. Retail channel placement clearly doing its job here. Founded 2021. First appearance.
-
-**Oriza L. Legrand** — France | Accessible Niche
-*Muguet Fleuri* appreciated for its watery, dewy floral quality, though a solvent-adjacent edge kept one reviewer from fully committing. One of the oldest fragrance houses in this dataset (founded 1720); discovery-mode signal. First appearance.
+**Aesthetics & Narrative**
+Two competing aesthetic currents are visible: *nostalgia and comfort* (DS&Durga, d'Annam, Hemel Paris's addictive quality) and *authenticity scrutiny* (Hellenist's branding backlash, Roger & Gallet's synthetic note concerns). The community is simultaneously seeking emotional safety in scent and applying sharper sourcing standards to the brands they champion — a tension that will likely define positioning debates through the summer.
 
 ---
 
-## Patterns
-
-**Ingredient & Olfactive Trends**
-Aquatics are running quietly strong this week — *Raees*, *Hawas for Him*, *Moscow Mule*, *Rare Reef*, and *Lynx* all show water-adjacent character, spanning marine, mossy-citrus, and pool-like interpretations. This isn't a single aesthetic but a functional one: the aquatic is behaving as a longevity-friendly, seasonally appropriate vehicle rather than a signature direction. Separately, lily-of-the-valley is appearing across two distinct contexts — Novaya Zarya's vintage muguet and Oriza L. Legrand's *Muguet Fleuri* — suggesting either algorithm clustering or genuine soliflore curiosity resurf
+*Next report: June 22, 2026*
