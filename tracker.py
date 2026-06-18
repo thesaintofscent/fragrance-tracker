@@ -1,6 +1,6 @@
 """
 Fragrance Brand Momentum Tracker
-Sources: Fragrantica + TikTok hashtags + Fragrance newsletters + Google Trends
+Sources: Fragrantica + Fragrance newsletters/blogs + Google Trends
 Features: Brand verification with metadata, Notion database sync, email reports
 Runs weekly via GitHub Actions.
 """
@@ -42,31 +42,11 @@ FRAGRANTICA_URLS = [
     "https://www.fragrantica.com/board/viewforum.php?id=6",
 ]
  
-# Fragrance newsletters & blogs (publicly accessible)
+# Independent fragrance editorial/blog sites (publicly accessible)
 NEWSLETTER_URLS = [
     "https://cafleurebon.com/",
     "https://www.fragrantica.com/news/interviews/",
     "https://perfumeshrine.blogspot.com/",
-    "https://www.nowsmellthis.com/",
-    "https://luckyscent.com/blog",
-]
- 
-# TikTok hashtag pages (public, no login required)
-TIKTOK_URLS = [
-    "https://www.tiktok.com/tag/fragrancetok",
-    "https://www.tiktok.com/tag/nichefragrance",
-    "https://www.tiktok.com/tag/indieperfume",
-    "https://www.tiktok.com/tag/perfumetok",
-]
- 
-ETSY_API_KEY = os.environ.get("ETSY_API_KEY", "")
- 
-# Etsy API search terms for finding indie perfume shops
-ETSY_SEARCH_TERMS = [
-    "indie perfume",
-    "artisan perfume",
-    "natural perfume house",
-    "niche fragrance",
 ]
  
 # Google Trends seed terms
@@ -152,143 +132,7 @@ def scrape_newsletters() -> str:
     return combined
  
  
-# ── Step 1c: Scrape TikTok hashtag pages ─────────────────────────────────────
- 
-def scrape_tiktok() -> str:
-    """
-    Scrape TikTok hashtag pages for brand mentions in video titles/descriptions.
-    TikTok's public tag pages render some content without login.
-    """
-    all_text = []
-    tiktok_headers = {
-        **HEADERS,
-        "User-Agent": (
-            "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) "
-            "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"
-        ),
-    }
- 
-    for url in TIKTOK_URLS:
-        print(f"  Fetching TikTok {url}...")
-        try:
-            resp = requests.get(url, headers=tiktok_headers, timeout=15)
-            soup = BeautifulSoup(resp.text, "html.parser")
- 
-            # TikTok embeds data in script tags as JSON
-            for script in soup.find_all("script", type="application/json"):
-                try:
-                    data = json.loads(script.string or "")
-                    text = json.dumps(data)
-                    # Extract readable brand-mention fragments
-                    if any(kw in text.lower() for kw in ["fragrance", "perfume", "scent", "parfum"]):
-                        all_text.append(text[:3000])
-                except (json.JSONDecodeError, TypeError):
-                    pass
- 
-            # Also grab any visible text
-            for element in soup.find_all(["h1", "h2", "p", "span"]):
-                text = element.get_text(strip=True)
-                if len(text) > 15:
-                    all_text.append(text)
- 
-            time.sleep(random.uniform(3, 6))
-        except requests.RequestException as e:
-            print(f"  Warning: could not fetch TikTok {url}: {e}")
- 
-    combined = "\n".join(all_text)
-    print(f"  Collected {len(combined):,} chars from TikTok.")
-    return combined
- 
- 
-# ── Step 1d: Etsy API ────────────────────────────────────────────────────────
- 
-def scrape_etsy() -> str:
-    """
-    Use Etsy Open API v3 to find new indie perfume listings and shop names.
-    Sorted by creation date to surface the newest shops first.
-    Falls back gracefully if the API key is not yet active.
-    """
-    if not ETSY_API_KEY:
-        print("  Etsy API key not configured — skipping.")
-        return ""
- 
-    all_text = []
-    shop_names = set()
- 
-    api_headers = {
-        "x-api-key": ETSY_API_KEY,
-        "Accept": "application/json",
-    }
- 
-    base_url = "https://openapi.etsy.com/v3/application"
- 
-    for term in ETSY_SEARCH_TERMS:
-        print(f"  Etsy API search: '{term}'...")
-        try:
-            # Search active listings, sorted by creation date (newest first)
-            params = {
-                "keywords": term,
-                "limit": 50,
-                "sort_on": "created",
-                "sort_order": "desc",
-                "taxonomy_id": 1223,  # Etsy taxonomy ID for Fragrance
-            }
-            resp = requests.get(
-                f"{base_url}/listings/active",
-                headers=api_headers,
-                params=params,
-                timeout=15,
-            )
- 
-            if resp.status_code == 401:
-                print("  Etsy API key pending approval — skipping Etsy this run.")
-                return ""
- 
-            resp.raise_for_status()
-            data = resp.json()
-            listings = data.get("results", [])
- 
-            for listing in listings:
-                # Collect shop IDs to fetch shop names
-                shop_id = listing.get("shop_id")
-                title = listing.get("title", "")
-                description = (listing.get("description") or "")[:300]
- 
-                if title:
-                    all_text.append(f"ETSY LISTING: {title}")
-                if description:
-                    all_text.append(description)
- 
-                # Fetch shop name for each unique shop
-                if shop_id and shop_id not in shop_names:
-                    try:
-                        shop_resp = requests.get(
-                            f"{base_url}/shops/{shop_id}",
-                            headers=api_headers,
-                            timeout=10,
-                        )
-                        if shop_resp.status_code == 200:
-                            shop_data = shop_resp.json()
-                            shop_name = shop_data.get("shop_name", "")
-                            if shop_name:
-                                shop_names.add(shop_id)
-                                all_text.append(f"ETSY SHOP: {shop_name}")
-                        time.sleep(0.3)  # gentle rate limiting
-                    except requests.RequestException:
-                        pass
- 
-            print(f"  Found {len(listings)} listings, {len(shop_names)} unique shops so far.")
-            time.sleep(random.uniform(2, 4))
- 
-        except requests.RequestException as e:
-            print(f"  Warning: Etsy API error for '{term}': {e}")
- 
-    combined = "\n".join(all_text)
-    print(f"  Collected {len(combined):,} chars from Etsy ({combined.count('ETSY SHOP:')} shop mentions).")
-    return combined
- 
- 
-# ── Step 1e: Google Trends ────────────────────────────────────────────────────
+# ── Step 1c: Google Trends ────────────────────────────────────────────────────
  
 def get_trending_brands() -> list[dict]:
     pytrends = TrendReq(hl="en-US", tz=360, timeout=(10, 25))
@@ -359,15 +203,10 @@ def extract_brands_from_text(raw_text: str, trend_hints: list[dict]) -> list[dic
  
 Extract every niche, indie, or artisan fragrance BRAND NAME mentioned in the text below.
  
-Lines starting with "ETSY SHOP:" are Etsy store names — treat these as potential
-indie brand names and include them if they appear to be serious perfumers
-(not candles, bath bombs, or hobbyist products).
- 
 EXCLUDE: major mainstream brands (Chanel, Dior, YSL, Tom Ford, Creed, Jo Malone,
-Maison Margiela, Guerlain, Hermès, Armani, Versace, Calvin Klein, Hugo Boss),
-and Etsy shops that are clearly not fragrance brands (candles only, wax melts, etc).
+Maison Margiela, Guerlain, Hermès, Armani, Versace, Calvin Klein, Hugo Boss).
 INCLUDE: small indie houses, niche perfumers, cult/emerging brands, DTC brands,
-artisan perfumers, lesser-known niche houses, promising Etsy perfumers.
+artisan perfumers, lesser-known niche houses.
  
 Return ONLY a JSON array (no markdown, no preamble):
 [
@@ -767,17 +606,11 @@ def main():
     print("── Step 1b: Scraping newsletters & blogs...")
     newsletter_text = scrape_newsletters()
  
-    print("── Step 1c: Scraping TikTok hashtag pages...")
-    tiktok_text = scrape_tiktok()
- 
-    print("── Step 1d: Scraping Etsy for new indie perfumers...")
-    etsy_text = scrape_etsy()
- 
-    print("── Step 1e: Fetching Google Trends...")
+    print("── Step 1c: Fetching Google Trends...")
     trend_data = get_trending_brands()
  
     # Combine all text sources
-    all_text = "\n\n".join([fragrantica_text, newsletter_text, tiktok_text, etsy_text])
+    all_text = "\n\n".join([fragrantica_text, newsletter_text])
     print(f"  Total text collected: {len(all_text):,} characters.")
  
     print("── Step 2: Extracting brand names via Claude...")
