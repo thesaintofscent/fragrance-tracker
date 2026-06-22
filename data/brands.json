@@ -92,9 +92,10 @@
   },
   "L'Artisan Parfumeur": {
     "weeks": {
-      "2026-W23": 1
+      "2026-W23": 1,
+      "2026-W25": 1
     },
-    "context": "M\u00fbre et Musc Extr\u00eame Limited Edition praised for its bottle design.",
+    "context": "Mandarine Tout Simplement listed among fragrances in a catalog-style listing.",
     "source": "fragrantica",
     "country": "France",
     "founded": 1976,
@@ -130,12 +131,13 @@
   },
   "Divine": {
     "weeks": {
-      "2026-W23": 1
+      "2026-W23": 1,
+      "2026-W25": 1
     },
-    "context": "Multiple Divine fragrances including L'Homme de Coeur, L'Ame Soeur, and others were listed without comment.",
+    "context": "Multiple Divine fragrances listed in a catalog-style listing without specific commentary.",
     "source": "fragrantica",
     "country": "France",
-    "founded": 1997,
+    "founded": 1996,
     "price_tier": "accessible niche"
   },
   "Royall Lyme Bermuda": {
@@ -484,9 +486,10 @@
   },
   "Amouage": {
     "weeks": {
-      "2026-W23": 1
+      "2026-W23": 1,
+      "2026-W25": 2
     },
-    "context": "A commenter wishes Amouage would bring back Amouage Beloved Woman.",
+    "context": "Amouage Existence is referenced as a benchmark scent when a user finds a hair mask that smells similar to it.",
     "source": "fragrantica",
     "country": "Oman",
     "founded": 1983,
@@ -504,9 +507,10 @@
   },
   "Annayake": {
     "weeks": {
-      "2026-W23": 1
+      "2026-W23": 1,
+      "2026-W25": 2
     },
-    "context": "Multiple Annayake fragrances including Hanami, Natsumi, and others were listed without evaluative comment.",
+    "context": "Two Annayake fragrances are listed: Undo pour Homme (2005) and Yukimi (2004).",
     "source": "fragrantica",
     "country": "France",
     "founded": 1998,
@@ -514,12 +518,13 @@
   },
   "Akro": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 2,
+      "2026-W25": 1
     },
-    "context": "Akro's Night is described as leaning too pissy and nasty in an unsexy way, with the reviewer saying 'immediately no.'",
+    "context": "Reviewer is a big fan of Ink, comparing it to pure vetiver oil and praising it as perfect for layering.",
     "source": "fragrantica",
     "country": "France",
-    "founded": 2019,
+    "founded": 2018,
     "price_tier": "accessible niche"
   },
   "Fahad Collection Arabiyat Prestige": {
@@ -544,11 +549,12 @@
   },
   "Swiss Arabian": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 2,
+      "2026-W25": 1
     },
-    "context": "Shaghaf Oud Abyad noted as discontinued but still found in stock at a pharmacy in Mecca.",
+    "context": "Swiss Arabian was featured in an article celebrating its 50-year perfume legacy.",
     "source": "fragrantica",
-    "country": "UAE",
+    "country": "United Arab Emirates",
     "founded": 1974,
     "price_tier": "indie"
   },
@@ -909,9 +915,10 @@
   },
   "Nishane": {
     "weeks": {
-      "2026-W24": 1
+      "2026-W24": 1,
+      "2026-W25": 1
     },
-    "context": "Featured in an article exploring what defines the brand's identity.",
+    "context": "An article explored what makes Nishane the brand that it is.",
     "source": "fragrantica",
     "country": "Turkey",
     "founded": 2012,
@@ -936,5 +943,225 @@
     "country": "Sweden",
     "founded": 1967,
     "price_tier": "indie"
+  },
+  "Orto Parisi": {
+    "weeks": {
+      "2026-W25": 5
+    },
+    "context": "Reviewer found Bergamask to be a barely detectable light citrus on their skin, questioning why others rave about it.",
+    "source": "fragrantica",
+    "country": "Italy",
+    "founded": 2014,
+    "price_tier": "accessible niche"
+  },
+  "Filippo Sorcinelli": {
+    "weeks": {
+      "2026-W25": 5
+    },
+    "context": "Reviewer found Voix Humaine 8 to smell disturbingly human and uncanny, like warm pale skin made into a musical instrument.",
+    "source": "fragrantica",
+    "country": "Italy",
+    "founded": 2009,
+    "price_tier": "luxury niche"
+  },
+  "Robert Piguet": {
+    "weeks": {
+      "2026-W25": 4
+    },
+    "context": "Reviewer found Fracas beautiful but overly one-note with gardenia dominating, despite loving the note.",
+    "source": "fragrantica",
+    "country": "Switzerland",
+    "founded": 1933,
+    "price_tier": "accessible niche"
+  },
+  "Mind Games": {
+    "weeks": {
+      "2026-W25": 5
+    },
+    "context": "Counterplay went powdery and cloyingly sweet on skin and performed poorly in Texas summer heat.",
+    "source": "fragrantica",
+    "country": "United Kingdom",
+    "founded": 2020,
+    "price_tier": "accessible niche"
+  },
+  "Rosendo Mateu": {
+    "weeks": {
+      "2026-W25": 10
+    },
+    "context": "Multiple mentions including a Sweet Rose review, a documentary feature, and a N\u00ba 10 Musk write-up, all treated with enthusiasm and admiration.",
+    "source": "fragrantica",
+    "country": "Spain",
+    "founded": 2016,
+    "price_tier": "accessible niche"
+  },
+  "Bienaim\u00e9": {
+    "weeks": {
+      "2026-W25": 1
+    },
+    "context": "Reviewer found Fleurs d'\u00c9t\u00e9 unbelievably pretty, praising its fluffy, flamboyant lilac note as delicate and contemplative.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 1920,
+    "price_tier": "accessible niche"
+  },
+  "Memo Paris": {
+    "weeks": {
+      "2026-W25": 6
+    },
+    "context": "Reviewer was glad the new Harrods exclusive is also available on the Memo website and found it interesting.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2007,
+    "price_tier": "accessible niche"
+  },
+  "Bohoboco": {
+    "weeks": {
+      "2026-W25": 6
+    },
+    "context": "Reviewer expressed desire to try Bohoboco's new colourful, electric perfumery scents.",
+    "source": "fragrantica",
+    "country": "Poland",
+    "founded": 2019,
+    "price_tier": "accessible niche"
+  },
+  "Maison Godet": {
+    "weeks": {
+      "2026-W25": 4
+    },
+    "context": "Reviewer found L'Eau du Ch\u00e2teau interesting, particularly the Morning Dew base note, calling it very much in their wheelhouse.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2015,
+    "price_tier": "accessible niche"
+  },
+  "Infiniment Coty": {
+    "weeks": {
+      "2026-W25": 1
+    },
+    "context": "Ambre Antique was highlighted as one of the best fragrances of this century in a dedicated article.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2021,
+    "price_tier": "luxury niche"
+  },
+  "Houbigant": {
+    "weeks": {
+      "2026-W25": 4
+    },
+    "context": "Reviewer wore Quelques Fleurs l'Original exclusively for a decade and received heavy compliments, calling it their first serious bottle.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 1775,
+    "price_tier": "luxury niche"
+  },
+  "Rosendo Mateu Olfactive Expressions": {
+    "weeks": {
+      "2026-W25": 7
+    },
+    "context": "Multiple reviews and articles praise Rosendo Mateu fragrances including Sweet Rose and N\u00ba 10 Musk, and a documentary about the perfumer is featured.",
+    "source": "fragrantica",
+    "country": "Spain",
+    "founded": 2016,
+    "price_tier": "accessible niche"
+  },
+  "Byredo": {
+    "weeks": {
+      "2026-W25": 1
+    },
+    "context": "Byredo body care cream is noted for having a soapy scent in a forum discussion.",
+    "source": "fragrantica",
+    "country": "Sweden",
+    "founded": 2006,
+    "price_tier": "accessible niche"
+  },
+  "NEH by Iulia Halatz": {
+    "weeks": {
+      "2026-W25": 1
+    },
+    "context": "An interview with the founder of NEH by Iulia Halatz was featured.",
+    "source": "fragrantica",
+    "country": "Romania",
+    "founded": 2018,
+    "price_tier": "indie"
+  },
+  "Eris Parfums": {
+    "weeks": {
+      "2026-W25": 1
+    },
+    "context": "Barbara Hermann and Eris Parfums were featured in a lost interviews segment.",
+    "source": "fragrantica",
+    "country": "United States",
+    "founded": 2015,
+    "price_tier": "accessible niche"
+  },
+  "Ahmed Al Maghribi": {
+    "weeks": {
+      "2026-W25": 1
+    },
+    "context": "Ahmed Al Maghribi was described as a UAE-based perfume brand in a dedicated article.",
+    "source": "fragrantica",
+    "country": "United Arab Emirates",
+    "founded": 2010,
+    "price_tier": "accessible niche"
+  },
+  "Parfumeurs du Monde": {
+    "weeks": {
+      "2026-W25": 1
+    },
+    "context": "Marc-Antoine Corticchiato explored the dark side of osmanthus for Parfumeurs du Monde.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2010,
+    "price_tier": "accessible niche"
+  },
+  "Ajmal": {
+    "weeks": {
+      "2026-W25": 1
+    },
+    "context": "An exclusive interview was conducted with Abdulla Ajmal, CEO of the Ajmal Group.",
+    "source": "fragrantica",
+    "country": "United Arab Emirates",
+    "founded": 1951,
+    "price_tier": "indie"
+  },
+  "WA:IT": {
+    "weeks": {
+      "2026-W25": 1
+    },
+    "context": "Raffaella Grisa, founder of WA:IT, was interviewed on scent, mindfulness, and roots.",
+    "source": "fragrantica",
+    "country": "Italy",
+    "founded": 2017,
+    "price_tier": "accessible niche"
+  },
+  "Maison Louis Marie": {
+    "weeks": {
+      "2026-W25": 1
+    },
+    "context": "An interview with Maison Louis Marie was featured on the site.",
+    "source": "fragrantica",
+    "country": "United States",
+    "founded": 2013,
+    "price_tier": "indie"
+  },
+  "Meo Fusciuni": {
+    "weeks": {
+      "2026-W25": 1
+    },
+    "context": "Meo Fusciuni was interviewed about Isola, yuzu, and new beginnings.",
+    "source": "fragrantica",
+    "country": "Italy",
+    "founded": 2011,
+    "price_tier": "accessible niche"
+  },
+  "Santa Eulalia": {
+    "weeks": {
+      "2026-W25": 1
+    },
+    "context": "Santa Eulalia was featured in an article described as 'Barcelona Bottled.'",
+    "source": "fragrantica",
+    "country": "Spain",
+    "founded": 1843,
+    "price_tier": "accessible niche"
   }
 }
