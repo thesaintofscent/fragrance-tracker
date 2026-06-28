@@ -93,9 +93,9 @@
   "L'Artisan Parfumeur": {
     "weeks": {
       "2026-W23": 1,
-      "2026-W25": 1
+      "2026-W25": 2
     },
-    "context": "Mandarine Tout Simplement listed among fragrances in a catalog-style listing.",
+    "context": "L'Artisan Parfumeur Mandarine Tout Simplement is listed as a unisex fragrance from 2006.",
     "source": "fragrantica",
     "country": "France",
     "founded": 1976,
@@ -156,12 +156,13 @@
   },
   "Lattafa Perfumes": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 2,
+      "2026-W25": 7
     },
-    "context": "Lattafa's Angham Second Song is called quite lovely and versatile, while Atlas is praised as the best summer fragrance for being clean and fresh.",
+    "context": "Eternal Vanille praised for vanilla lovers, Khamrah enjoyed for its rich vanilla ambiance, and Asad noted as good for anyone over 30.",
     "source": "fragrantica",
     "country": "United Arab Emirates",
-    "founded": 2002,
+    "founded": 2000,
     "price_tier": "indie"
   },
   "By Kilian": {
@@ -183,10 +184,14 @@
   },
   "Essential Parfums": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 2,
+      "2026-W25": 3
     },
-    "context": "Bois Imp\u00e9rial by Essential Parfums is listed twice as a featured or reviewed fragrance.",
-    "source": "fragrantica"
+    "context": "Rose Magnetic listed among preferred fragrances for hot Australian summers.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2019,
+    "price_tier": "accessible niche"
   },
   "Rasasi": {
     "weeks": {
@@ -303,10 +308,14 @@
   },
   "Juliette Has A Gun": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 2,
+      "2026-W25": 7
     },
-    "context": "Juliette Has A Gun appears in the most popular brands section of the page.",
-    "source": "fragrantica"
+    "context": "Mentioned for Not A Perfume as a potential layering tool and Vanilla Vibes which gave mostly an alcoholic scent with slight vanilla.",
+    "source": "fragrantica",
+    "country": "Monaco",
+    "founded": 2005,
+    "price_tier": "accessible niche"
   },
   "Nest": {
     "weeks": {
@@ -359,10 +368,14 @@
   },
   "Ramon Monegal": {
     "weeks": {
-      "2026-W23": 1
+      "2026-W23": 1,
+      "2026-W25": 5
     },
-    "context": "Reviewer says Lucky Spray belongs in a Zara line and dismisses the new releases as totally awful.",
-    "source": "fragrantica"
+    "context": "TWO HASHTAGS was criticized for not capturing the spirit of Ibiza despite the reviewer being very familiar with the destination.",
+    "source": "fragrantica",
+    "country": "Spain",
+    "founded": 2009,
+    "price_tier": "accessible niche"
   },
   "Aaron Terence Hughes": {
     "weeks": {
@@ -489,7 +502,7 @@
       "2026-W23": 1,
       "2026-W25": 2
     },
-    "context": "Amouage Existence is referenced as a benchmark scent when a user finds a hair mask that smells similar to it.",
+    "context": "Love Hibiscus humorously described as 'Beetroot Borscht Finished With Mushroom Oil' in a playful community post.",
     "source": "fragrantica",
     "country": "Oman",
     "founded": 1983,
@@ -508,12 +521,12 @@
   "Annayake": {
     "weeks": {
       "2026-W23": 1,
-      "2026-W25": 2
+      "2026-W25": 14
     },
-    "context": "Two Annayake fragrances are listed: Undo pour Homme (2005) and Yukimi (2004).",
+    "context": "Multiple Annayake fragrances are listed including Hanami, Natsumi, Tsukimi, Yukimi, and others from the early 2000s.",
     "source": "fragrantica",
     "country": "France",
-    "founded": 1998,
+    "founded": 1996,
     "price_tier": "accessible niche"
   },
   "Akro": {
@@ -590,11 +603,12 @@
   },
   "Phlur": {
     "weeks": {
-      "2026-W23": 3
+      "2026-W23": 3,
+      "2026-W25": 1
     },
-    "context": "Father Figure is described as gorgeous, sweet, fresh, creamy and complex, keeping the reviewer sniffing back for more.",
+    "context": "Matcha Milk described as sweet, creamy, nutty and a little fruity, with the reviewer enjoying it overall.",
     "source": "fragrantica",
-    "country": "USA",
+    "country": "United States",
     "founded": 2016,
     "price_tier": "accessible niche"
   },
@@ -721,9 +735,10 @@
   "Santa Maria Novella": {
     "weeks": {
       "2026-W23": 2,
-      "2026-W24": 3
+      "2026-W24": 3,
+      "2026-W25": 3
     },
-    "context": "Incenso reviewed as an unusual, pleasant incense marrying myrrh, frankincense, and earthy notes with centuries of tradition.",
+    "context": "Santa Maria Novella's Incenso is reviewed positively as an unusual and pleasant incense fragrance marrying centuries-old Italian traditions with contemporaneity.",
     "source": "fragrantica",
     "country": "Italy",
     "founded": 1612,
@@ -732,13 +747,14 @@
   "Perfumes de Autor": {
     "weeks": {
       "2026-W23": 1,
-      "2026-W24": 1
+      "2026-W24": 1,
+      "2026-W25": 1
     },
-    "context": "Ricardo Ramos of Perfumes de Autor invited the author to the GranadAroma 2026 indie artisanal perfume exhibition in Granada, Spain.",
+    "context": "Ricardo Ramos of Perfumes de Autor invited the blog author to the GranadAroma 2026 indie artisanal perfume exhibition in Granada, Spain.",
     "source": "fragrantica",
     "country": "Spain",
-    "founded": 2010,
-    "price_tier": "indie"
+    "founded": 2000,
+    "price_tier": "accessible niche"
   },
   "Annette Neuffer": {
     "weeks": {
@@ -754,9 +770,10 @@
   "Puredistance": {
     "weeks": {
       "2026-W23": 1,
-      "2026-W24": 1
+      "2026-W24": 1,
+      "2026-W25": 1
     },
-    "context": "Puredistance Divanch\u00e9 is listed among recently reviewed fragrances on the site.",
+    "context": "Puredistance Divanch\u00e9 is listed among recent perfume reviews on the blog.",
     "source": "fragrantica",
     "country": "Netherlands",
     "founded": 2002,
@@ -1068,7 +1085,7 @@
     "weeks": {
       "2026-W25": 1
     },
-    "context": "Byredo body care cream is noted for having a soapy scent in a forum discussion.",
+    "context": "Byredo Body Care Cream is mentioned in the context of its soapy scent in the beauty and care forum.",
     "source": "fragrantica",
     "country": "Sweden",
     "founded": 2006,
@@ -1162,6 +1179,136 @@
     "source": "fragrantica",
     "country": "Spain",
     "founded": 1843,
+    "price_tier": "accessible niche"
+  },
+  "Lalique": {
+    "weeks": {
+      "2026-W25": 3
+    },
+    "context": "Lalique White described as a delicate, light, airy, well-balanced scent with dry pencil shavings and soapy, white pepper qualities.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 1888,
+    "price_tier": "accessible niche"
+  },
+  "MAISON ASRAR": {
+    "weeks": {
+      "2026-W25": 3
+    },
+    "context": "Regent's high rating was questioned as inauthentic given widespread complaints about the fragrance's performance.",
+    "source": "fragrantica",
+    "country": "Saudi Arabia",
+    "founded": 2015,
+    "price_tier": "accessible niche"
+  },
+  "Lolita Lempicka": {
+    "weeks": {
+      "2026-W25": 5
+    },
+    "context": "Mentioned for stepping into the niche universe at Esxence 2026 and also noted as part of a personal fragrance bottle collection.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 1997,
+    "price_tier": "accessible niche"
+  },
+  "A.N Other": {
+    "weeks": {
+      "2026-W25": 4
+    },
+    "context": "Collaborated with bridal/fashion house Galia Lahav on Citrine Veil fragrance.",
+    "source": "fragrantica",
+    "country": "United States",
+    "founded": 2017,
+    "price_tier": "accessible niche"
+  },
+  "Slumberhouse": {
+    "weeks": {
+      "2026-W25": 3
+    },
+    "context": "Ore described as simply amazing with cocoa, woods and balsam, with the reviewer hoping Josh revisits some older creations.",
+    "source": "fragrantica",
+    "country": "United States",
+    "founded": 2009,
+    "price_tier": "accessible niche"
+  },
+  "Frederic Malle": {
+    "weeks": {
+      "2026-W25": 4
+    },
+    "context": "Editions de Parfums listed among favourite scents being worn during a long, cold Scandinavian spring turning to summer.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2000,
+    "price_tier": "luxury niche"
+  },
+  "TokyoMilk": {
+    "weeks": {
+      "2026-W25": 4
+    },
+    "context": "A bottle from the Classic Collection was blind bought, loved so much it was used to the last drop, but the reviewer can no longer find it.",
+    "source": "fragrantica",
+    "country": "United States",
+    "founded": 1999,
+    "price_tier": "indie"
+  },
+  "Bogue": {
+    "weeks": {
+      "2026-W25": 4
+    },
+    "context": "Bogue MEM was described as a favourite lavender perfume before the reviewer discovered Hiram Green Arcadia.",
+    "source": "fragrantica",
+    "country": "Italy",
+    "founded": 2012,
+    "price_tier": "accessible niche"
+  },
+  "Hiram Green": {
+    "weeks": {
+      "2026-W25": 3
+    },
+    "context": "Hiram Green Arcadia mentioned as displacing Bogue MEM as the reviewer's favourite lavender perfume.",
+    "source": "fragrantica",
+    "country": "Netherlands",
+    "founded": 2013,
+    "price_tier": "accessible niche"
+  },
+  "Maison Asrar": {
+    "weeks": {
+      "2026-W25": 1
+    },
+    "context": "User questions the authenticity of the high rating for Regent while many complain about its performance.",
+    "source": "fragrantica",
+    "country": "Saudi Arabia",
+    "founded": 2015,
+    "price_tier": "accessible niche"
+  },
+  "Kilian": {
+    "weeks": {
+      "2026-W25": 1
+    },
+    "context": "Commenter draws a comparison between a fragrance and Kilian's Smoking Hot, noting similarities in apple, smoke, and vanilla notes.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2007,
+    "price_tier": "luxury niche"
+  },
+  "Tauer Perfumes": {
+    "weeks": {
+      "2026-W25": 2
+    },
+    "context": "Tauer Perfumes is mentioned in the context of a bottle giveaway and an Advent giveaway featuring perfumer Andy Tauer.",
+    "source": "fragrantica",
+    "country": "Switzerland",
+    "founded": 2004,
+    "price_tier": "accessible niche"
+  },
+  "Biehl Parfumkunstwerke": {
+    "weeks": {
+      "2026-W25": 1
+    },
+    "context": "An interview with Thorsten Biehl of Biehl Parfumkunstwerke is highlighted alongside a giveaway of Biehl Deluxe Perfume Sets.",
+    "source": "fragrantica",
+    "country": "Germany",
+    "founded": 2005,
     "price_tier": "accessible niche"
   }
 }

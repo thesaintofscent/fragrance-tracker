@@ -1,68 +1,93 @@
-# Fragrance Brand Momentum Report — June 22, 2026
+# Fragrance Brand Momentum Report — June 28, 2026
 
 # Niche Fragrance Momentum Report
-**Week of June 22, 2026**
+**Week of June 28, 2026**
 
 ---
 
 ## Market Overview
 
-This week's data is entirely composed of first-appearance brands, suggesting a broad discovery cycle rather than sustained momentum building on any single name. The dominant signal is editorial and documentary-driven attention rather than organic community buzz, pointing to content as the primary catalyst for fragrance conversation right now.
+Conversation volume this week skews toward the accessible niche tier, with Japan-coded aesthetics and Spanish perfumery drawing disproportionate attention relative to their typical share of voice. Vanilla and skin-adjacent musks continue to anchor community discourse, while a wave of documentary and editorial coverage appears to be the primary accelerant for several emerging names.
 
 ---
 
-## 🆕 NEW Entrants — First Appearance, No Baseline
+## 🔺 CUSP — 3× or More Above Baseline
 
-*No historical average exists for these brands; movement cannot yet be characterized as sustained momentum.*
+### Annayake
+*France · Accessible Niche · Momentum: 14.0×*
+
+The most striking signal this week belongs to Annayake, a French house with Japanese-inspired aesthetics that has largely flown under the radar since its late-1990s founding. The jump from a baseline of 1 to 14 mentions is unusually sharp, and the breadth of titles surfacing — Hanami, Natsumi, Tsukimi, Yukimi — suggests this isn't a single viral post but a broader rediscovery sweep. The timing is plausible: Japan-coded minimalism and nature-seasonal framing (the brand's naming conventions map directly onto Japanese seasonal celebrations) align closely with the ambient aesthetics trend that has been building since late 2025. These are also early-2000s compositions, which places them squarely in the retro-niche rehabilitation cycle currently favoring overlooked houses from that era. Watch whether this is community-led or whether a tastemaker publication or influencer picks it up and sustains it past week three.
 
 ---
 
-**Rosendo Mateu** *(Spain, est. 2016 — Accessible Niche)*
-First-week entry with the highest raw volume of the report, driven by a cluster of activity: a Sweet Rose review, a Nº 10 Musk write-up, and notably a documentary feature on the perfumer himself. No baseline to measure against, but the documentary element is worth flagging — filmmaker-level storytelling around a perfumer tends to pull in readers who wouldn't otherwise engage with fragrance content.
+### Ramon Monegal
+*Spain · Accessible Niche · Momentum: 5.0×*
 
-**Rosendo Mateu Olfactive Expressions** *(Spain, est. 2016 — Accessible Niche)*
-Appearing separately from the parent brand listing, this likely reflects Fragrantica's tagging inconsistency rather than a distinct entity. Treat both entries as a single signal; combined, they represent the week's most concentrated burst of new attention.
+The signal here is modest in volume but the context is notably critical — TWO HASHTAGS received a pointed review questioning its ability to capture Ibiza's character. Mixed or negative discourse can still accelerate visibility, particularly for destination-concept fragrances where subjective authenticity is debatable and invites response. Worth monitoring for counter-reviews.
 
-**Memo Paris** *(France, est. 2007 — Accessible Niche)*
-First appearance tied to a Harrods-exclusive release that is also available direct via the brand's own site — a distribution note that clearly mattered to the reviewer. Retail exclusivity with parallel DTC access is an increasingly common tension point in niche, and Memo appears to be navigating it with some flexibility.
+---
 
-**Bohoboco** *(Poland, est. 2019 — Accessible Niche)*
-One of the more interesting geographic signals this week. The mention focuses on new releases described as "colourful" and "electric," language that suggests a deliberate aesthetic pivot. Polish niche has been quietly building credibility; Bohoboco is its most visible export at this tier.
+### Lattafa Perfumes
+*UAE · Indie · Momentum: 3.5×*
 
-**Orto Parisi** *(Italy, est. 2014 — Accessible Niche)*
-Bergamask surfaces through a skeptical review — low skin projection prompting the reviewer to question the broader enthusiasm around it. Polarizing performance reviews can actually sustain discussion as much as positive ones; this is still traffic.
+Eternal Vanille and Khamrah are driving this week's conversation, with Asad adding a secondary note targeting a more mature demographic. The consistency across multiple vanilla-adjacent SKUs suggests Lattafa is benefiting from the broader vanilla-forward moment rather than any single product breakthrough.
 
-**Filippo Sorcinelli** *(Italy, est. 2009 — Luxury Niche)*
-Voix Humaine 8 described as "disturbingly human and uncanny, like warm pale skin made into a musical instrument" — which is either the most compelling fragrance review of the week or a very good reason to avoid it, depending on your disposition. Sorcinelli's conceptual positioning continues to attract the kind of language that travels.
+---
 
-**Mind Games** *(United Kingdom, est. 2020 — Accessible Niche)*
-Counterplay received a negative review centered on heat performance — going powdery and cloying in Texas summer conditions. A single climate-specific complaint, but worth noting as brands at this price tier increasingly face scrutiny over wearability across seasons and geographies.
+### Juliette Has A Gun
+*Monaco · Accessible Niche · Momentum: 3.5×*
 
-**Robert Piguet** *(Switzerland, est. 1933 — Accessible Niche)*
-Fracas remains a reference point for gardenia in fragrance discourse. The review is measured — beautiful but monotonal — which is about as balanced as vintage tuberose florals tend to get these days. Heritage brand activity, not a trend signal.
+Not A Perfume continues to function as a community reference point for layering conversations, which sustains low-friction mentions without requiring a new release. Vanilla Vibes is generating less enthusiasm — the "alcoholic vanilla" criticism is a recurring friction point for this SKU and may be suppressing broader conversion.
 
-**Maison Godet** *(France, est. 2015 — Accessible Niche)*
-L'Eau du Château draws a positive but contained mention, with the "Morning Dew" base note singled out. A quiet entry for a brand that rarely surfaces loudly; worth watching if volume builds.
+---
 
-**Houbigant** *(France, est. 1775 — Luxury Niche)*
-Quelques Fleurs l'Original appears through a loyalty narrative — a decade of exclusive wear and heavy compliments. Heritage anchor content rather than discovery energy, but Houbigant's persistent surface-level presence across platforms suggests the archive continues to circulate.
+## 🟠 RISING
+
+*No brands registered in the 2×–3× band this week.*
+
+---
+
+## 🟢 NEW — First Appearance
+
+**Rosendo Mateu / Rosendo Mateu Olfactive Expressions** *(Spain · Accessible Niche)* — Appearing under two distinct listings this week, the combined signal around Sweet Rose, Nº 10 Musk, and a documentary feature is meaningful. Documentary coverage in particular tends to produce sustained rather than spike-driven momentum; this is one to track closely over the next three to four weeks.
+
+**Memo Paris** *(France · Accessible Niche)* — A Harrods exclusive now available via direct channels prompted community notice. Retail exclusivity shifts that open up access reliably generate a short burst of conversation; underlying interest in the house appears stable.
+
+**Bohoboco** *(Poland · Accessible Niche)* — First appearance, noted for new "colourful, electric" releases. Polish niche continues to punch above its geographic weight in community spaces; early enthusiasm is aspirational rather than review-based.
+
+**Orto Parisi** *(Italy · Accessible Niche)* — Bergamask surfacing with a skeptical review questioning the performance hype. Contrarian takes on well-regarded cult fragrances reliably generate engagement; net effect on brand visibility is positive even when the review is not.
+
+**Filippo Sorcinelli** *(Italy · Luxury Niche)* — Voix Humaine 8 described in viscerally evocative terms ("warm pale skin made into a musical instrument"). The house's conceptual register is landing with the right audience; single mention but high-quality signal.
+
+**Mind Games** *(UK · Accessible Niche)* — Counterplay's performance in summer heat drew criticism. Weather-driven performance complaints are seasonal noise but worth noting if the pattern persists.
+
+**Lolita Lempicka** *(France · Accessible Niche)* — Flagged for a niche-facing move at Esxence 2026. A legacy mass-market house repositioning toward niche is a structural story, not just a week's mention.
+
+**A.N Other** *(US · Accessible Niche)* — Citrine Veil, developed in collaboration with bridal house Galia Lahav, marks a fashion-adjacency play that could expand the brand's retail and editorial surface area.
+
+**Maison Godet** *(France · Accessible Niche)* — L'Eau du Château drawing quiet appreciation, specifically the Morning Dew base. A small house with a specific point of view; first appearance suggests growing awareness.
+
+**Slumberhouse** *(US · Accessible Niche)* — Community interest in Ore accompanied by calls for Josh Lobb to revisit older work. Nostalgia-driven conversation around a cult independent is a reliable low-level signal of sustained loyalty.
+
+**Hiram Green** *(Netherlands · Accessible Niche)* — Arcadia appearing as a benchmark lavender reference, displacing another respected name (Bogue MEM) in a reviewer's hierarchy. Benchmark status is durable brand equity.
+
+**Houbigant** *(France · Luxury Niche)* — Quelques Fleurs l'Original surfacing as a decade-long personal signature. Heritage house, strong compliment-driven narrative; the "first serious bottle" framing resonates with fragrance discovery arcs.
+
+**Bogue** *(Italy · Accessible Niche)*, **Robert Piguet** *(Switzerland · Accessible Niche)*, **Frederic Malle** *(France · Luxury Niche)*, **Lalique** *(France · Accessible Niche)*, **TokyoMilk** *(US · Indie)*, **Maison Asrar** *(Saudi Arabia · Accessible Niche)* — Single mentions across discovery, collection, and criticism contexts. No directional signal yet; noted for baseline tracking.
 
 ---
 
 ## 📊 Patterns
 
-**Ingredients & Aesthetics**
-The week skews toward skin-close, intimate materials: musk (Rosendo Mateu Nº 10), warm skin accord (Filippo Sorcinelli), gardenia/tuberose (Fracas), and dew-adjacent aquatics (Maison Godet). There is no heavy oudy or resinous presence in this week's data, which may reflect seasonal adjustment — late June community conversation tends to self-select toward lighter, skin-temperature compositions.
+**Ingredients & Accords**
+Vanilla remains the dominant note cluster driving volume, appearing across Lattafa, Juliette Has A Gun, and several adjacent mentions. Lavender is quietly re-emerging as a benchmark note for serious collectors rather than an entry-level reference — the Bogue/Hiram Green comparison reflects a maturing conversation. Skin musks and "uncanny human" accords (Filippo Sorcinelli) represent a small but intellectually active thread.
 
 **Geography**
-Italy and France dominate by brand count, but the most novel geographic signal is Poland via Bohoboco. Spanish perfumery gets its strongest single-week showing in recent memory, driven almost entirely by the Rosendo Mateu documentary effect. Swiss and UK entrants round out a broadly European week with no Middle Eastern or American brands surfacing.
+Spain is having an unusually strong week — Rosendo Mateu appearing under two listings plus Ramon Monegal puts Iberian perfumery at the center of multiple distinct conversations. The UAE continues steady baseline representation through Lattafa. Poland (Bohoboco) and the Netherlands (Hiram Green) are consistent minor presences that collectively signal European niche geography broadening beyond France and Italy.
 
-**Content Drivers**
-Documentary content is the standout driver this week — the Rosendo Mateu film appears to be doing meaningful work in pulling new readers into his catalog. Editorial storytelling continues to outperform pure review volume as an acquisition mechanism for niche brands without major retail distribution.
-
-**Sentiment**
-Mixed-to-positive overall, with the notable exceptions of Mind Games (heat performance) and Orto Parisi (projection skepticism). Neither is a reputational problem at this volume, but both touch recurring consumer anxieties — performance in warm climates and value-for-money at niche prices — that are worth tracking as themes.
+**Aesthetics & Framing**
+Japan-coded minimalism is the week's clearest aesthetic undercurrent, anchored by the Annayake surge and reinforced by the general community appetite for restrained, seasonal, nature-referential compositions. Destination and place-concept fragrances (Ramon Monegal's Ibiza, Memo Paris's Harrods exclusive) are generating discourse specifically around authenticity — whether a scent earns its geographic claim. Documentary and editorial long-form content is emerging as a meaningful traffic driver, most visibly with Rosendo Mateu; houses with a legible founder story appear positioned to benefit from this format.
 
 ---
 
-*Next report: June 29, 2026*
+*Next report: July 5, 2026*
