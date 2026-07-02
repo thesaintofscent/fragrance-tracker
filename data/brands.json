@@ -8,10 +8,14 @@
   },
   "Afnan": {
     "weeks": {
-      "2026-W23": 3
+      "2026-W23": 3,
+      "2026-W26": 1
     },
-    "context": "Reviewer finds Afnan Rare Reef fantastic as a longer-lasting alternative to a similar scent.",
-    "source": "fragrantica"
+    "context": "9 PM Rebel praised as the perfect blend of Baccarat Rouge 540 and Aventus DNA with good projection.",
+    "source": "fragrantica",
+    "country": "United Arab Emirates",
+    "founded": 2001,
+    "price_tier": "indie"
   },
   "Olfactive O": {
     "weeks": {
@@ -82,9 +86,10 @@
   "BORNTOSTANDOUT": {
     "weeks": {
       "2026-W23": 4,
-      "2026-W24": 1
+      "2026-W24": 1,
+      "2026-W26": 6
     },
-    "context": "Drunk Saffron described as nauseating with messy notes that smell like melted candy and leftover coffee on leather.",
+    "context": "Golden Milk described as musty, bittersweet, mouldy, and doughy, sparking curiosity to smell it.",
     "source": "fragrantica",
     "country": "Netherlands",
     "founded": 2019,
@@ -93,9 +98,10 @@
   "L'Artisan Parfumeur": {
     "weeks": {
       "2026-W23": 1,
-      "2026-W25": 2
+      "2026-W25": 2,
+      "2026-W26": 1
     },
-    "context": "L'Artisan Parfumeur Mandarine Tout Simplement is listed as a unisex fragrance from 2006.",
+    "context": "Mandarine Tout Simplement was listed in a fragrance catalog context without specific commentary.",
     "source": "fragrantica",
     "country": "France",
     "founded": 1976,
@@ -132,12 +138,13 @@
   "Divine": {
     "weeks": {
       "2026-W23": 1,
-      "2026-W25": 1
+      "2026-W25": 1,
+      "2026-W26": 1
     },
-    "context": "Multiple Divine fragrances listed in a catalog-style listing without specific commentary.",
+    "context": "Multiple Divine fragrances including L'Homme de Coeur, L'Ame Soeur, and L'Infante were listed in a fragrance catalog context.",
     "source": "fragrantica",
     "country": "France",
-    "founded": 1996,
+    "founded": 1994,
     "price_tier": "accessible niche"
   },
   "Royall Lyme Bermuda": {
@@ -157,12 +164,13 @@
   "Lattafa Perfumes": {
     "weeks": {
       "2026-W23": 2,
-      "2026-W25": 7
+      "2026-W25": 7,
+      "2026-W26": 16
     },
-    "context": "Eternal Vanille praised for vanilla lovers, Khamrah enjoyed for its rich vanilla ambiance, and Asad noted as good for anyone over 30.",
+    "context": "Multiple Lattafa fragrances reviewed with mixed reactions, including Angham, Mazaaji, Eclaire Banoffi, Angham Second Song, Fahad, and Asad/Yara Elixir.",
     "source": "fragrantica",
     "country": "United Arab Emirates",
-    "founded": 2000,
+    "founded": 2002,
     "price_tier": "indie"
   },
   "By Kilian": {
@@ -298,9 +306,10 @@
   "Etat Libre d'Orange": {
     "weeks": {
       "2026-W23": 3,
-      "2026-W24": 8
+      "2026-W24": 8,
+      "2026-W26": 7
     },
-    "context": "The Ghost In The Shell described as mostly citrus and jasmine with a tame lactonic element, not particularly metallic or soapy; also featured in a twenty-year retrospective article.",
+    "context": "Reviewer expresses fatigue with ELDO, noting their scents all have a heavy incense smell and lean masculine.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2006,
@@ -354,10 +363,14 @@
   },
   "Montale": {
     "weeks": {
-      "2026-W23": 3
+      "2026-W23": 3,
+      "2026-W26": 10
     },
-    "context": "Reviewer calls Arabians Tonka a great offering but notes it lacks originality due to widespread duplication.",
-    "source": "fragrantica"
+    "context": "Three Montale fragrances (Attar, Black Aoud, Aoud Lime) considered for decluttering as they all share rose and oud themes.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2003,
+    "price_tier": "accessible niche"
   },
   "Toskovat'": {
     "weeks": {
@@ -500,9 +513,10 @@
   "Amouage": {
     "weeks": {
       "2026-W23": 1,
-      "2026-W25": 2
+      "2026-W25": 2,
+      "2026-W26": 5
     },
-    "context": "Love Hibiscus humorously described as 'Beetroot Borscht Finished With Mushroom Oil' in a playful community post.",
+    "context": "Elsewhere by Amouage is described as a gorgeous fragrance with stunning honey, apricot, and black tea notes.",
     "source": "fragrantica",
     "country": "Oman",
     "founded": 1983,
@@ -521,12 +535,13 @@
   "Annayake": {
     "weeks": {
       "2026-W23": 1,
-      "2026-W25": 14
+      "2026-W25": 14,
+      "2026-W26": 1
     },
-    "context": "Multiple Annayake fragrances are listed including Hanami, Natsumi, Tsukimi, Yukimi, and others from the early 2000s.",
+    "context": "Multiple Annayake fragrances including Pour Elle, Pour Lui, Hanami, and Natsumi were listed in a fragrance catalog context.",
     "source": "fragrantica",
     "country": "France",
-    "founded": 1996,
+    "founded": 1998,
     "price_tier": "accessible niche"
   },
   "Akro": {
@@ -736,9 +751,10 @@
     "weeks": {
       "2026-W23": 2,
       "2026-W24": 3,
-      "2026-W25": 3
+      "2026-W25": 3,
+      "2026-W26": 2
     },
-    "context": "Santa Maria Novella's Incenso is reviewed positively as an unusual and pleasant incense fragrance marrying centuries-old Italian traditions with contemporaneity.",
+    "context": "Incenso praised as an unusual and pleasant incense fragrance marrying centuries-old traditions with contemporaneity.",
     "source": "fragrantica",
     "country": "Italy",
     "founded": 1612,
@@ -983,9 +999,10 @@
   },
   "Robert Piguet": {
     "weeks": {
-      "2026-W25": 4
+      "2026-W25": 4,
+      "2026-W26": 1
     },
-    "context": "Reviewer found Fracas beautiful but overly one-note with gardenia dominating, despite loving the note.",
+    "context": "Bandit was listed in a fragrance catalog context without specific commentary.",
     "source": "fragrantica",
     "country": "Switzerland",
     "founded": 1933,
@@ -1023,13 +1040,14 @@
   },
   "Memo Paris": {
     "weeks": {
-      "2026-W25": 6
+      "2026-W25": 6,
+      "2026-W26": 1
     },
-    "context": "Reviewer was glad the new Harrods exclusive is also available on the Memo website and found it interesting.",
+    "context": "Madurai described as too masculine with a department store vibe, though Marfa is noted as a top favorite.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2007,
-    "price_tier": "accessible niche"
+    "price_tier": "luxury niche"
   },
   "Bohoboco": {
     "weeks": {
@@ -1063,13 +1081,14 @@
   },
   "Houbigant": {
     "weeks": {
-      "2026-W25": 4
+      "2026-W25": 4,
+      "2026-W26": 5
     },
-    "context": "Reviewer wore Quelques Fleurs l'Original exclusively for a decade and received heavy compliments, calling it their first serious bottle.",
+    "context": "Houbigant Chardin featured in a beautiful article connecting it to Fr\u00e9d\u00e9ric Chopin.",
     "source": "fragrantica",
     "country": "France",
     "founded": 1775,
-    "price_tier": "luxury niche"
+    "price_tier": "accessible niche"
   },
   "Rosendo Mateu Olfactive Expressions": {
     "weeks": {
@@ -1083,9 +1102,10 @@
   },
   "Byredo": {
     "weeks": {
-      "2026-W25": 1
+      "2026-W25": 1,
+      "2026-W26": 1
     },
-    "context": "Byredo Body Care Cream is mentioned in the context of its soapy scent in the beauty and care forum.",
+    "context": "Byredo Body Care Cream is mentioned in a forum thread discussing its soapy scent.",
     "source": "fragrantica",
     "country": "Sweden",
     "founded": 2006,
@@ -1310,5 +1330,658 @@
     "country": "Germany",
     "founded": 2005,
     "price_tier": "accessible niche"
+  },
+  "Vilhelm Parfumerie": {
+    "weeks": {
+      "2026-W26": 4
+    },
+    "context": "Opus Kore described as a niche alternative to Chance eau Tendre but disappointingly not unique.",
+    "source": "fragrantica",
+    "country": "Sweden",
+    "founded": 2014,
+    "price_tier": "accessible niche"
+  },
+  "Narcotica": {
+    "weeks": {
+      "2026-W26": 4
+    },
+    "context": "Happy Dust praised as a 95% close dupe that smells fantastic.",
+    "source": "fragrantica",
+    "country": "United Kingdom",
+    "founded": 2013,
+    "price_tier": "indie"
+  },
+  "Escentric Molecules": {
+    "weeks": {
+      "2026-W26": 3
+    },
+    "context": "Molecule 01 liked for its fresh, cool, woody quality but criticized for being too elusive to smell on skin.",
+    "source": "fragrantica",
+    "country": "Germany",
+    "founded": 2006,
+    "price_tier": "accessible niche"
+  },
+  "SYD Botanica": {
+    "weeks": {
+      "2026-W26": 4
+    },
+    "context": "Angelface described as a syrupy, very overpowering rose smell.",
+    "source": "fragrantica",
+    "country": "Australia",
+    "founded": 2018,
+    "price_tier": "indie"
+  },
+  "Herrera Confidential": {
+    "weeks": {
+      "2026-W26": 3
+    },
+    "context": "Peccato Nobile mentioned with interest to explore the line further.",
+    "source": "fragrantica",
+    "country": "United States",
+    "founded": 2017,
+    "price_tier": "accessible niche"
+  },
+  "Maison Rebatchi": {
+    "weeks": {
+      "2026-W26": 6
+    },
+    "context": "Oud de Soir\u00e9e highlighted in an article about oud wood fragrances.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2016,
+    "price_tier": "accessible niche"
+  },
+  "Brocard": {
+    "weeks": {
+      "2026-W26": 3
+    },
+    "context": "A 1911-1914 advertising booklet for Brocard is discussed with fascination about their enigmatic vintage fragrance names.",
+    "source": "fragrantica",
+    "country": "Russia",
+    "founded": 1864,
+    "price_tier": "indie"
+  },
+  "Fragrance du Bois": {
+    "weeks": {
+      "2026-W26": 3
+    },
+    "context": "Heritage described as a favorite, with a reader asking whether it runs feminine or unisex.",
+    "source": "fragrantica",
+    "country": "United Kingdom",
+    "founded": 2012,
+    "price_tier": "luxury niche"
+  },
+  "Lattafa": {
+    "weeks": {
+      "2026-W26": 5
+    },
+    "context": "Lattafa Fahad is analyzed for its marketing parallels to Cartier, while Lattafa Dynasty and Lattafa Angham receive user reviews noting improvement over time and pleasant florals respectively.",
+    "source": "fragrantica",
+    "country": "United Arab Emirates",
+    "founded": 2002,
+    "price_tier": "indie"
+  },
+  "Fragonard": {
+    "weeks": {
+      "2026-W26": 1
+    },
+    "context": "A forum thread asks about the best Fragonard soap bars.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 1926,
+    "price_tier": "indie"
+  },
+  "Dossier": {
+    "weeks": {
+      "2026-W26": 1
+    },
+    "context": "Mentioned as a more affordable alternative to Vilhelm Parfumerie Opus Kore.",
+    "source": "fragrantica",
+    "country": "United States",
+    "founded": 2018,
+    "price_tier": "indie"
+  },
+  "Bujarami": {
+    "weeks": {
+      "2026-W26": 2
+    },
+    "context": "Reviewer praises Bujarami for creating close dupes of popular fragrances at lower price points.",
+    "source": "fragrantica",
+    "country": "unknown",
+    "founded": null,
+    "price_tier": "indie"
+  },
+  "86 West": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "USA",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "American Perfumer": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "USA",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Amphora Parfum": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "unknown",
+    "founded": "unknown",
+    "price_tier": "accessible niche",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Atwood Parfum": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "USA",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Ba\u00f1omaria": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "Spain",
+    "founded": "unknown",
+    "price_tier": "accessible niche",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Blackcliff": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "unknown",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Cirrus Parfum": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "USA",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "CLST Perfumes": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "unknown",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Cult of Kaori": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "USA",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Domestica": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "unknown",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Elysian": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "unknown",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Faeral Parfum": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "unknown",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Fleurit": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "unknown",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Free Yourself": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "USA",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Hez Parfums": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "unknown",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "House of Iyrah": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "USA",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "House of Mammoth": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "USA",
+    "founded": 2020,
+    "price_tier": "accessible niche",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "IDA": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "unknown",
+    "founded": "unknown",
+    "price_tier": "unknown",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Jean Robert": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "France",
+    "founded": "unknown",
+    "price_tier": "accessible niche",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Kelly+Jones": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "USA",
+    "founded": 2018,
+    "price_tier": "accessible niche",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Koromas Aromas": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "Greece",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "L'Aventura Perfumes": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "USA",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "LEI\u018fR": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "unknown",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Maher Olfactive": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "USA",
+    "founded": "unknown",
+    "price_tier": "accessible niche",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Maya Njie": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "UK",
+    "founded": 2017,
+    "price_tier": "accessible niche",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Mitti": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "India",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "MOCO Fragrances": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "unknown",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Nose of Gatsby": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "USA",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Nostos": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "Greece",
+    "founded": "unknown",
+    "price_tier": "accessible niche",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "OSM": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "USA",
+    "founded": 2019,
+    "price_tier": "accessible niche",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Paraphrase Perfume": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "unknown",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Parfums Obim": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "unknown",
+    "founded": "unknown",
+    "price_tier": "accessible niche",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Pearfat Parfum": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "unknown",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Pictura Fragrans": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "unknown",
+    "founded": "unknown",
+    "price_tier": "accessible niche",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Perfume Who": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "unknown",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Punk and Dandy": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "USA",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Puppet Parfum": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "unknown",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Qhue New York": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "USA",
+    "founded": "unknown",
+    "price_tier": "accessible niche",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Scent Trunk": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "Canada",
+    "founded": 2014,
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "Syd Botanica": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "Australia",
+    "founded": "unknown",
+    "price_tier": "indie",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
+  },
+  "The Alloy Studio": {
+    "weeks": {
+      "2026-W08": 1
+    },
+    "context": "Exhibitor at FUMED Indie Perfume Expo 2026",
+    "source": "event",
+    "country": "USA",
+    "founded": "unknown",
+    "price_tier": "accessible niche",
+    "events": [
+      "FUMED Indie Perfume Expo 2026"
+    ]
   }
 }
