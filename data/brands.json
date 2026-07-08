@@ -100,9 +100,10 @@
     "weeks": {
       "2026-W23": 1,
       "2026-W25": 2,
-      "2026-W26": 1
+      "2026-W26": 1,
+      "2026-W27": 1
     },
-    "context": "L'Artisan Parfumeur Mandarine Tout Simplement is listed among fragrances on the page.",
+    "context": "L'Artisan Parfumeur Mandarine Tout Simplement is listed in the fragrance catalog.",
     "source": "fragrantica",
     "country": "France",
     "founded": 1976,
@@ -140,12 +141,13 @@
     "weeks": {
       "2026-W23": 1,
       "2026-W25": 1,
-      "2026-W26": 5
+      "2026-W26": 5,
+      "2026-W27": 5
     },
-    "context": "Multiple Divine fragrances including L'Homme de Coeur, L'Ame Soeur, and L'Infante are listed among fragrances on the page.",
+    "context": "Multiple Divine fragrances including L'Homme de Coeur, L'Ame Soeur, Divine, L'Homme Sage, and L'Infante are listed in the fragrance catalog.",
     "source": "fragrantica",
     "country": "France",
-    "founded": 1997,
+    "founded": 1986,
     "price_tier": "accessible niche"
   },
   "Royall Lyme Bermuda": {
@@ -215,10 +217,14 @@
   },
   "Armaf": {
     "weeks": {
-      "2026-W23": 1
+      "2026-W23": 1,
+      "2026-W27": 1
     },
-    "context": "Club de Nuit Intense Man by Armaf appeared in the most popular perfumes section.",
-    "source": "fragrantica"
+    "context": "Dunescape is said to have a great opening similar to LV Afternoon Swim but settles into something reminiscent of YSL Y EDP, with moderate longevity.",
+    "source": "fragrantica",
+    "country": "United Arab Emirates",
+    "founded": 2014,
+    "price_tier": "indie"
   },
   "French Avenue": {
     "weeks": {
@@ -272,20 +278,25 @@
   },
   "Khadlaj Perfumes": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 2,
+      "2026-W27": 2
     },
-    "context": "Panache Angel Dust was disliked by a white floral fan, described as smelling like toothpaste.",
+    "context": "Shiyaaka Sky was described as respectable and pleasant, cut from the same cloth as Guerlain's Herbes Troublantes but its own thing.",
     "source": "fragrantica",
     "country": "United Arab Emirates",
-    "founded": 1974,
+    "founded": 1970,
     "price_tier": "indie"
   },
   "Fragrance World": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 2,
+      "2026-W27": 4
     },
-    "context": "Fragrance World appears in the most popular brands section of the page.",
-    "source": "fragrantica"
+    "context": "A bottle called 'Sedley' by Fragrance World is described as fizzy like sprite and soap, great for the gym at a very low price.",
+    "source": "fragrantica",
+    "country": "United Arab Emirates",
+    "founded": 1998,
+    "price_tier": "indie"
   },
   "Penhaligon's": {
     "weeks": {
@@ -320,11 +331,12 @@
   "Juliette Has A Gun": {
     "weeks": {
       "2026-W23": 2,
-      "2026-W25": 7
+      "2026-W25": 7,
+      "2026-W27": 3
     },
-    "context": "Mentioned for Not A Perfume as a potential layering tool and Vanilla Vibes which gave mostly an alcoholic scent with slight vanilla.",
+    "context": "Banana Rush by Juliette Has A Gun was noted as taking inspiration from Bath & Body Works.",
     "source": "fragrantica",
-    "country": "Monaco",
+    "country": "France",
     "founded": 2005,
     "price_tier": "accessible niche"
   },
@@ -444,9 +456,10 @@
     "weeks": {
       "2026-W23": 9,
       "2026-W24": 4,
-      "2026-W26": 12
+      "2026-W26": 12,
+      "2026-W27": 7
     },
-    "context": "Described as one of the reviewer's favorite houses with six bottles in their collection including Caravanserail Intense and New York Intense.",
+    "context": "Reviewer expressed love for Patricia de Nicolai's perfumery style and ownership of many creations including Caravans\u00e9rail Intense and Iris Medicis Intense.",
     "source": "fragrantica",
     "country": "France",
     "founded": 1989,
@@ -517,9 +530,10 @@
     "weeks": {
       "2026-W23": 1,
       "2026-W25": 2,
-      "2026-W26": 6
+      "2026-W26": 6,
+      "2026-W27": 1
     },
-    "context": "The house was praised, with Love Hibiscus reviewed in detail and other releases like Purpose and Guidance also highlighted positively.",
+    "context": "A forum thread mentioned finding a hair mask that smells like Amouage Existence.",
     "source": "fragrantica",
     "country": "Oman",
     "founded": 1983,
@@ -539,12 +553,13 @@
     "weeks": {
       "2026-W23": 1,
       "2026-W25": 14,
-      "2026-W26": 7
+      "2026-W26": 7,
+      "2026-W27": 7
     },
-    "context": "Multiple Annayake fragrances including Pour Elle, Pour Lui, Hanami, and Natsumi are listed among fragrances on the page.",
+    "context": "Multiple Annayake fragrances including Pour Elle, Pour Lui, Hanami, Natsumi, and Tsukimi are listed in the fragrance catalog.",
     "source": "fragrantica",
     "country": "France",
-    "founded": 1998,
+    "founded": 1990,
     "price_tier": "accessible niche"
   },
   "Akro": {
@@ -612,12 +627,13 @@
   },
   "Maison Crivelli": {
     "weeks": {
-      "2026-W23": 1
+      "2026-W23": 1,
+      "2026-W27": 3
     },
-    "context": "A user sarcastically suggested wearing Maison Crivelli's Ambre Chromatique if you want people talking negatively about you.",
+    "context": "Reviewer expressed appreciation for Musc Nurasana, noting it sounds like the kind of musc they appreciate.",
     "source": "fragrantica",
     "country": "France",
-    "founded": 2019,
+    "founded": 2018,
     "price_tier": "accessible niche"
   },
   "Phlur": {
@@ -756,9 +772,10 @@
       "2026-W23": 2,
       "2026-W24": 3,
       "2026-W25": 3,
-      "2026-W26": 2
+      "2026-W26": 2,
+      "2026-W27": 3
     },
-    "context": "Incenso praised as an unusual and pleasant incense fragrance marrying centuries-old traditions with contemporaneity.",
+    "context": "Reviewer gave a detailed positive review of Santa Maria Novella's Incenso, praising its blend of centuries-old tradition with contemporaneity.",
     "source": "fragrantica",
     "country": "Italy",
     "founded": 1612,
@@ -768,12 +785,13 @@
     "weeks": {
       "2026-W23": 1,
       "2026-W24": 1,
-      "2026-W25": 1
+      "2026-W25": 1,
+      "2026-W27": 1
     },
-    "context": "Ricardo Ramos of Perfumes de Autor invited the blog author to the GranadAroma 2026 indie artisanal perfume exhibition in Granada, Spain.",
+    "context": "Ricardo Ramos of Perfumes de Autor invited the author to Granada, Spain for the GranadAroma 2026 indie artisanal perfume exhibition.",
     "source": "fragrantica",
     "country": "Spain",
-    "founded": 2000,
+    "founded": 2005,
     "price_tier": "accessible niche"
   },
   "Annette Neuffer": {
@@ -791,9 +809,10 @@
     "weeks": {
       "2026-W23": 1,
       "2026-W24": 1,
-      "2026-W25": 1
+      "2026-W25": 1,
+      "2026-W27": 1
     },
-    "context": "Puredistance Divanch\u00e9 is listed among recent perfume reviews on the blog.",
+    "context": "Puredistance Divanch\u00e9 is listed among recently reviewed fragrances on the blog.",
     "source": "fragrantica",
     "country": "Netherlands",
     "founded": 2002,
@@ -1006,11 +1025,12 @@
   "Robert Piguet": {
     "weeks": {
       "2026-W25": 4,
-      "2026-W26": 1
+      "2026-W26": 1,
+      "2026-W27": 1
     },
-    "context": "Robert Piguet Bandit from 1944 is listed among fragrances on the page.",
+    "context": "Robert Piguet Bandit from 1944 is listed in the fragrance catalog.",
     "source": "fragrantica",
-    "country": "France",
+    "country": "Switzerland",
     "founded": 1933,
     "price_tier": "accessible niche"
   },
@@ -1110,9 +1130,10 @@
   "Byredo": {
     "weeks": {
       "2026-W25": 1,
-      "2026-W26": 1
+      "2026-W26": 1,
+      "2026-W27": 1
     },
-    "context": "Byredo Body Care Cream is noted for having a soapy scent in a beauty forum thread.",
+    "context": "Byredo Body Care Cream was mentioned in a forum thread discussing its soapy scent.",
     "source": "fragrantica",
     "country": "Sweden",
     "founded": 2006,
@@ -1210,12 +1231,13 @@
   },
   "Lalique": {
     "weeks": {
-      "2026-W25": 3
+      "2026-W25": 3,
+      "2026-W27": 1
     },
-    "context": "Lalique White described as a delicate, light, airy, well-balanced scent with dry pencil shavings and soapy, white pepper qualities.",
+    "context": "Encre Noire is described as extremely woody in a rain-soaked way, with the reviewer pushing back on the common characterization of it as dark.",
     "source": "fragrantica",
     "country": "France",
-    "founded": 1888,
+    "founded": 1992,
     "price_tier": "accessible niche"
   },
   "MAISON ASRAR": {
@@ -1260,9 +1282,10 @@
   },
   "Frederic Malle": {
     "weeks": {
-      "2026-W25": 4
+      "2026-W25": 4,
+      "2026-W27": 2
     },
-    "context": "Editions de Parfums listed among favourite scents being worn during a long, cold Scandinavian spring turning to summer.",
+    "context": "Referenced as an example of how warming materials like clove can intensify chilly notes, specifically in Geranium Pour Monsieur.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2000,
@@ -1321,9 +1344,10 @@
   },
   "Tauer Perfumes": {
     "weeks": {
-      "2026-W25": 2
+      "2026-W25": 2,
+      "2026-W27": 1
     },
-    "context": "Tauer Perfumes is mentioned in the context of a bottle giveaway and an Advent giveaway featuring perfumer Andy Tauer.",
+    "context": "Tauer Perfumes is featured in a bottle giveaway listed among the month's popular posts.",
     "source": "fragrantica",
     "country": "Switzerland",
     "founded": 2004,
@@ -1331,9 +1355,10 @@
   },
   "Biehl Parfumkunstwerke": {
     "weeks": {
-      "2026-W25": 1
+      "2026-W25": 1,
+      "2026-W27": 1
     },
-    "context": "An interview with Thorsten Biehl of Biehl Parfumkunstwerke is highlighted alongside a giveaway of Biehl Deluxe Perfume Sets.",
+    "context": "An interview with Thorsten Biehl of Biehl Parfumkunstwerke is listed as a popular post, accompanied by a giveaway of 10 Biehl Deluxe Perfume Sets.",
     "source": "fragrantica",
     "country": "Germany",
     "founded": 2005,
@@ -1431,9 +1456,10 @@
   },
   "Fragonard": {
     "weeks": {
-      "2026-W26": 1
+      "2026-W26": 1,
+      "2026-W27": 1
     },
-    "context": "A forum thread asks about the best Fragonard soap bars.",
+    "context": "Fragonard soap bars were mentioned as a forum discussion topic.",
     "source": "fragrantica",
     "country": "France",
     "founded": 1926,
@@ -2080,6 +2106,116 @@
     "source": "fragrantica",
     "country": "France",
     "founded": 1994,
+    "price_tier": "indie"
+  },
+  "Frederic Malle Editions de Parfums": {
+    "weeks": {
+      "2026-W27": 3
+    },
+    "context": "Referenced in context of Dominique Ropion's work on Geranium Pour Monsieur as an example of using warming materials to intensify chilly notes.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2000,
+    "price_tier": "luxury niche"
+  },
+  "Les Ind\u00e9modables": {
+    "weeks": {
+      "2026-W27": 4
+    },
+    "context": "Reviewer praised Escale en Indonesie for maintaining bright citrus clarity over 4-5 years and expressed interest in their new Parfum Secret launch.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2015,
+    "price_tier": "accessible niche"
+  },
+  "L'Erbolario": {
+    "weeks": {
+      "2026-W27": 4
+    },
+    "context": "Reviewer expressed genuine enjoyment of L'Erbolario Iris, calling it a lovely scent.",
+    "source": "fragrantica",
+    "country": "Italy",
+    "founded": 1978,
+    "price_tier": "indie"
+  },
+  "Wiener Blut": {
+    "weeks": {
+      "2026-W27": 3
+    },
+    "context": "Reviewer expressed desire to add Wiener Blut Unheimlich to their collection, admiring its notes.",
+    "source": "fragrantica",
+    "country": "Austria",
+    "founded": 2004,
+    "price_tier": "accessible niche"
+  },
+  "Initio Parfums Priv\u00e9s": {
+    "weeks": {
+      "2026-W27": 3
+    },
+    "context": "Article discusses how summer heat helped the author better understand and appreciate Paragon by Initio Parfums Priv\u00e9s.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2015,
+    "price_tier": "luxury niche"
+  },
+  "Ojar": {
+    "weeks": {
+      "2026-W27": 3
+    },
+    "context": "Reviewer expressed interest in sampling Ojar's Musk Colada, calling the ingredients interesting.",
+    "source": "fragrantica",
+    "country": "Portugal",
+    "founded": 2015,
+    "price_tier": "accessible niche"
+  },
+  "Maison Violet": {
+    "weeks": {
+      "2026-W27": 3
+    },
+    "context": "Reviewer described Un Air d'Apog\u00e9e as gloriously blended, speaking to their soul, and called it utter perfection.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2018,
+    "price_tier": "accessible niche"
+  },
+  "Room 1015": {
+    "weeks": {
+      "2026-W27": 2
+    },
+    "context": "Love-O-Matic was briefly described as having subtle musk and bubble gum.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2017,
+    "price_tier": "accessible niche"
+  },
+  "Ex Nihilo": {
+    "weeks": {
+      "2026-W27": 2
+    },
+    "context": "Lust in Paradise Extrait by Ex Nihilo was mentioned without further commentary.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2013,
+    "price_tier": "luxury niche"
+  },
+  "Prin": {
+    "weeks": {
+      "2026-W27": 2
+    },
+    "context": "Nocturnal Poetry is humorously described as the best piss the reviewer ever smelled.",
+    "source": "fragrantica",
+    "country": "Thailand",
+    "founded": 2013,
+    "price_tier": "accessible niche"
+  },
+  "Aromatix": {
+    "weeks": {
+      "2026-W27": 1
+    },
+    "context": "Reviewer purchased Aromatix X French Avenue Frostbite and described it as smelling like fruity shampoo, unisex and sweet.",
+    "source": "fragrantica",
+    "country": "unknown",
+    "founded": null,
     "price_tier": "indie"
   }
 }
