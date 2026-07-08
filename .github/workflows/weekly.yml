@@ -39,11 +39,6 @@ jobs:
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
           ETSY_API_KEY: ${{ secrets.ETSY_API_KEY }}
         run: python tracker.py
-        
-      - name: Seed FUMED brands
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python event_scan.py --event fumed_2026
           
       - name: Commit updated brand history
         run: |
