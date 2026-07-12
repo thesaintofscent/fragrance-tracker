@@ -69,9 +69,10 @@
     "weeks": {
       "2026-W23": 4,
       "2026-W24": 1,
-      "2026-W26": 3
+      "2026-W26": 3,
+      "2026-W27": 5
     },
-    "context": "A fan of the house found P.33 Blank Page Edition to smell 85% like One Million.",
+    "context": "Xerjoff 40 Knots is described as smelling like Ambre Nuit without the rose and with a little salt.",
     "source": "fragrantica",
     "country": "Italy",
     "founded": 2003,
@@ -103,7 +104,7 @@
       "2026-W26": 1,
       "2026-W27": 1
     },
-    "context": "L'Artisan Parfumeur Mandarine Tout Simplement is listed in the fragrance catalog.",
+    "context": "Mandarine Tout Simplement by L'Artisan Parfumeur is listed among fragrances.",
     "source": "fragrantica",
     "country": "France",
     "founded": 1976,
@@ -144,10 +145,10 @@
       "2026-W26": 5,
       "2026-W27": 5
     },
-    "context": "Multiple Divine fragrances including L'Homme de Coeur, L'Ame Soeur, Divine, L'Homme Sage, and L'Infante are listed in the fragrance catalog.",
+    "context": "Multiple Divine fragrances are listed including L'Homme de Coeur, L'Ame Soeur, Divine, L'Homme Sage, and L'Infante.",
     "source": "fragrantica",
     "country": "France",
-    "founded": 1986,
+    "founded": 1997,
     "price_tier": "accessible niche"
   },
   "Royall Lyme Bermuda": {
@@ -197,9 +198,10 @@
     "weeks": {
       "2026-W23": 2,
       "2026-W25": 3,
-      "2026-W26": 1
+      "2026-W26": 1,
+      "2026-W27": 2
     },
-    "context": "Rose Magnetic was noted as a strong rose-forward scent, recommended for rose lovers but too overwhelming for the reviewer.",
+    "context": "Their N\u00e9roli Botanica is described as a fizzing orange sherbet with heady white floral, refreshing and uplifting, exceeding expectations.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2019,
@@ -533,7 +535,7 @@
       "2026-W26": 6,
       "2026-W27": 1
     },
-    "context": "A forum thread mentioned finding a hair mask that smells like Amouage Existence.",
+    "context": "A user found a hair mask that smells like Amouage Existence.",
     "source": "fragrantica",
     "country": "Oman",
     "founded": 1983,
@@ -556,10 +558,10 @@
       "2026-W26": 7,
       "2026-W27": 7
     },
-    "context": "Multiple Annayake fragrances including Pour Elle, Pour Lui, Hanami, Natsumi, and Tsukimi are listed in the fragrance catalog.",
+    "context": "Multiple Annayake fragrances are listed including Pour Elle, Pour Lui, Hanami, Natsumi, Tsukimi, Undo pour Homme, and Yukimi.",
     "source": "fragrantica",
     "country": "France",
-    "founded": 1990,
+    "founded": 1998,
     "price_tier": "accessible niche"
   },
   "Akro": {
@@ -689,12 +691,13 @@
   },
   "Roja Dove": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 2,
+      "2026-W27": 2
     },
-    "context": "Elysium Noir is called a level above any other blue fragrance, with the most presence and longevity in the Elysium line.",
+    "context": "A commenter references Roja Dove Isola Blu in a discussion about understanding perfumery beyond designer fragrances.",
     "source": "fragrantica",
     "country": "UK",
-    "founded": 2011,
+    "founded": 2004,
     "price_tier": "luxury niche"
   },
   "Cal\u00e9": {
@@ -1028,7 +1031,7 @@
       "2026-W26": 1,
       "2026-W27": 1
     },
-    "context": "Robert Piguet Bandit from 1944 is listed in the fragrance catalog.",
+    "context": "Robert Piguet Bandit from 1944 is listed among fragrances.",
     "source": "fragrantica",
     "country": "Switzerland",
     "founded": 1933,
@@ -1133,7 +1136,7 @@
       "2026-W26": 1,
       "2026-W27": 1
     },
-    "context": "Byredo Body Care Cream was mentioned in a forum thread discussing its soapy scent.",
+    "context": "A forum thread discusses Byredo Body Care Cream and its soapy scent.",
     "source": "fragrantica",
     "country": "Sweden",
     "founded": 2006,
@@ -1459,7 +1462,7 @@
       "2026-W26": 1,
       "2026-W27": 1
     },
-    "context": "Fragonard soap bars were mentioned as a forum discussion topic.",
+    "context": "A forum thread asks about the best Fragonard soap bars in the Beauty and Care section.",
     "source": "fragrantica",
     "country": "France",
     "founded": 1926,
@@ -2120,12 +2123,12 @@
   },
   "Les Ind\u00e9modables": {
     "weeks": {
-      "2026-W27": 4
+      "2026-W27": 3
     },
-    "context": "Reviewer praised Escale en Indonesie for maintaining bright citrus clarity over 4-5 years and expressed interest in their new Parfum Secret launch.",
+    "context": "Les Ind\u00e9modables launches a new fragrance called Parfum Secret, prompting a discussion about pricing and taxes.",
     "source": "fragrantica",
     "country": "France",
-    "founded": 2015,
+    "founded": 2014,
     "price_tier": "accessible niche"
   },
   "L'Erbolario": {
@@ -2216,6 +2219,126 @@
     "source": "fragrantica",
     "country": "unknown",
     "founded": null,
+    "price_tier": "indie"
+  },
+  "Sucreabeille": {
+    "weeks": {
+      "2026-W27": 2
+    },
+    "context": "User loves 'Assbutt' by Sucreabeille, calling it a rare fragrance that successfully combines incense and tuberose.",
+    "source": "fragrantica",
+    "country": "USA",
+    "founded": 2012,
+    "price_tier": "indie"
+  },
+  "Kayali": {
+    "weeks": {
+      "2026-W27": 1
+    },
+    "context": "Kayali Fragrances launches a new scent called Boujee Kitty Caramel Milk | 22, with a comment about founder Mona's appearance.",
+    "source": "fragrantica",
+    "country": "USA",
+    "founded": 2018,
+    "price_tier": "accessible niche"
+  },
+  "Floris": {
+    "weeks": {
+      "2026-W27": 1
+    },
+    "context": "Reviewer mentions loving Floris Purple M\u00e9moire and says the house is growing on them.",
+    "source": "fragrantica",
+    "country": "UK",
+    "founded": 1730,
+    "price_tier": "accessible niche"
+  },
+  "Outremer": {
+    "weeks": {
+      "2026-W27": 2
+    },
+    "context": "User purchased Outremer Vanille with a gift card and found it just alright.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 1991,
+    "price_tier": "indie"
+  },
+  "Zimaya": {
+    "weeks": {
+      "2026-W27": 5
+    },
+    "context": "Zimaya Hawwa Pink is praised as a pretty realistic rose scent after macerating, while Zimaya Tiramisu S'mores is critiqued for an overly strong coffee note.",
+    "source": "fragrantica",
+    "country": "UAE",
+    "founded": 2019,
+    "price_tier": "indie"
+  },
+  "Clue Perfumery": {
+    "weeks": {
+      "2026-W27": 3
+    },
+    "context": "Clue Perfumery Dandelion Butter is described as smelling very green and exactly like freshly cut grass.",
+    "source": "fragrantica",
+    "country": "unknown",
+    "founded": null,
+    "price_tier": "indie"
+  },
+  "Adamo Parfum": {
+    "weeks": {
+      "2026-W27": 3
+    },
+    "context": "A reviewer finds Eden and Tilia from the Immaginario Collection to be indistinguishable from each other.",
+    "source": "fragrantica",
+    "country": "unknown",
+    "founded": null,
+    "price_tier": "indie"
+  },
+  "Ayat Perfumes": {
+    "weeks": {
+      "2026-W27": 3
+    },
+    "context": "A reader is excited about Ayat Perfumes' MUSK AREEJ, placing a third order in a week after reading the Fragrantica article.",
+    "source": "fragrantica",
+    "country": "UAE",
+    "founded": 2018,
+    "price_tier": "indie"
+  },
+  "Electimuss": {
+    "weeks": {
+      "2026-W27": 3
+    },
+    "context": "Reviewer notes that Electimuss Reverie Haze appears identical to Persephone's Patchouli, finding it a little bizarre.",
+    "source": "fragrantica",
+    "country": "UK",
+    "founded": 2012,
+    "price_tier": "accessible niche"
+  },
+  "Miskeo": {
+    "weeks": {
+      "2026-W27": 3
+    },
+    "context": "A commenter calls Miskeo's Rococo Collection a really cool bit of history.",
+    "source": "fragrantica",
+    "country": "unknown",
+    "founded": null,
+    "price_tier": "indie"
+  },
+  "Rayhaan": {
+    "weeks": {
+      "2026-W27": 1
+    },
+    "context": "A reviewer said Rayhaan Aquatica is just ok and they would not repurchase, calling the hype not real.",
+    "source": "fragrantica",
+    "country": "United Arab Emirates",
+    "founded": 2012,
+    "price_tier": "accessible niche"
+  },
+  "Bujairami": {
+    "weeks": {
+      "2026-W27": 2
+    },
+    "context": "Their Kingsman fragrance starts lemony but has a really good dry down, rated 8/10 with potential to improve after macerating.",
+    "source": "fragrantica",
+    "country": "United Arab Emirates",
+    "founded": 2015,
     "price_tier": "indie"
   }
 }
