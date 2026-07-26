@@ -10,9 +10,10 @@
     "weeks": {
       "2026-W23": 3,
       "2026-W26": 1,
-      "2026-W28": 4
+      "2026-W28": 4,
+      "2026-W29": 1
     },
-    "context": "Afnan Turathi Electric is described as a floral bomb with prominent jasmine, very feminine, worn at home by a male reviewer.",
+    "context": "Supremacy Collector's Edition Pour Homme by Afnan appears in the Most Popular Perfumes list.",
     "source": "fragrantica",
     "country": "United Arab Emirates",
     "founded": 2012,
@@ -71,9 +72,10 @@
       "2026-W23": 4,
       "2026-W24": 1,
       "2026-W26": 3,
-      "2026-W27": 5
+      "2026-W27": 5,
+      "2026-W29": 1
     },
-    "context": "Xerjoff 40 Knots is described as smelling like Ambre Nuit without the rose and with a little salt.",
+    "context": "XJ 1861 Naxos by Xerjoff appears in the Most Popular Perfumes list.",
     "source": "fragrantica",
     "country": "Italy",
     "founded": 2003,
@@ -172,20 +174,25 @@
     "weeks": {
       "2026-W23": 2,
       "2026-W25": 7,
-      "2026-W26": 16
+      "2026-W26": 16,
+      "2026-W29": 4
     },
-    "context": "Multiple Lattafa fragrances reviewed with mixed reactions, including Angham, Mazaaji, Eclaire Banoffi, Angham Second Song, Fahad, and Asad/Yara Elixir.",
+    "context": "Lattafa Perfumes Petra Viola is praised for its sweet and floral balance, with the raspberry note done particularly well.",
     "source": "fragrantica",
     "country": "United Arab Emirates",
-    "founded": 2002,
+    "founded": 2001,
     "price_tier": "indie"
   },
   "By Kilian": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 2,
+      "2026-W29": 1
     },
-    "context": "Two By Kilian fragrances are listed: Angels' Share, appearing as featured or reviewed scents.",
-    "source": "fragrantica"
+    "context": "Angels' Share by Kilian appears in the Most Popular Perfumes list.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2007,
+    "price_tier": "luxury niche"
   },
   "Parfums de Marly": {
     "weeks": {
@@ -212,9 +219,10 @@
   },
   "Rasasi": {
     "weeks": {
-      "2026-W23": 4
+      "2026-W23": 4,
+      "2026-W29": 1
     },
-    "context": "Hawas for Him described as bubble gum sweet spicy and slightly aquatic, long-lasting but potentially headache-inducing if over-sprayed.",
+    "context": "Hawas Ice by Rasasi appears in the Most Popular Perfumes list.",
     "source": "fragrantica",
     "country": "United Arab Emirates",
     "founded": 1979,
@@ -223,9 +231,10 @@
   "Armaf": {
     "weeks": {
       "2026-W23": 1,
-      "2026-W27": 1
+      "2026-W27": 1,
+      "2026-W29": 1
     },
-    "context": "Dunescape is said to have a great opening similar to LV Afternoon Swim but settles into something reminiscent of YSL Y EDP, with moderate longevity.",
+    "context": "Club de Nuit Intense Man by Armaf appears in the Most Popular Perfumes list.",
     "source": "fragrantica",
     "country": "United Arab Emirates",
     "founded": 2014,
@@ -276,17 +285,22 @@
   },
   "Initio Parfums Prives": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 2,
+      "2026-W29": 2
     },
-    "context": "Initio Parfums Prives appears in the most popular brands section of the page.",
-    "source": "fragrantica"
+    "context": "Initio Parfums Prives Paragon is said to bring peace and suit warm weather, though it is noted as being too peppery.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2015,
+    "price_tier": "luxury niche"
   },
   "Khadlaj Perfumes": {
     "weeks": {
       "2026-W23": 2,
-      "2026-W27": 2
+      "2026-W27": 2,
+      "2026-W29": 1
     },
-    "context": "Shiyaaka Sky was described as respectable and pleasant, cut from the same cloth as Guerlain's Herbes Troublantes but its own thing.",
+    "context": "Island is criticized for extremely weak projection, offering barely a hint of coconut with almost no presence.",
     "source": "fragrantica",
     "country": "United Arab Emirates",
     "founded": 1970,
@@ -436,10 +450,14 @@
   },
   "PARIS CORNER": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 2,
+      "2026-W29": 1
     },
-    "context": "Paris Corner appears in the most popular brands section of the page.",
-    "source": "fragrantica"
+    "context": "December Vanilla is described as a unisex vanilla with spice and boozy notes that the reviewer did not enjoy.",
+    "source": "fragrantica",
+    "country": "United Arab Emirates",
+    "founded": 2008,
+    "price_tier": "indie"
   },
   "natura": {
     "weeks": {
@@ -647,9 +665,10 @@
   "Phlur": {
     "weeks": {
       "2026-W23": 3,
-      "2026-W25": 1
+      "2026-W25": 1,
+      "2026-W29": 2
     },
-    "context": "Matcha Milk described as sweet, creamy, nutty and a little fruity, with the reviewer enjoying it overall.",
+    "context": "Phlur Heavy Cream is described as smelling sweet, bready, and reminiscent of sweetbread or oatmeal made with milk and vanilla.",
     "source": "fragrantica",
     "country": "United States",
     "founded": 2016,
@@ -884,13 +903,14 @@
   "d'Annam": {
     "weeks": {
       "2026-W24": 4,
-      "2026-W26": 1
+      "2026-W26": 1,
+      "2026-W29": 1
     },
-    "context": "Mango Sticky Rice started off as mango candy but became muted very quickly, considered worth a try.",
+    "context": "Featured in a giveaway article titled 'BUBBLE TEA: New d'Annam + North America/EU/UK/Australia Giveaway!'",
     "source": "fragrantica",
     "country": "Vietnam",
     "founded": 2018,
-    "price_tier": "indie"
+    "price_tier": "accessible niche"
   },
   "Zoologist Perfumes": {
     "weeks": {
@@ -985,9 +1005,10 @@
   "Nishane": {
     "weeks": {
       "2026-W24": 1,
-      "2026-W25": 1
+      "2026-W25": 1,
+      "2026-W29": 1
     },
-    "context": "An article explored what makes Nishane the brand that it is.",
+    "context": "Fan Your Flames is rated 8/10 and described as very nice, ranking high in the reviewer's collection.",
     "source": "fragrantica",
     "country": "Turkey",
     "founded": 2012,
@@ -2132,9 +2153,10 @@
   },
   "Frederic Malle Editions de Parfums": {
     "weeks": {
-      "2026-W27": 3
+      "2026-W27": 3,
+      "2026-W29": 1
     },
-    "context": "Referenced in context of Dominique Ropion's work on Geranium Pour Monsieur as an example of using warming materials to intensify chilly notes.",
+    "context": "Musc Ravageur is described as an alluring warm ambery spicy sweet oriental with a smooth cleanliness, classic and mature.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2000,
@@ -2578,6 +2600,116 @@
     "source": "fragrantica",
     "country": "France",
     "founded": 1904,
+    "price_tier": "accessible niche"
+  },
+  "Jovoy": {
+    "weeks": {
+      "2026-W29": 2
+    },
+    "context": "Ha Long Bay by Jovoy is described as a stunning perfume worn by both the reviewer and their partner.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2010,
+    "price_tier": "accessible niche"
+  },
+  "Franck Boclet": {
+    "weeks": {
+      "2026-W29": 2
+    },
+    "context": "Ylang Ylang by Franck Boclet is described as a perfect year-round near-gourmand fragrance, with the reviewer eager to try it.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2013,
+    "price_tier": "accessible niche"
+  },
+  "Francesca Bianchi": {
+    "weeks": {
+      "2026-W29": 2
+    },
+    "context": "Candy from Strangers by Francesca Bianchi is reviewed with appreciation for its violet and leather combination.",
+    "source": "fragrantica",
+    "country": "Italy",
+    "founded": 2016,
+    "price_tier": "accessible niche"
+  },
+  "Olfattology": {
+    "weeks": {
+      "2026-W29": 2
+    },
+    "context": "Olfattology Pizzuta is mentioned in a roundup of fragrances to dive into, with a comment about AI use across brands.",
+    "source": "fragrantica",
+    "country": "Italy",
+    "founded": 2018,
+    "price_tier": "accessible niche"
+  },
+  "Manos Gerakinis": {
+    "weeks": {
+      "2026-W29": 2
+    },
+    "context": "Oud Immortelle by Manos Gerakinis is described as lovely, with the reviewer expressing interest in trying an immortelle and oud combination.",
+    "source": "fragrantica",
+    "country": "Greece",
+    "founded": 2014,
+    "price_tier": "luxury niche"
+  },
+  "Monogatari": {
+    "weeks": {
+      "2026-W29": 2
+    },
+    "context": "Aki by Monogatari is described as sweet, accessible, and cozy, with appreciation for guidance on how to obtain the fragrances.",
+    "source": "fragrantica",
+    "country": "unknown",
+    "founded": null,
+    "price_tier": "indie"
+  },
+  "WIDIAN": {
+    "weeks": {
+      "2026-W29": 2
+    },
+    "context": "WIDIAN is mentioned in the context of an exclusive worldwide launch of its London Black Edition.",
+    "source": "fragrantica",
+    "country": "United Arab Emirates",
+    "founded": 2015,
+    "price_tier": "luxury niche"
+  },
+  "Jeanne Arthes": {
+    "weeks": {
+      "2026-W29": 3
+    },
+    "context": "Tea Time \u00e0 Paris Pavlova by Jeanne Arthes was described as a bad blind buy despite the reviewer liking other Jeanne Arthes fragrances.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 1993,
+    "price_tier": "indie"
+  },
+  "Azman": {
+    "weeks": {
+      "2026-W29": 2
+    },
+    "context": "Azman Two Minutes After The Kiss has a lovely cardamom-rose opening but is criticized for resolving too amber-woody after a few hours.",
+    "source": "fragrantica",
+    "country": "United Arab Emirates",
+    "founded": 2010,
+    "price_tier": "indie"
+  },
+  "Cra-yon": {
+    "weeks": {
+      "2026-W29": 1
+    },
+    "context": "Young Air is noted to have smoke and a hint of tobacco, which are not listed in the official notes.",
+    "source": "fragrantica",
+    "country": "Sweden",
+    "founded": 2020,
+    "price_tier": "accessible niche"
+  },
+  "Maison Matine": {
+    "weeks": {
+      "2026-W29": 1
+    },
+    "context": "Shifumi smells amazing but has disappointing longevity and projection, staying very close to the skin.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2018,
     "price_tier": "accessible niche"
   }
 }
