@@ -278,10 +278,14 @@
   },
   "Kayali Fragrances": {
     "weeks": {
-      "2026-W23": 2
+      "2026-W23": 2,
+      "2026-W30": 1
     },
-    "context": "Kayali Fragrances appears in the most popular brands section of the page.",
-    "source": "fragrantica"
+    "context": "Boujee Kitty Caramel Milk was criticized for being a very sweet gourmand vanilla with nothing feline about it, disappointing the reviewer.",
+    "source": "fragrantica",
+    "country": "United Arab Emirates",
+    "founded": 2018,
+    "price_tier": "accessible niche"
   },
   "Initio Parfums Prives": {
     "weeks": {
@@ -298,12 +302,13 @@
     "weeks": {
       "2026-W23": 2,
       "2026-W27": 2,
-      "2026-W29": 1
+      "2026-W29": 1,
+      "2026-W30": 4
     },
-    "context": "Island is criticized for extremely weak projection, offering barely a hint of coconut with almost no presence.",
+    "context": "Island Dreams was noted for a sharp citrus opening that quickly dries down to a pleasant, well-balanced scent.",
     "source": "fragrantica",
     "country": "United Arab Emirates",
-    "founded": 1970,
+    "founded": 1976,
     "price_tier": "indie"
   },
   "Fragrance World": {
@@ -339,9 +344,10 @@
     "weeks": {
       "2026-W23": 3,
       "2026-W24": 8,
-      "2026-W26": 7
+      "2026-W26": 7,
+      "2026-W30": 2
     },
-    "context": "Reviewer expresses fatigue with ELDO, noting their scents all have a heavy incense smell and lean masculine.",
+    "context": "Uruk Chronicles described humorously as strawberry shampoo and baklava, with disappointment it wasn't Lord of the Rings-based.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2006,
@@ -556,9 +562,10 @@
       "2026-W25": 2,
       "2026-W26": 6,
       "2026-W27": 1,
-      "2026-W28": 2
+      "2026-W28": 2,
+      "2026-W30": 7
     },
-    "context": "Amouage Existence is referenced when a user found a hair mask that smells similar to it.",
+    "context": "Interlude Man is called a true legend in the fragrance community, and Decision is described as a gorgeous release.",
     "source": "fragrantica",
     "country": "Oman",
     "founded": 1983,
@@ -611,9 +618,10 @@
   },
   "Mancera": {
     "weeks": {
-      "2026-W23": 1
+      "2026-W23": 1,
+      "2026-W30": 4
     },
-    "context": "Jardin Exclusif receives a brief but enthusiastic 'Love it' review.",
+    "context": "Holidays was praised for its creamy sandalwood, coconut and vanilla, with very good longevity after letting it mature for a year.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2008,
@@ -697,11 +705,12 @@
   "Ormonde Jayne": {
     "weeks": {
       "2026-W23": 2,
-      "2026-W28": 2
+      "2026-W28": 2,
+      "2026-W30": 1
     },
-    "context": "Ormonde Jayne is referenced in the context of their new launch Suede Silhouette.",
+    "context": "Montabaco Intensivo was called a true classic and one of the best fragrances owned, with slight preference for the original Montabaco.",
     "source": "fragrantica",
-    "country": "UK",
+    "country": "United Kingdom",
     "founded": 2000,
     "price_tier": "accessible niche"
   },
@@ -759,9 +768,10 @@
   "Diptyque": {
     "weeks": {
       "2026-W23": 1,
-      "2026-W28": 1
+      "2026-W28": 1,
+      "2026-W30": 4
     },
-    "context": "Diptyque L'Eau Papier is described as a pleasant but not heavenly scent that did not fully meet the reviewer's high expectations.",
+    "context": "Eau Moheli was praised for working perfectly in hot and humid SE Asian climates and receiving many compliments.",
     "source": "fragrantica",
     "country": "France",
     "founded": 1961,
@@ -1047,9 +1057,10 @@
   },
   "Filippo Sorcinelli": {
     "weeks": {
-      "2026-W25": 5
+      "2026-W25": 5,
+      "2026-W30": 4
     },
-    "context": "Reviewer found Voix Humaine 8 to smell disturbingly human and uncanny, like warm pale skin made into a musical instrument.",
+    "context": "The brand was noted for pretentious legends and bottle designs but praised for genuinely niche and very good fragrances.",
     "source": "fragrantica",
     "country": "Italy",
     "founded": 2009,
@@ -1280,12 +1291,13 @@
   },
   "MAISON ASRAR": {
     "weeks": {
-      "2026-W25": 3
+      "2026-W25": 3,
+      "2026-W30": 3
     },
-    "context": "Regent's high rating was questioned as inauthentic given widespread complaints about the fragrance's performance.",
+    "context": "Magic Night received a mixed review, described as starting bright and floral, developing into a creamsicle scent, considered an OK blind buy.",
     "source": "fragrantica",
     "country": "Saudi Arabia",
-    "founded": 2015,
+    "founded": 2010,
     "price_tier": "accessible niche"
   },
   "Lolita Lempicka": {
@@ -1363,13 +1375,14 @@
   },
   "Maison Asrar": {
     "weeks": {
-      "2026-W25": 1
+      "2026-W25": 1,
+      "2026-W30": 2
     },
-    "context": "User questions the authenticity of the high rating for Regent while many complain about its performance.",
+    "context": "Magic Night described as a floral opening warming to vanilla custardy notes, considered an OK blind buy.",
     "source": "fragrantica",
     "country": "Saudi Arabia",
     "founded": 2015,
-    "price_tier": "accessible niche"
+    "price_tier": "indie"
   },
   "Kilian": {
     "weeks": {
@@ -1385,13 +1398,14 @@
     "weeks": {
       "2026-W25": 2,
       "2026-W27": 1,
-      "2026-W28": 1
+      "2026-W28": 1,
+      "2026-W30": 4
     },
-    "context": "Tauer Perfumes is mentioned in the context of a bottle giveaway featured in popular posts.",
+    "context": "L'Oudh was mentioned in the context of an article comparing Scheherazade vs. Baba Yaga interpretations.",
     "source": "fragrantica",
     "country": "Switzerland",
     "founded": 2004,
-    "price_tier": "indie"
+    "price_tier": "accessible niche"
   },
   "Biehl Parfumkunstwerke": {
     "weeks": {
@@ -2710,6 +2724,126 @@
     "source": "fragrantica",
     "country": "France",
     "founded": 2018,
+    "price_tier": "accessible niche"
+  },
+  "BDK Parfums": {
+    "weeks": {
+      "2026-W30": 5
+    },
+    "context": "Stellar Silk was called the best vanilla scent ever, described as smooth, addictive but not overly sweet.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2016,
+    "price_tier": "accessible niche"
+  },
+  "Imaginary Authors": {
+    "weeks": {
+      "2026-W30": 1
+    },
+    "context": "How To Say Bicycle In French was described as smelling like burned sage in a laundry room, a strange but not unpleasant combination.",
+    "source": "fragrantica",
+    "country": "United States",
+    "founded": 2012,
+    "price_tier": "accessible niche"
+  },
+  "Parfums Dusita": {
+    "weeks": {
+      "2026-W30": 19
+    },
+    "context": "Multiple Parfums Dusita fragrances including Montri, Issara, and La series were listed as long-time favorites in the context of a 10th anniversary giveaway.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2015,
+    "price_tier": "luxury niche"
+  },
+  "Fugazzi": {
+    "weeks": {
+      "2026-W30": 5
+    },
+    "context": "MATCHABUYA created by perfumer Julien Rasquinet generated enthusiasm with a user asking for its re-release.",
+    "source": "fragrantica",
+    "country": "Belgium",
+    "founded": 2020,
+    "price_tier": "accessible niche"
+  },
+  "Chabaud Maison de Parfum": {
+    "weeks": {
+      "2026-W30": 4
+    },
+    "context": "Caprice de Sophie was the subject of an article described as lovely by a commenter.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2006,
+    "price_tier": "accessible niche"
+  },
+  "\u0101nti-Perfumery": {
+    "weeks": {
+      "2026-W30": 4
+    },
+    "context": "Bast and Nashi Toro received good reviews and takes, prompting interest in purchasing a discovery set.",
+    "source": "fragrantica",
+    "country": "Australia",
+    "founded": 2018,
+    "price_tier": "indie"
+  },
+  "Goldfield & Banks": {
+    "weeks": {
+      "2026-W30": 4
+    },
+    "context": "Sunset Hour Dark Peach was mentioned in the context of a discussion about underused cognac notes in fragrances.",
+    "source": "fragrantica",
+    "country": "Australia",
+    "founded": 2016,
+    "price_tier": "accessible niche"
+  },
+  "Etat Libre D'Orange": {
+    "weeks": {
+      "2026-W30": 2
+    },
+    "context": "Uruk Chronicles: Strawberry Shampoo & Baklava prompted a humorous comment about expecting a Lord of the Rings-based fragrance.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2006,
+    "price_tier": "accessible niche"
+  },
+  "ABEL": {
+    "weeks": {
+      "2026-W30": 3
+    },
+    "context": "Multiple Abel perfumes were praised, with Abel Pause described as a lovely gateway fragrance and the full current lineup owned in varying sizes.",
+    "source": "fragrantica",
+    "country": "New Zealand",
+    "founded": 2012,
+    "price_tier": "accessible niche"
+  },
+  "Scents of Man": {
+    "weeks": {
+      "2026-W30": 4
+    },
+    "context": "Yuzu Dor\u00e9 was recently purchased and absolutely loved, with the fruity and base notes working well together.",
+    "source": "fragrantica",
+    "country": "United Kingdom",
+    "founded": 2015,
+    "price_tier": "indie"
+  },
+  "Arabiyat": {
+    "weeks": {
+      "2026-W30": 3
+    },
+    "context": "Arabiyat Sugar's Cotton Blush and Lemon Sorbet was noted for a distinctive touch of coldness among lemon gourmands.",
+    "source": "fragrantica",
+    "country": "United Arab Emirates",
+    "founded": 2010,
+    "price_tier": "indie"
+  },
+  "Abel": {
+    "weeks": {
+      "2026-W30": 5
+    },
+    "context": "Reviewer collects all current Abel perfumes, with Abel Pause described as a gateway drug and praised as lovely.",
+    "source": "fragrantica",
+    "country": "New Zealand",
+    "founded": 2012,
     "price_tier": "accessible niche"
   }
 }
