@@ -1,85 +1,86 @@
-# Fragrance Brand Momentum Report — August 02, 2026
+# Fragrance Brand Momentum Report — August 09, 2026
 
 # Niche Fragrance Momentum Report
-**Week of August 02, 2026**
+**Week of August 09, 2026**
 
 ---
 
 ## Market Overview
 
-Gourmand-adjacent profiles — vanilla, sandalwood, coconut, and emerging matcha — are pulling consistent engagement across price tiers this week, suggesting the warm-sweet aesthetic still has commercial runway heading into autumn. Geography is a quiet subplot: Australian and Gulf-origin brands are appearing in conversations typically dominated by French houses, a modest but worth-watching shift in the community's reference points.
+Gourmand and resinous profiles are dominating conversation this week, with chocolate-coffee-rum constructions and amber-forward compositions drawing consistent praise across price tiers. The Gulf region continues to punch above its weight as both a source of momentum brands and a reference point for affordable alternatives to Western luxury.
 
 ---
 
-## 🔴 CUSP — 3x+ Above Baseline
+## 🔺 CUSP — 3x+ Above Baseline
 
-### Mancera
-*France · Founded 2008 · Accessible Niche*
+### Rayhaan — *Obsidian*
+`UAE · Accessible Niche · Est. 2014 · 3x baseline`
 
-Holidays is driving Mancera's spike, with reviewers specifically highlighting a creamy sandalwood-coconut-vanilla accord and noting that the fragrance rewards patience — one reviewer mentioned letting it mature for a year before the profile fully opened. That kind of long-game loyalty talk is a reliable signal: it moves a fragrance from impulse purchase to considered collection anchor, and it tends to generate secondary recommendations within threads. Mancera's positioning at accessible niche pricing makes that conversion relatively frictionless. Worth watching whether Holidays pulls broader catalog interest or remains a single-SKU story.
-
----
-
-### Diptyque
-*France · Founded 1961 · Accessible Niche*
-
-Eau Moheli is accumulating real-world wear data in Southeast Asian climates specifically — hot, humid conditions that many European-formulated fragrances struggle to survive — and it's reportedly performing well. Compliment-count language in reviews is appearing, which is a behavioral signal that often precedes broader regional adoption. Three weeks of tracked momentum without a single viral event suggests organic, community-driven growth rather than a campaign spike.
+Rayhaan is earning serious traction this week, with Obsidian surfacing repeatedly in "dupe alternative" discussions centered on Dior Homme Parfum — a comparison that carries real credibility among informed buyers, not just bargain-hunters. The bottle design is being called out independently of the scent itself, which suggests the brand is building a dual identity around aesthetics and value proposition simultaneously. At accessible niche pricing, Obsidian appears to be hitting a sweet spot for consumers who know the reference point but won't pay luxury markup for it. Worth watching whether this conversation sustains or fades once the comparison cycle runs its course.
 
 ---
 
-### Tauer Perfumes
-*Switzerland · Founded 2004 · Accessible Niche*
+## 📈 RISING — 2x–3x Above Baseline
 
-L'Oudh surfaced this week inside a niche-specific editorial thread contrasting Scheherazade and Baba Yaga fragrance interpretations — distinctly literary framing that skews toward serious collectors rather than casual browsers. Four weeks of steady presence without a dramatic spike suggests Tauer is benefiting from a slow-burn curatorial moment rather than trend momentum, but the consistency across weeks is its own signal. Andy Tauer's catalog has historically punched above its marketing weight in community contexts, and editorial adjacency tends to be stickier than social referrals.
+### By Kilian — *Black Phantom*
+`France · Accessible Niche · Est. 2007 · 2x baseline`
 
----
-
-## 🟠 RISING — 2x–3x Above Baseline
-
-### Amouage
-*Oman · Founded 1983 · Luxury Niche*
-
-Two distinct products are doing the work here: Interlude Man is holding its legend-status reputation in long-form community discussion, while Decision is generating fresh "gorgeous release" language that suggests new buyers alongside existing loyalists. Six consecutive weeks of tracked momentum at luxury price points is a meaningful signal — Amouage appears to be sustaining attention rather than riding a single news cycle.
+Black Phantom is getting renewed attention this week with reviewers specifically praising its restraint — the chocolate-coffee-rum profile described as wearable rather than cloying, which is notable positioning for a gourmand at this price tier. Three weeks of tracked momentum with consistent volume suggests this isn't a one-post spike but a slow-building rediscovery, possibly tied to late-summer evening wear conversations. By Kilian's broader catalog isn't moving, making this a single-SKU story worth monitoring.
 
 ---
 
-### Khadlaj Perfumes
-*United Arab Emirates · Founded 1976 · Indie*
+## 🆕 NEW — First Appearance
 
-Island Dreams is drawing notice for a specific structural quality — a sharp citrus opening that transitions cleanly into a balanced drydown — the kind of technical observation that indicates engaged, experienced reviewers rather than casual traffic. Four weeks of consistent above-baseline performance from a Gulf-origin indie at accessible price points is a pattern worth monitoring as Middle Eastern houses continue to build Western community presence.
+### ARMAF — *Club De Nuit Intense Overdose*
+`UAE · Indie · Est. 2014`
 
----
-
-## 🟢 NEW — First Appearance This Week
-
-**Parfums Dusita** *(France · Luxury Niche · Est. 2015)* — Surfaced through a 10th anniversary giveaway context, with Montri, Issara, and the La series cited as long-time favorites. Event-driven visibility, but the depth of catalog familiarity among commenters suggests an established enthusiast base. No history yet.
-
-**BDK Parfums** *(France · Accessible Niche · Est. 2016)* — Stellar Silk receiving "best vanilla ever" language alongside descriptors like smooth and addictive but not cloying. No history yet.
-
-**Fugazzi** *(Belgium · Accessible Niche · Est. 2020)* — MATCHABUYA by Julien Rasquinet generating re-release requests, a high-intent signal. No history yet.
-
-**Abel** *(New Zealand · Accessible Niche · Est. 2012)* — Abel Pause described as a gateway entry point; collector-level engagement noted with full-lineup ownership mentioned. No history yet. *(Note: appears as two separate entries in source data — treating as one brand.)*
-
-**Chabaud Maison de Parfum** *(France · Accessible Niche · Est. 2006)* — Caprice de Sophie mentioned in an editorial context; early, thin signal. No history yet.
-
-**āntī-Perfumery** *(Australia · Indie · Est. 2018)* — Bast and Nashi Toro prompting discovery set purchases; Australian indie with apparent cross-community reach. No history yet.
-
-**Goldfield & Banks** *(Australia · Accessible Niche · Est. 2016)* — Sunset Hour Dark Peach surfaced in a thread about underused cognac notes, a niche-within-niche conversation. No history yet.
-
-**Scents of Man** *(United Kingdom · Indie · Est. 2015)* — Yuzu Doré drawing recent-purchase enthusiasm with specific note praise. No history yet.
-
-**Arabiyat** *(United Arab Emirates · Indie · Est. 2010)* — Sugar's Cotton Blush and Lemon Sorbet noted for a cool quality among lemon gourmands — a differentiating detail in a crowded sub-category. No history yet.
+First appearance this week, driven by multiple posts and an ad campaign featuring Bollywood actor John Abraham. No performance history yet; the celebrity activation likely explains the volume spike, so durability is unclear.
 
 ---
 
-## 📐 Patterns
+### NEST New York — *Cardamom Latte*
+`USA · Indie · Est. 2008`
 
-**Ingredients:** Vanilla and sandalwood remain the dominant warm-gourmand anchors this week, appearing across three separate brand conversations (Mancera, BDK, Diptyque adjacently). Matcha makes a quiet appearance via Fugazzi's MATCHABUYA, and cognac surfaces as an explicitly underused note in the Goldfield & Banks thread — that kind of "why isn't this more common" framing has historically preceded ingredient-level trend cycles. Yuzu and citrus-forward compositions continue to hold steady.
-
-**Geography:** A notable Australian presence this week — both āntī-Perfumery and Goldfield & Banks appearing in the same cycle is statistically unlikely to be coincidental, and may reflect a growing curatorial thread or regional enthusiast moment. Gulf-origin brands (Khadlaj, Arabiyat, Amouage) are collectively present across all three momentum tiers, reinforcing a multi-week pattern of Middle Eastern house visibility in Western community spaces.
-
-**Aesthetics:** Two distinct sensibility threads are running in parallel: warm, skin-close gourmand comfort (vanilla-sandalwood-coconut axis) and dry, literary, oud-adjacent complexity (Tauer, Amouage Interlude). The former skews toward new and accessible-tier discovery; the latter is concentrated among established luxury names with collector audiences. No significant overlap between the two camps this week.
+New launch generating immediate Fragrantica attention. The name signals a direct play into the coffee-gourmand space; no review depth to assess yet.
 
 ---
 
-*Data sourced from Fragrantica community activity. Momentum scores reflect ratio of current-week engagement to prior baseline average.*
+### Initio — *Side Effect*
+`France · Accessible Niche · Est. 2015`
+
+First appearance, though notably the context is negative — a reviewer flagging it as cloying and overly sweet. First-week data driven by critical sentiment is worth distinguishing from genuine discovery momentum.
+
+---
+
+### Maître Parfumeur et Gantier — *Ambre Mythique*
+`France · Accessible Niche · Est. 1988`
+
+A legacy house getting what reads as a quality-focused rediscovery moment, with praise for resinous complexity and overall craftsmanship. No prior tracked weeks; one to watch for follow-through.
+
+---
+
+### Parfum d'Empire — *Osmanthus Interdite*
+`France · Accessible Niche · Est. 2003`
+
+Single-week appearance centered on a fresh-fruity-floral osmanthus reading. Parfum d'Empire has a loyal but quiet following; unclear if this is organic discovery or review-cycle timing.
+
+---
+
+### Fragrenza — *Black Oud*
+`Italy · Indie · Est. 2018`
+
+Surfacing as a reference in a dupe discussion rather than as a subject of direct review — Fragrenza is being cited as the *original* that another brand is copying, which is an interesting inversion of the usual dupe dynamic. No standalone review momentum yet.
+
+---
+
+## 🔍 Patterns
+
+**Ingredients:** Gourmand building blocks — chocolate, coffee, rum, cardamom — are conspicuously active this week across multiple brands and price points. Amber and resinous materials (Ambre Mythique, Black Oud) are running parallel, consistent with the broader late-summer pivot toward heavier, warmer compositions. Osmanthus remains a reliable niche signal for quality-forward floral-fruity work.
+
+**Geography:** The Gulf corridor (UAE, broader Middle East aesthetic) is notably present — Rayhaan, ARMAF, and the Black Oud dupe conversation all carry regional fingerprints. Italian indie positioning via Fragrenza adds a small but notable European counterpoint.
+
+**Aesthetics:** Two competing moods in play — *restrained gourmand* (Black Phantom praised for not being too sweet) versus *maximalist richness* (Initio criticized for exactly that quality). The market appears to be bifurcating on how much is too much in the gourmand space, which may signal a coming correction toward cleaner, more calibrated constructions in this category.
+
+---
+
+*Data sourced from Fragrantica community activity. Momentum scores reflect community post volume indexed against prior-week averages.*

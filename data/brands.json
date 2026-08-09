@@ -92,9 +92,10 @@
     "weeks": {
       "2026-W23": 4,
       "2026-W24": 1,
-      "2026-W26": 6
+      "2026-W26": 6,
+      "2026-W31": 2
     },
-    "context": "Golden Milk described as musty, bittersweet, mouldy, and doughy, sparking curiosity to smell it.",
+    "context": "Oud Candy by BORNTOSTANDOUT is mentioned in a humorous review about smelling like a motorbike shop.",
     "source": "fragrantica",
     "country": "Netherlands",
     "founded": 2019,
@@ -106,9 +107,10 @@
       "2026-W25": 2,
       "2026-W26": 1,
       "2026-W27": 1,
-      "2026-W28": 2
+      "2026-W28": 2,
+      "2026-W31": 1
     },
-    "context": "L'Artisan Parfumeur Mandarine Tout Simplement is listed among fragrances without specific commentary.",
+    "context": "L'Artisan Parfumeur Mandarine Tout Simplement is listed in a fragrance catalog entry.",
     "source": "fragrantica",
     "country": "France",
     "founded": 1976,
@@ -148,12 +150,13 @@
       "2026-W25": 1,
       "2026-W26": 5,
       "2026-W27": 5,
-      "2026-W28": 1
+      "2026-W28": 1,
+      "2026-W31": 1
     },
-    "context": "Several Divine fragrances are listed including L'Homme de Coeur, L'Ame Soeur, and others without specific commentary.",
+    "context": "Multiple Divine fragrances including L'Homme de Coeur, L'Ame Soeur, and others are listed in a fragrance catalog.",
     "source": "fragrantica",
     "country": "France",
-    "founded": 1986,
+    "founded": 1993,
     "price_tier": "accessible niche"
   },
   "Royall Lyme Bermuda": {
@@ -186,13 +189,14 @@
   "By Kilian": {
     "weeks": {
       "2026-W23": 2,
-      "2026-W29": 1
+      "2026-W29": 1,
+      "2026-W31": 3
     },
-    "context": "Angels' Share by Kilian appears in the Most Popular Perfumes list.",
+    "context": "By Kilian Black Phantom is praised for its chocolate, coffee, and rum profile as an easy-to-wear, not overly sweet scent.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2007,
-    "price_tier": "luxury niche"
+    "price_tier": "accessible niche"
   },
   "Parfums de Marly": {
     "weeks": {
@@ -209,9 +213,10 @@
       "2026-W23": 2,
       "2026-W25": 3,
       "2026-W26": 1,
-      "2026-W27": 2
+      "2026-W27": 2,
+      "2026-W31": 3
     },
-    "context": "Their N\u00e9roli Botanica is described as a fizzing orange sherbet with heady white floral, refreshing and uplifting, exceeding expectations.",
+    "context": "Essential Parfums Orange X Santal is noted for a bright complex opening that dries down into a powdery, less appealing scent.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2019,
@@ -242,10 +247,14 @@
   },
   "French Avenue": {
     "weeks": {
-      "2026-W23": 5
+      "2026-W23": 5,
+      "2026-W31": 2
     },
-    "context": "Liquid Brun by French Avenue appeared in the most popular perfumes section.",
-    "source": "fragrantica"
+    "context": "Liquid Brun by French Avenue is called one of the best cheapies of all time and described as indistinguishable from Althair.",
+    "source": "fragrantica",
+    "country": "UAE",
+    "founded": 2015,
+    "price_tier": "indie"
   },
   "Maison Alhambra": {
     "weeks": {
@@ -332,9 +341,10 @@
   "Serge Lutens": {
     "weeks": {
       "2026-W23": 5,
-      "2026-W24": 2
+      "2026-W24": 2,
+      "2026-W31": 4
     },
-    "context": "Ambre Sultan lovingly described as evoking spice bazaars and childhood kitchen memories.",
+    "context": "\u00c9crin de Fum\u00e9e by Serge Lutens is mentioned with notes of smoke, chocolate, and described as miraculous.",
     "source": "fragrantica",
     "country": "France",
     "founded": 1992,
@@ -563,9 +573,10 @@
       "2026-W26": 6,
       "2026-W27": 1,
       "2026-W28": 2,
-      "2026-W30": 7
+      "2026-W30": 7,
+      "2026-W31": 5
     },
-    "context": "Interlude Man is called a true legend in the fragrance community, and Decision is described as a gorgeous release.",
+    "context": "Amouage Reflection Man is described as fantastic, and Amouage Existence is referenced in a beauty product comparison.",
     "source": "fragrantica",
     "country": "Oman",
     "founded": 1983,
@@ -2378,12 +2389,13 @@
   },
   "Rayhaan": {
     "weeks": {
-      "2026-W27": 1
+      "2026-W27": 1,
+      "2026-W31": 3
     },
-    "context": "A reviewer said Rayhaan Aquatica is just ok and they would not repurchase, calling the hype not real.",
+    "context": "Rayhaan Obsidian is praised for its bottle design and recommended as a more affordable alternative to Dior Homme Parfum.",
     "source": "fragrantica",
-    "country": "United Arab Emirates",
-    "founded": 2012,
+    "country": "UAE",
+    "founded": 2014,
     "price_tier": "accessible niche"
   },
   "Bujairami": {
@@ -2748,13 +2760,14 @@
   },
   "Parfums Dusita": {
     "weeks": {
-      "2026-W30": 19
+      "2026-W30": 19,
+      "2026-W31": 8
     },
-    "context": "Multiple Parfums Dusita fragrances including Montri, Issara, and La series were listed as long-time favorites in the context of a 10th anniversary giveaway.",
+    "context": "Parfums Dusita Rosarine was a blind buy that the reviewer fell in love with at first sniff.",
     "source": "fragrantica",
     "country": "France",
     "founded": 2015,
-    "price_tier": "luxury niche"
+    "price_tier": "accessible niche"
   },
   "Fugazzi": {
     "weeks": {
@@ -2845,5 +2858,125 @@
     "country": "New Zealand",
     "founded": 2012,
     "price_tier": "accessible niche"
+  },
+  "Initio": {
+    "weeks": {
+      "2026-W31": 4
+    },
+    "context": "Initio Side Effect is described as cloying and overly sweet, a fragrance the reviewer hates.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2015,
+    "price_tier": "accessible niche"
+  },
+  "NEST New York": {
+    "weeks": {
+      "2026-W31": 5
+    },
+    "context": "NEST New York launched a new fragrance called Cardamom Latte.",
+    "source": "fragrantica",
+    "country": "USA",
+    "founded": 2008,
+    "price_tier": "indie"
+  },
+  "Elixir Attar": {
+    "weeks": {
+      "2026-W31": 2
+    },
+    "context": "Nha Trang Kinam Kodo by Elixir Attar is criticized for its high price of $1,000 for 15ml.",
+    "source": "fragrantica",
+    "country": "unknown",
+    "founded": null,
+    "price_tier": "indie"
+  },
+  "Superz. Budapest": {
+    "weeks": {
+      "2026-W31": 2
+    },
+    "context": "SPACE CAKE by Superz. Budapest is described as a gourmand fragrance from another orbit.",
+    "source": "fragrantica",
+    "country": "Hungary",
+    "founded": null,
+    "price_tier": "indie"
+  },
+  "Maitre Parfumeur et Gantier": {
+    "weeks": {
+      "2026-W31": 3
+    },
+    "context": "Ambre Mythique by Maitre Parfumeur et Gantier is praised for its impeccable resins and masterpiece-worthy quality.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 1988,
+    "price_tier": "accessible niche"
+  },
+  "Parfum d'Empire": {
+    "weeks": {
+      "2026-W31": 3
+    },
+    "context": "Osmanthus Interdite by Parfum d'Empire is described as a gorgeous, fresh, fruity, and floral scent.",
+    "source": "fragrantica",
+    "country": "France",
+    "founded": 2003,
+    "price_tier": "accessible niche"
+  },
+  "ARMAF": {
+    "weeks": {
+      "2026-W31": 6
+    },
+    "context": "ARMAF Club De Nuit Intense Overdose is mentioned in multiple posts including an ad campaign starring John Abraham.",
+    "source": "fragrantica",
+    "country": "United Arab Emirates",
+    "founded": 2014,
+    "price_tier": "indie"
+  },
+  "Scents Unearth'd": {
+    "weeks": {
+      "2026-W31": 2
+    },
+    "context": "Royal Milk by Scents Unearth'd is compared to Vanilla Voyage and found less lactonic than expected despite being well put together.",
+    "source": "fragrantica",
+    "country": "unknown",
+    "founded": null,
+    "price_tier": "indie"
+  },
+  "Fragrenza": {
+    "weeks": {
+      "2026-W31": 3
+    },
+    "context": "Privezarah Blend Afgano by BKW is said to be a near duplicate of Fragrenza Black Oud.",
+    "source": "fragrantica",
+    "country": "Italy",
+    "founded": 2018,
+    "price_tier": "indie"
+  },
+  "Privezarah": {
+    "weeks": {
+      "2026-W31": 2
+    },
+    "context": "Blend Afgano by Privezarah is called a new favorite with a dark, smoky, and slightly sweet profile, though longevity could be better.",
+    "source": "fragrantica",
+    "country": "UAE",
+    "founded": 2018,
+    "price_tier": "accessible niche"
+  },
+  "Maison d'ETTO": {
+    "weeks": {
+      "2026-W31": 2
+    },
+    "context": "Macanudo by Maison d'ETTO is praised as the most photorealistic rain/petrichor/moss fragrance ever smelled.",
+    "source": "fragrantica",
+    "country": "Finland",
+    "founded": 2015,
+    "price_tier": "accessible niche"
+  },
+  "Arrogance": {
+    "weeks": {
+      "2026-W31": 1
+    },
+    "context": "Arrogance Pour Homme is described as very beautiful, classy, and ruggedly masculine by a reviewer who absolutely loves it.",
+    "source": "fragrantica",
+    "country": "Italy",
+    "founded": 1982,
+    "price_tier": "indie"
   }
 }
