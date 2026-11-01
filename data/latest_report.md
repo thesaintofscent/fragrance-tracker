@@ -1,3 +1,3 @@
-# Fragrance Brand Momentum Report — October 25, 2026
+# Fragrance Brand Momentum Report — November 01, 2026
 
 No brands showed notable momentum this week. The tracker is still building baselines — signals will sharpen over coming weeks.
